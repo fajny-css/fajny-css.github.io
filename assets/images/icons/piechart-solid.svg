@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/piechart-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/piechart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M48.1980198,9.31683164 L48.1980198,51.8118812 L90.6831684,51.8118812 L90.6831684,54.1683168 C90.6831684,78.9391081 70.6024744,99.019802 45.8316832,99.019802 C21.0608919,99.019802 0.980197971,78.9391081 0.980197971,54.1683168 C0.980197971,29.3975256 21.0608919,9.31683164 45.8316832,9.31683164 L48.1980198,9.31683164 Z M55.1584158,-5.00000077e-08 C79.9101707,0.0327259799 99.967274,20.0898293 100,44.8415842 L100,47.2079208 L52.7920792,47.2079208 L52.7920792,-5.00000077e-08 L55.1584158,-5.00000077e-08 Z" id="Shape" fill="#000000"></path>
+    </g>
+</svg>

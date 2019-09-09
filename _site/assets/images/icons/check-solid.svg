@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/check-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M30.77,87.5900567 C27.6098475,87.5979848 24.5778644,86.3412603 22.35,84.1 L2.43999995,64.19 C-0.812957227,60.9342814 -0.810718651,55.6579572 2.44499995,52.405 C5.70071856,49.1520428 10.9770428,49.1542814 14.23,52.41 L30.77,68.95 L85.77,13.95 C89.0581319,10.9137078 94.1566637,11.0140979 97.3227242,14.177473 C100.488785,17.3408481 100.593501,22.4392929 97.56,25.73 L39.18,84.1 C36.9571158,86.3425766 33.9275731,87.5997828 30.77,87.5900567 Z" id="check" fill="#000000"></path>
+    </g>
+</svg>

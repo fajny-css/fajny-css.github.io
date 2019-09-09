@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <title>Forms | Fajny CSS</title>
+          <meta content="IE=edge" http-equiv="X-UA-Compatible">
+          <meta content="width=device-width, initial-scale=1" name="viewport">
+          <meta content="Forms for Fajny CSS" name="description">
+          <meta content="Julien Sebag" name="author">
+          <link href="/assets/images/favicon.png" rel="shortcut icon">
+
+          <!-- Styles -->
+          <link href="/assets/css/fajny.min.css" rel="stylesheet" />
+          <link href="/assets/css/fajny-icons.min.css" rel="stylesheet" />
+          <link rel="stylesheet" href="/assets/css/template.min.css" />
+
+          <!-- JS -->
+          <script src="/assets/js/highlight.pack.js"></script>
+          <script src="/assets/js/includes.js"></script>
+
+          <style>.error{display:none}select:selected{color:red}</style>
+     </head>
+
+     <body>
+          <header class="nav-template">
+     <nav>
+          <div class="burger" onclick="openNav(this)">
+               <span></span>
+               <span></span>
+               <span></span>
+          </div>
+
+          <ul>
+               
+               <li>
+                    <a href="/" >Home</a>
+               </li>
+               
+               <li>
+                    <a href="/getting-started.html" >Getting Started</a>
+               </li>
+               
+               <li>
+                    <a href="/basics.html" >Layouts</a>
+               </li>
+               
+               <li>
+                    <a href="/icons.html" >Icons</a>
+               </li>
+               
+               <li>
+                    <a href="/styles.html" >Styles</a>
+               </li>
+               
+               <li>
+                    <a href="/components.html" >Components</a>
+               </li>
+               
+               <li>
+                    <a href="/helpers.html" >Helpers</a>
+               </li>
+               
+               <li class="social-links">
+                    <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                    <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+               </li>
+               <li class="download">
+                    <a href="fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+               </li>
+          </ul>
+
+          <div class="logo">
+               <a href="/"><img src="/assets/images/logo-fajny-css-white.svg" alt="Logo Fajny CSS"></a>
+          </div>
+     </nav>
+</header>
+          <main class="container no-padd-bottom">
+               <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
+               <h1 class="no-marg-top">Forms</h1>
+               <p>Forms have different components. Since Fajny does not use JavaScript some components can not be properly designed. An error text is already coded, but you would have to use a JS form checker.</p>
+
+<h2 class="no-marg-bottom">File to include</h2>
+<pre class="results">
+<code class="scss">@include "components/forms";</code>
+</pre>
+
+<h2 class="no-marg-top no-marg-bottom">Inputs</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="input-container">
+               <input type="text" id="input1" name="input" required />
+               <span class="bar"></span>
+               <label for="input1">Email</label>
+               <div class="error">
+                    <div>Email is required</div>
+                    <div>Email must be a valid email address</div>
+               </div>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="input-container"&gt;
+     &lt;input type="text" id="input1" name="input" required /&gt;
+     &lt;span class="bar"&gt;&lt;/span&gt;
+     &lt;label for="input1"&gt;Email&lt;/label&gt;
+     &lt;div class="error"&gt;
+          &lt;div&gt;Email is required&lt;/div&gt;
+          &lt;div&gt;Email must be a valid email address&lt;/div&gt;
+     &lt;/div&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Inputs with icon</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="input-container input-icon-container">
+               <input type="text" id="input2" name="input" required />
+               <span class="bar"></span>
+               <label for="input2">Search</label>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="input-container input-icon-container"&gt;
+     &lt;input type="text" id="input2" name="input" required /&gt;
+     &lt;span class="bar"&gt;&lt;/span&gt;
+     &lt;label for="input2"&gt;Search&lt;/label&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Inputs with two icons</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="input-container input-double-icon-container">
+               <input type="text" id="input3" name="input" required />
+               <span class="bar"></span>
+               <label for="input3">Search</label>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="input-container input-double-icon-container"&gt;
+     &lt;input type="text" id="input3" name="input" required /&gt;
+     &lt;span class="bar"&gt;&lt;/span&gt;
+     &lt;label for="input3"&gt;Search&lt;/label&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Inputs disabled</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="input-container">
+               <input type="text" id="input4" required disabled />
+               <span class="bar"></span>
+               <label for="input4">Email</label>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="input-container"&gt;
+     &lt;input type="text" id="input4" required disabled /&gt;
+     &lt;span class="bar"&gt;&lt;/span&gt;
+     &lt;label for="input4"&gt;Email&lt;/label&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Textarea</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="input-container">
+               <textarea name="" id="textarea" name="" required></textarea>
+               <span class="bar"></span>
+               <label for="textarea">Your message</label>
+               <div class="error">
+                    <div>Message is required</div>
+               </div>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="input-container"&gt;
+     &lt;textarea name="" id="textarea" name="" required&gt;&lt;/textarea&gt;
+     &lt;span class="bar"&gt;&lt;/span&gt;
+     &lt;label for="textarea"&gt;Your message&lt;/label&gt;
+     &lt;div class="error"&gt;
+          &lt;div&gt;Message is required&lt;/div&gt;
+     &lt;/div&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Select</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="select-container">
+               <select>
+                    <option value="value1">Label 1</option>
+                    <option value="value2">Label 2</option>
+                    <option value="value3">Label 3</option>
+                    <option value="value4">Label 4</option>
+               </select>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="select-container"&gt;
+     &lt;select&gt;
+          &lt;option value="value1"&gt;Label 1&lt;/option&gt;
+          &lt;option value="value2"&gt;Label 2&lt;/option&gt;
+          &lt;option value="value3"&gt;Label 3&lt;/option&gt;
+          &lt;option value="value4"&gt;Label 4&lt;/option&gt;
+     &lt;/select&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Radio buttons</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="radio-container">
+               <input type="radio" id="radio1" name="radio" checked />
+               <label for="radio1" class="radio-label"></label>
+               <label for="radio1" class="text-label">Label</label>
+          </div>
+
+          <div class="radio-container">
+               <input type="radio" id="radio2" name="radio" />
+               <label for="radio2" class="radio-label"></label>
+               <label for="radio2" class="text-label">Label</label>
+          </div>
+
+          <div class="radio-container">
+               <input type="radio" id="radio3" name="radio-disabled" disabled checked />
+               <label for="radio3" class="radio-label"></label>
+               <label for="radio3" class="text-label">Label</label>
+          </div>
+
+          <div class="radio-container">
+               <input type="radio" id="radio4" name="radio-disabled" disabled />
+               <label for="radio4" class="radio-label"></label>
+               <label for="radio4" class="text-label">Label</label>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="radio-container"&gt;
+     &lt;input type="radio" id="radio1" name="radio" checked /&gt;
+     &lt;label for="radio1" class="radio-label"&gt;&lt;/label&gt;
+     &lt;label for="radio1" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="radio-container"&gt;
+     &lt;input type="radio" id="radio2" name="radio" /&gt;
+     &lt;label for="radio2" class="radio-label"&gt;&lt;/label&gt;
+     &lt;label for="radio2" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="radio-container"&gt;
+     &lt;input type="radio" id="radio3" name="radio-disabled" disabled checked /&gt;
+     &lt;label for="radio3" class="radio-label"&gt;&lt;/label&gt;
+     &lt;label for="radio3" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="radio-container"&gt;
+     &lt;input type="radio" id="radio4" name="radio-disabled" disabled /&gt;
+     &lt;label for="radio4" class="radio-label"&gt;&lt;/label&gt;
+     &lt;label for="radio4" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Checkboxes</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="checkbox-container">
+               <input type="checkbox" id="checkbox1" name="checkbox" checked />
+               <label for="checkbox1" class="checkbox-label"></label>
+               <label for="checkbox1" class="text-label">Label</label>
+          </div>
+          <div class="checkbox-container">
+               <input type="checkbox" id="checkbox2" name="checkbox" />
+               <label for="checkbox2" class="checkbox-label"></label>
+               <label for="checkbox2" class="text-label">Label</label>
+          </div>
+
+          <div class="checkbox-container">
+               <input type="checkbox" id="checkbox3" name="checkbox" disabled checked />
+               <label for="checkbox3" class="checkbox-label"></label>
+               <label for="checkbox3" class="text-label">Label</label>
+          </div>
+
+          <div class="checkbox-container">
+               <input type="checkbox" id="checkbox4" name="checkbox" disabled />
+               <label for="checkbox4" class="checkbox-label"></label>
+               <label for="checkbox4" class="text-label">Label</label>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="checkbox-container"&gt;
+     &lt;input type="checkbox" id="checkbox1" name="checkbox" checked /&gt;
+     &lt;label for="checkbox1" class="checkbox-label"&gt;&lt;/label&gt;
+     &lt;label for="checkbox1" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class="checkbox-container"&gt;
+     &lt;input type="checkbox" id="checkbox2" name="checkbox" /&gt;
+     &lt;label for="checkbox2" class="checkbox-label"&gt;&lt;/label&gt;
+     &lt;label for="checkbox2" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="checkbox-container"&gt;
+     &lt;input type="checkbox" id="checkbox3" name="checkbox" disabled checked /&gt;
+     &lt;label for="checkbox3" class="checkbox-label"&gt;&lt;/label&gt;
+     &lt;label for="checkbox3" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="checkbox-container"&gt;
+     &lt;input type="checkbox" id="checkbox4" name="checkbox" disabled /&gt;
+     &lt;label for="checkbox4" class="checkbox-label"&gt;&lt;/label&gt;
+     &lt;label for="checkbox4" class="text-label"&gt;Label&lt;/label&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Toggle switches</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="toggle-switch-container">
+               <input type="checkbox" id="toggle1" name="toggle" checked />
+               <label for="toggle1" class="toggle-label"></label>
+               <label for="toggle1" class="label-text">Label</label>
+          </div>
+          <div class="toggle-switch-container">
+               <input type="checkbox" id="toggle2" name="toggle" />
+               <label for="toggle2" class="toggle-label"></label>
+               <label for="toggle2" class="label-text">Label</label>
+          </div>
+          <div class="toggle-switch-container">
+               <input type="checkbox" id="toggle3" name="toggle" disabled checked />
+               <label for="toggle3" class="toggle-label"></label>
+               <label for="toggle3" class="label-text">Label</label>
+          </div>
+          <div class="toggle-switch-container">
+               <input type="checkbox" id="toggle4" name="toggle" disabled />
+               <label for="toggle4" class="toggle-label"></label>
+               <label for="toggle4" class="label-text">Label</label>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="toggle-switch-container"&gt;
+     &lt;input type="checkbox" id="toggle1" name="toggle" checked /&gt;
+     &lt;label for="toggle1" class="toggle-label"&gt;&lt;/label&gt;
+     &lt;label for="toggle1" class="label-text"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class="toggle-switch-container"&gt;
+     &lt;input type="checkbox" id="toggle2" name="toggle" /&gt;
+     &lt;label for="toggle2" class="toggle-label"&gt;&lt;/label&gt;
+     &lt;label for="toggle2" class="label-text"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class="toggle-switch-container"&gt;
+     &lt;input type="checkbox" id="toggle3" name="toggle" disabled checked /&gt;
+     &lt;label for="toggle3" class="toggle-label"&gt;&lt;/label&gt;
+     &lt;label for="toggle3" class="label-text"&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class="toggle-switch-container"&gt;
+     &lt;input type="checkbox" id="toggle4" name="toggle" disabled /&gt;
+     &lt;label for="toggle4" class="toggle-label"&gt;&lt;/label&gt;
+     &lt;label for="toggle4" class="label-text"&gt;Label&lt;/label&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+               <footer>
+     <hr />
+     <div class="footer-container">
+          <div class="left">
+               <p>
+                    <div>V1.0</div>
+                    <div>
+                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+                          <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                          <a href="/fajny-css.zip" download=""><i class="icon icon-download-solid"></i></a>
+                    </div>
+               </p>
+          </div>
+
+          <div class="right">
+               <p>
+                    Pictures from <a href="https://unsplash.com/" target="_blank">Unsplash</a>, videos from <a href="https://mixkit.co/" target="_blank">Mixkit</a>
+                    <br />
+                    Made by <a href="https://www.julien-sebag.fr/" target="_blank">Julien Sebag</a> | 2019
+               </p>
+          </div>
+     </div>
+</footer>
+          </main>
+
+          <script src="/assets/js/clipboard.min.js"></script>
+          <script>
+               //Clipboard
+               new ClipboardJS(".copy");
+          </script>
+          <script src="/assets/js/load-more.js"></script>
+          <script src="/assets/js/script.min.js"></script>
+     </body>
+</html>

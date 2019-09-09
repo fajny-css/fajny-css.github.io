@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/box-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/box" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M90.54,21.41 L90.54,21.41 L49.92,-4.9999997e-08 L27.69,11.71 L27.69,11.71 L4.99999995,23.67 L4.99999995,76.33 L46,97.94 L46,97.94 L49.87,99.94 L53.73,97.94 L53.73,97.94 L94.73,76.33 L94.73,23.67 L90.54,21.41 Z M41.76,77.26 L21.31,66.49 L21.31,42.11 L41.76,52.88 L41.76,77.26 Z M49.92,38.74 L30.65,28.59 L31.54,28.12 L50.8,38.28 L49.92,38.74 Z M49,18.91 L49.89,18.44 L69.18,28.59 L68.3,29.06 L49,18.91 Z M78.52,66.49 L58.07,77.26 L58.07,52.88 L78.52,42.11 L78.52,66.49 Z" id="box" fill="#000000"></path>
+    </g>
+</svg>

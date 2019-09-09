@@ -1,0 +1,11 @@
+collections:
+  basics:
+    output: true
+  icons:
+    output: false
+  styles:
+    output: true
+  components:
+    output: true
+  helpers:
+    output: true

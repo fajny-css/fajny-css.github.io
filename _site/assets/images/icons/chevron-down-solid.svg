@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/chevron-down-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/chevron-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M50,78.1700412 C46.7280682,78.1784716 43.5884968,76.8787178 41.28,74.56 L2.43999995,35.73 C-0.663412855,32.4493822 -0.591884668,27.2946048 2.60136008,24.1013601 C5.79460483,20.9081154 10.9493822,20.8365872 14.23,23.94 L50,59.71 L85.77,23.94 C89.0506178,20.8365872 94.2053952,20.9081154 97.3986399,24.1013601 C100.591885,27.2946048 100.663413,32.4493822 97.56,35.73 L58.72,74.56 C56.4115032,76.8787178 53.2719318,78.1784716 50,78.1700412 Z" id="chevron-down" fill="#000000"></path>
+    </g>
+</svg>

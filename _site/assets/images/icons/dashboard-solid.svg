@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/dashboard-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M48.57,51.43 L48.57,100 L-4.99998123e-08,100 L-4.99998123e-08,51.43 L48.57,51.43 Z M100,51.43 L100,100 L51.43,100 L51.43,51.43 L100,51.43 Z M48.57,-4.99999828e-08 L48.57,48.57 L-4.99998123e-08,48.57 L-4.99998123e-08,-4.99999828e-08 L48.57,-4.99999828e-08 Z M100,-4.99999828e-08 L100,48.57 L51.43,48.57 L51.43,-4.99999828e-08 L100,-4.99999828e-08 Z" id="Shape" fill="#000000"></path>
+    </g>
+</svg>

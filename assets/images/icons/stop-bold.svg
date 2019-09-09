@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>bold/stop-bold</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bold/stop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M93.64,100 L6.35999996,100 C2.84975225,99.9944938 0.00550623107,97.1502477 -4.9999997e-08,93.64 L-4.9999997e-08,6.35999996 C0.00550623107,2.84975225 2.84975225,0.00550623107 6.35999996,-4.9999997e-08 L93.64,-4.9999997e-08 C97.1502477,0.00550623107 99.9944938,2.84975225 100,6.35999996 L100,93.64 C99.9944938,97.1502477 97.1502477,99.9944938 93.64,100 Z M9.08999996,90.91 L90.91,90.91 L90.91,9.08999996 L9.08999996,9.08999996 L9.08999996,90.91 Z" id="stop" fill="#000000"></path>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/stop-full-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/stop-full" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4.28999995,-4.9999997e-08 L95.71,-4.9999997e-08 C98.0793015,-4.9999997e-08 100,1.92069837 100,4.28999995 L100,95.71 C100,98.0793015 98.0793015,100 95.7099999,100 L4.28999995,100 C1.92069837,100 -4.9999997e-08,98.0793015 -4.9999997e-08,95.7099999 L-4.9999997e-08,4.28999995 C-4.9999997e-08,1.92069837 1.92069837,-4.9999997e-08 4.28999995,-4.9999997e-08 Z" id="stop-full" fill="#000000"></path>
+    </g>
+</svg>

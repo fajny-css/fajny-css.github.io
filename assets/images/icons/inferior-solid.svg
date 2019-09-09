@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/inferior-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/inferior" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M70.37,100 C68.1670611,99.9978867 66.0553277,99.1200963 64.5,97.56 L23.03,56.11 C19.6605873,52.7334512 19.6605873,47.2665488 23.03,43.89 L64.5,2.43999995 C67.8035391,-0.49603168 72.8238924,-0.345111091 75.9451009,2.78405967 C79.0663094,5.91323044 79.2044388,10.9339519 76.26,14.23 L40.5,50 L76.26,85.77 C78.6391033,88.154963 79.3498037,91.737016 78.061451,94.8496238 C76.7730982,97.9622316 73.738701,99.9941353 70.37,100 Z" id="inferior" fill="#000000"></path>
+    </g>
+</svg>

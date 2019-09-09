@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: Getting Started
+  link: /getting-started.html
+- name: Layouts
+  link: /basics.html
+- name: Icons
+  link: /icons.html
+- name: Styles
+  link: /styles.html
+- name: Components
+  link: /components.html
+- name: Helpers
+  link: /helpers.html

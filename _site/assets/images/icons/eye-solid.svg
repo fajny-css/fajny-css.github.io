@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/eye-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/eye" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M99,48.49 C98.08,47.28 76.88,19 50,19 C23.12,19 1.91999995,47.28 0.99999995,48.49 L-4.9999997e-08,49.88 L0.99999995,51.28 C1.88999995,52.49 23.09,80.77 50,80.77 C76.91,80.77 98.08,52.49 99,51.28 L100,49.88 L99,48.49 Z M50,63.89 C42.2680135,63.89 36,57.6219865 36,49.89 C36,42.1580135 42.2680135,35.89 50,35.89 C57.7319865,35.89 64,42.1580135 64,49.89 C64,57.6219865 57.7319865,63.89 50,63.89 L50,63.89 Z" id="eye" fill="#000000"></path>
+    </g>
+</svg>

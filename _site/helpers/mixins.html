@@ -18,7 +18,7 @@
           <script src="/assets/js/highlight.pack.js"></script>
           <script src="/assets/js/includes.js"></script>
 
-          <style></style>
+          <style>.row{display:flex;align-items:center;}</style>
      </head>
 
      <body>
@@ -97,7 +97,7 @@
 			</div>
             
             <div class="col-3-12">
-				<h5 class="no-marg-top no-marg-bottom">Full code</h5>
+				<h5 class="no-marg-top no-marg-bottom">Variables</h5>
 			</div>
 
             <div class="col-3-12">
@@ -108,60 +108,220 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p class="no-marg-top no-marg-bottom">width-grow-n</p>
+				<p class="no-marg-top no-marg-bottom">flexbox</p>
 			</div>
             
             <div class="col-3-12">
-				<p class="no-marg-top no-marg-bottom">Goes from 0 to a given number (n) in the parent width. Exists from 5 to 100, with an increment of 5.</p>
+				<p class="no-marg-top no-marg-bottom">Add a flexbox.</p>
 			</div>
 
             <div class="col-3-12">
-                <div class="progress progress-primary progress-55 progress-anim-55"></div>
+                <p class="no-marg-top no-marg-bottom">$align, $justify, $wrap</p>
 			</div>
             
             <div class="col-3-12">
 				<pre class="results">
-<code class="scss">@include animation(width-grow-5 .25s 1);</code>
+<code class="scss">@include flexbox(center, center, nowrap);</code>
                 </pre>
 			</div>
 		</div>
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p class="no-marg-top no-marg-bottom">spin</p>
+				<p class="no-marg-top no-marg-bottom">shadow</p>
 			</div>
             
             <div class="col-3-12">
-				<p class="no-marg-top no-marg-bottom">Make an object spin.</p>
+				<p class="no-marg-top no-marg-bottom">Add a shadow.</p>
 			</div>
 
             <div class="col-3-12">
-                <div class="spinner primary"></div>
+                <p class="no-marg-top no-marg-bottom">$color</p>
 			</div>
             
             <div class="col-3-12">
 				<pre class="results">
-<code class="scss">@include animation(spin 2s linear infinite);</code>
+<code class="scss">@include shadow($primary);</code>
                 </pre>
 			</div>
 		</div>
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p class="no-marg-top no-marg-bottom">circle-chart-fill</p>
+				<p class="no-marg-top no-marg-bottom">shadow-invert</p>
 			</div>
             
             <div class="col-3-12">
-				<p class="no-marg-top no-marg-bottom">Animate the circular chart. Exists from 5 to 100, with an increment of 5.</p>
+				<p class="no-marg-top no-marg-bottom">Add a shadow on the top.</p>
 			</div>
 
             <div class="col-3-12">
-                <div class="circular-chart circular-60 circular-anim"><svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="100" height="100"><circle class="circular-chart-background" style="cx: 16.91549431; cy: 16.91549431; r: 15.91549431;" /><circle class="circular-chart-circle" style="cx: 16.91549431; cy: 16.91549431; r: 15.91549431;" /><g class="circular-chart-info"><text class="circular-chart-number" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8">60%</text></g></svg></div>
+                <p class="no-marg-top no-marg-bottom">$color</p>
 			</div>
             
             <div class="col-3-12">
 				<pre class="results">
-<code class="scss">@include animation(circle-chart-fill 3s reverse);</code>
+<code class="scss">@include shadow-invert($primary);</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">outline</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add an outline.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$size-border, $color</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include outline(.5px, $gray);</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">transition</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add transitions.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$property, $duration, $function</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include transition(max-height, .5s, ease-out);</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">transform</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add a transform property.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$method</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include transform(rotate(90deg));</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">transform origin</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add a transform origin property.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$method</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include transform-origin(center);</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">appearance</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add an appearance property.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$value</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include appearance(none);</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">border-radius</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add a border-radius.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$value</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include border-radius(5px);</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">box-sizing</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add a box-sizing property.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$property</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include box-sizing(border-box);</code>
+                </pre>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">icon</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">Add an icon from Fajny CSS icon font.</p>
+			</div>
+
+            <div class="col-3-12">
+                <p class="no-marg-top no-marg-bottom">$unicode</p>
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">@include icon("\eab9");</code>
                 </pre>
 			</div>
 		</div>

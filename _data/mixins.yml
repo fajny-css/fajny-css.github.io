@@ -1,3 +1,44 @@
-- name: 
-  effect: 
-  example: 
+- name: flexbox
+  effect: Add a flexbox.
+  variables: $align, $justify, $wrap
+  example: "@include flexbox(center, center, nowrap);"
+- name: shadow
+  effect: Add a shadow.
+  variables: $color
+  example: "@include shadow($primary);"
+- name: shadow-invert
+  effect: Add a shadow on the top.
+  variables: $color
+  example: "@include shadow-invert($primary);"
+- name: outline
+  effect: Add an outline.
+  variables: $size-border, $color
+  example: "@include outline(.5px, $gray);"
+- name: transition
+  effect: Add transitions.
+  variables: $property, $duration, $function
+  example: "@include transition(max-height, .5s, ease-out);"
+- name: transform
+  effect: Add a transform property.
+  variables: $method
+  example: "@include transform(rotate(90deg));"
+- name: transform origin
+  effect: Add a transform origin property.
+  variables: $method
+  example: "@include transform-origin(center);"
+- name: appearance
+  effect: Add an appearance property.
+  variables: $value
+  example: "@include appearance(none);"
+- name: border-radius
+  effect: Add a border-radius.
+  variables: $value
+  example: "@include border-radius(5px);"
+- name: box-sizing
+  effect: Add a box-sizing property.
+  variables: $property
+  example: "@include box-sizing(border-box);"
+- name: icon
+  effect: Add an icon from Fajny CSS icon font.
+  variables: $unicode
+  example: '@include icon("\eab9");'

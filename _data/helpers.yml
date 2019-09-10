@@ -30,5 +30,5 @@
   effect: Set the padding-right to 0.
 - name: no-select
   effect: Prevent the user to select the element.
-- name: bg-primary
-  effect: Add a background with the primary-color.
+- name: clearfix
+  effect: Add a 5px height line and clears both sides between two elements.

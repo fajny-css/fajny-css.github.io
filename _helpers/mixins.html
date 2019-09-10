@@ -1,6 +1,7 @@
 ---
 layout: detail
 title: Mixins
+additional-css: .row{display:flex;align-items:center;}
 ---
 <p>To speed up your development process in SCSS you can use mixins. These are really useful shortcodes to add in your SCSS elements.</p>
 
@@ -22,7 +23,7 @@ title: Mixins
 			</div>
             
             <div class="col-3-12">
-				<h5 class="no-marg-top no-marg-bottom">Full code</h5>
+				<h5 class="no-marg-top no-marg-bottom">Variables</h5>
 			</div>
 
             <div class="col-3-12">
@@ -30,7 +31,7 @@ title: Mixins
 			</div>
 		</div>
 
-		{% for item in site.data.animations %}
+		{% for item in site.data.mixins %}
 		<div class="row">
 			<div class="col-3-12">
 				<p class="no-marg-top no-marg-bottom">{{ item.name }}</p>
@@ -41,12 +42,12 @@ title: Mixins
 			</div>
 
             <div class="col-3-12">
-                {{ item.example }}
+                <p class="no-marg-top no-marg-bottom">{{ item.variables }}</p>
 			</div>
             
             <div class="col-3-12">
 				<pre class="results">
-<code class="scss">{{ item.code }}</code>
+<code class="scss">{{ item.example }}</code>
                 </pre>
 			</div>
 		</div>

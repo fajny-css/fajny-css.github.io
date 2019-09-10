@@ -1,11 +1,43 @@
 ---
 layout: detail
 title: Helpers
+desc: Helpers classes for Fajny CSS
+additional-css: .results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-last-child(-n+2){margin-bottom:0}.results .col-3-12:nth-child(4n+0){margin-right:0}
 ---
 
+<p>Helpers are classes created to override some CSS properties in your HTML. Just add them in the HTML class of your element.</p>
 
-<ul class="list-helpers">
-     {% for item in site.data.helpers %}
-     <li>.{{ item.name }}</li>
-     {% endfor %}
-</ul>
+<h2 class="no-marg-bottom">File to include</h2>
+<pre class="results">
+<code class="scss">@include "helpers";</code>
+</pre>
+
+<h2 class="no-marg-top no-marg-bottom">How to use them</h2>
+<div class="results">
+	<div class="list-results">
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">CSS Class</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">Effect</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">CSS Class</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">Effect</h5>
+		</div>
+
+		{% for item in site.data.helpers %}
+		<div class="col-3-12">
+			<p class="no-marg-top no-marg-bottom">.{{ item.name }}</p>
+		</div>
+		<div class="col-3-12">
+			<p class="no-marg-top no-marg-bottom">{{ item.effect }}</p>
+		</div>
+		{% endfor %}
+	</div>
+</div>

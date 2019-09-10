@@ -1588,7 +1588,7 @@ button {
   height: 60px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  font-size: 32px;
+  font-size: 32px !important;
   color: #FFFFFF;
   background: #266DD3;
   -webkit-box-shadow: 0 2px 4px 0 #266DD3;
@@ -3343,16 +3343,38 @@ textarea {
   border: 5px solid transparent;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border-top: 5px solid #1B4568;
-  border-right: 5px solid #1B4568;
-  border-bottom: 5px solid #1B4568;
   width: 40px;
   height: 40px;
   -webkit-animation: spin 2s linear infinite;
   -moz-animation: spin 2s linear infinite;
   -ms-animation: spin 2s linear infinite;
   -o-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite; }
+  animation: spin 2s linear infinite;
+  float: left; }
+  .spinner.primary {
+    border-top: 5px solid #1B4568;
+    border-right: 5px solid #1B4568;
+    border-bottom: 5px solid #1B4568; }
+  .spinner.secondary {
+    border-top: 5px solid #266DD3;
+    border-right: 5px solid #266DD3;
+    border-bottom: 5px solid #266DD3; }
+  .spinner.danger {
+    border-top: 5px solid #FF312E;
+    border-right: 5px solid #FF312E;
+    border-bottom: 5px solid #FF312E; }
+  .spinner.success {
+    border-top: 5px solid #97DB4F;
+    border-right: 5px solid #97DB4F;
+    border-bottom: 5px solid #97DB4F; }
+  .spinner.warning {
+    border-top: 5px solid #F46036;
+    border-right: 5px solid #F46036;
+    border-bottom: 5px solid #F46036; }
+  .spinner.disabled {
+    border-top: 5px solid #767676;
+    border-right: 5px solid #767676;
+    border-bottom: 5px solid #767676; }
 
 /*============================================================= Components =============================================================*/
 table {

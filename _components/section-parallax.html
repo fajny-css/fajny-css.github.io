@@ -3,23 +3,48 @@ layout: detail
 title: Section Parallax
 desc: Section Parallax for Fajny CSS
 ---
-<p></p>
+<p>A nice parallax effect working on mobile, but only one is possible on a page.</p>
 
 <h2 class="no-marg-bottom">File to include</h2>
 <pre class="results">
-<code class="scss">@include "components/";</code>
+<code class="scss">@include "components/parallax";</code>
 </pre>
 
 <h2 class="no-marg-top no-marg-bottom">Code</h2>
 <div class="results">
      <div class="list-results">
-          
+          <a href="/assets/demo/section-parallax.html" target="_blank">See the demo here.</a>
      </div>
      <div class="code-result">
           <pre>
-<code class="html">
+<code class="html">&lt;div class="container-parallax container-section-parallax"&gt;
+     &lt;main class="container"&gt;
+          &lt;section&gt;
+               &lt;h3&gt;Title container&lt;/h3&gt;
+               &lt;p&gt;
+                    Content container.
+               &lt;/p&gt;
+          &lt;/section&gt;
+     &lt;/main&gt;
+&lt;/div&gt;
 
-</code>
+&lt;section class="wrapper-section-parallax"&gt;
+     &lt;div class="section-parallax-img" style="background: url(/assets/images/cover-parallax.jpg)"&gt;&lt;/div&gt;
+     &lt;div class="title-section-parallax"&gt;
+          &lt;h1 class="display"&gt;Title&lt;/h1&gt;
+     &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;div class="container-parallax container-section-parallax"&gt;
+     &lt;main class="container"&gt;
+          &lt;section&gt;
+               &lt;h3&gt;Title container&lt;/h3&gt;
+               &lt;p&gt;
+                    Content container.
+               &lt;/p&gt;
+          &lt;/section&gt;
+     &lt;/main&gt;
+&lt;/div&gt;</code>
           </pre>
      </div>
 </div>

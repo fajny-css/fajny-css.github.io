@@ -77,23 +77,60 @@
           <main class="container no-padd-bottom">
                <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
                <h1 class="no-marg-top">Section Parallax Multi</h1>
-               <p></p>
+               <p>Add a cool parallax effect.<br/><i class="icon icon-warning-bold font-warning"></i> This does not work on mobile.</p>
 
 <h2 class="no-marg-bottom">File to include</h2>
 <pre class="results">
-<code class="scss">@include "components/";</code>
+<code class="scss">@include "components/parallax";</code>
 </pre>
 
 <h2 class="no-marg-top no-marg-bottom">Code</h2>
 <div class="results">
      <div class="list-results">
-          
+          <a href="/assets/demo/section-parallax-multi.html" target="_blank">See the demo here.</a>
      </div>
      <div class="code-result">
           <pre>
-<code class="html">
+<code class="html">&lt;div class="container-parallax container-section-parallax"&gt;
+     &lt;main class="container"&gt;
+          &lt;section&gt;
+               &lt;h3&gt;Title container&lt;/h3&gt;
+               &lt;p&gt;
+                    Content container.
+               &lt;/p&gt;
+          &lt;/section&gt;
+     &lt;/main&gt;
+&lt;/div&gt;
 
-</code>
+&lt;section class="wrapper-section-parallax-multi" style="background: url(/assets/images/cover-parallax.jpg)"&gt;
+     &lt;h1 class="display"&gt;Title&lt;/h1&gt;
+&lt;/section&gt;
+
+&lt;div class="container-parallax container-section-parallax"&gt;
+     &lt;main class="container"&gt;
+          &lt;section&gt;
+               &lt;h3&gt;Title container&lt;/h3&gt;
+               &lt;p&gt;
+                    Content container.
+               &lt;/p&gt;
+          &lt;/section&gt;
+     &lt;/main&gt;
+&lt;/div&gt;
+
+&lt;section class="wrapper-section-parallax-multi" style="background: url(/assets/images/pic-img.jpg)"&gt;
+     &lt;h1 class="display"&gt;Title&lt;/h1&gt;
+&lt;/section&gt;
+
+&lt;div class="container-parallax container-section-parallax"&gt;
+     &lt;main class="container"&gt;
+          &lt;section&gt;
+               &lt;h3&gt;Title container&lt;/h3&gt;
+               &lt;p&gt;
+                    Content container.
+               &lt;/p&gt;
+          &lt;/section&gt;
+     &lt;/main&gt;
+&lt;/div&gt;</code>
           </pre>
      </div>
 </div>

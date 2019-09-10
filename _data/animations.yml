@@ -1,0 +1,22 @@
+- name: width-grow-n
+  effect: Goes from 0 to a given number (n) in the parent width. Exists from 5 to 100, with an increment of 5.
+  example: <div class="progress progress-primary progress-55 progress-anim-55"></div>
+  code: "@include animation(width-grow-5 .25s 1);"
+- name: spin
+  effect: Make an object spin.
+  example: <div class="spinner primary"></div>
+  code: "@include animation(spin 2s linear infinite);"
+- name: circle-chart-fill
+  effect: Animate the circular chart. Exists from 5 to 100, with an increment of 5.
+  example: 	'<div class="circular-chart circular-60 circular-anim"><svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="100" height="100"><circle class="circular-chart-background" style="cx: 16.91549431; cy: 16.91549431; r: 15.91549431;" /><circle class="circular-chart-circle" style="cx: 16.91549431; cy: 16.91549431; r: 15.91549431;" /><g class="circular-chart-info"><text class="circular-chart-number" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8">60%</text></g></svg></div>'
+  code: '.circular-60 {<br>
+&nbsp;&nbsp;&nbsp;.circular-chart-circle {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@include animation(circle-chart-fill 3s reverse);<br>
+&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;.circular-chart-info {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@include animation(circle-chart-appear 3s forwards);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;opacity: 0;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@include transform(translateY(0.3em));<br>
+&nbsp;&nbsp;&nbsp;}<br>
+}'

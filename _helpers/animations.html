@@ -1,4 +1,58 @@
 ---
 layout: detail
 title: Animations
+desc: SCSS animations for Fajny CSS
+additional-css: .row{display:flex;align-items:center;}
 ---
+
+<p>These are SCSS mixins made to speed up your development process to animate elements.</p>
+
+<h2 class="no-marg-bottom">File to include</h2>
+<pre class="results">
+<code class="scss">@include "animations";</code>
+</pre>
+
+<h2 class="no-marg-top no-marg-bottom">How to use them</h2>
+<div class="results">
+	<div class="list-results">
+		<div class="row">
+			<div class="col-3-12">
+				<h5 class="no-marg-top no-marg-bottom">Name</h5>
+			</div>
+		
+			<div class="col-3-12">
+				<h5 class="no-marg-top no-marg-bottom">Effect</h5>
+			</div>
+            
+            <div class="col-3-12">
+				<h5 class="no-marg-top no-marg-bottom">Example</h5>
+			</div>
+
+            <div class="col-3-12">
+				<h5 class="no-marg-top no-marg-bottom">Code</h5>
+			</div>
+		</div>
+
+		{% for item in site.data.animations %}
+		<div class="row">
+			<div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">{{ item.name }}</p>
+			</div>
+            
+            <div class="col-3-12">
+				<p class="no-marg-top no-marg-bottom">{{ item.effect }}</p>
+			</div>
+
+            <div class="col-3-12">
+                {{ item.example }}
+			</div>
+            
+            <div class="col-3-12">
+				<pre class="results">
+<code class="scss">{{ item.code }}</code>
+                </pre>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

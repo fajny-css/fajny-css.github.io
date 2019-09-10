@@ -1,1 +1,3 @@
-# fajny-css
+---
+permalink: /
+---

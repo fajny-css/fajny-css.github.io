@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/caret-right-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/caret-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16.1764706,1.59803917 C14.3649377,2.53260146 13.2291959,4.40278962 13.2352128,6.44117643 L13.2352128,93.5588236 C13.2241668,95.6013302 14.3558437,97.4786625 16.1672046,98.422553 C17.9785654,99.3664434 20.1656128,99.2184805 21.8333333,98.0392157 L83.5980392,54.4803922 C85.047201,53.457109 85.9089714,51.7936366 85.9089714,50.0196078 C85.9089714,48.2455791 85.047201,46.5821066 83.5980392,45.5588235 L21.8333333,1.96078427 C20.1645703,0.789660399 17.9811469,0.649648847 16.1764706,1.59803917 Z" id="caret-right" fill="#000000"></path>
+    </g>
+</svg>

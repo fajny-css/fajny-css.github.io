@@ -1,0 +1,16 @@
+---
+layout: default
+title: Components
+desc: Components for Fajny CSS
+---
+<p>All the different components for Fajny CSS. The framework doesn't use JS, so the code for some components may seem longer than their JavaScript counterparts.</p>
+
+<section class="no-marg-bottom no-padd-bottom">
+     <ul class="components-list">
+          {% for component in site.components %}
+          <li>
+               <a href="{{ component.url }}" class="btn btn-full btn-primary">{{ component.title }}</a>
+          </li>
+          {% endfor %}
+     </ul>
+</section>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>bold/play-bold</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bold/play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18.85,100 C15.3475498,99.9890205 12.5109795,97.1524502 12.5,93.65 L12.5,6.34999996 C12.502294,3.98147731 13.8225906,1.81108814 15.9248445,0.720018359 C18.0270984,-0.371051424 20.5618574,-0.201436077 22.5,1.15999995 L84.38,44.81 L84.38,44.81 C86.0593447,46.0050674 87.0566547,47.938839 87.0566547,50 C87.0566547,52.061161 86.0593447,53.9949326 84.38,55.19 L22.5,98.84 C21.4308401,99.5913404 20.1567521,99.9962561 18.85,100 Z M21.59,11.64 L21.59,88.36 L75.96,50 L21.59,11.64 Z" id="play" fill="#000000"></path>
+    </g>
+</svg>

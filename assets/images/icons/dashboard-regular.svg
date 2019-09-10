@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>regular/dashboard-regular</title>
+    <desc>Created with Sketch.</desc>
+    <g id="regular/dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M100,52.38 L100,100 L52.38,100 L52.38,52.38 L100,52.38 Z M47.62,52.38 L47.62,100 L-4.99999295e-08,100 L-4.99999295e-08,52.38 L47.62,52.38 Z M95.24,57.14 L57.14,57.14 L57.14,95.24 L95.24,95.24 L95.24,57.14 Z M42.86,57.14 L4.75999995,57.14 L4.75999995,95.24 L42.86,95.24 L42.86,57.14 Z M47.62,-4.9999997e-08 L47.62,47.62 L-4.99999295e-08,47.62 L-4.99999295e-08,-4.9999997e-08 L47.62,-4.9999997e-08 Z M100,-4.9999997e-08 L100,47.62 L52.38,47.62 L52.38,-4.9999997e-08 L100,-4.9999997e-08 Z M42.86,4.75999995 L4.75999995,4.75999995 L4.75999995,42.86 L42.86,42.86 L42.86,4.75999995 Z M95.24,4.75999995 L57.14,4.75999995 L57.14,42.86 L95.24,42.86 L95.24,4.75999995 Z" id="Shape" fill="#000000"></path>
+    </g>
+</svg>

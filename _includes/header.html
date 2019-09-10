@@ -1,0 +1,28 @@
+<header class="nav-template">
+     <nav>
+          <div class="burger" onclick="openNav(this)">
+               <span></span>
+               <span></span>
+               <span></span>
+          </div>
+
+          <ul>
+               {% for item in site.data.nav %}
+               <li>
+                    <a href="{{ item.link }}" {% if page.url == item.link elseif page.url == "/" %}class="active" {% endif %}>{{ item.name }}</a>
+               </li>
+               {% endfor %}
+               <li class="social-links">
+                    <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                    <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+               </li>
+               <li class="download">
+                    <a href="fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+               </li>
+          </ul>
+
+          <div class="logo">
+               <a href="/"><img src="/assets/images/logo-fajny-css-white.svg" alt="Logo Fajny CSS"></a>
+          </div>
+     </nav>
+</header>

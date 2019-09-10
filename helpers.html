@@ -1,0 +1,16 @@
+---
+layout: default
+title: Helpers
+desc: Helpers for Fajny CSS
+---
+<p>Helpers are CSS classes and SCSS mixins created to help you ease the development.</p>
+
+<section class="no-marg-bottom no-padd-bottom">
+     <ul class="components-list">
+          {% for helper in site.helpers %}
+          <li>
+               <a href="{{ helper.url }}" class="btn btn-full btn-primary">{{ helper.title }}</a>
+          </li>
+          {% endfor %}
+     </ul>
+</section>

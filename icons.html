@@ -1,0 +1,166 @@
+---
+layout: default
+title: Icons
+desc: Icon font for Fajny CSS
+---
+<section class="no-marg-top">
+     <p class="no-marg-top">
+          Fanjy CSS uses its own icon font. If you want to use it add this in the <code>head</code> of your HTML:
+          <br />
+          <code>
+               &lt;link href="css/fajny-icons.min.css" rel="stylesheet" /&gt;
+          </code>
+          <br />
+          or via CDN
+          <br />
+          <code>&lt;link rel="stylesheet" href="https://unpkg.com/fajny-css-icons@1.0.0/css/fajny-icons.min.css" /&gt;</code>
+     </p>
+     <h2>How to use</h2>
+     <h4 class="no-marg-bottom">In the HTML</h4>
+     <p class="no-marg-top">Copy the code and insert it in your HTML page.</p>
+     <h5 class="no-marg-top no-marg-bottom">Example</h5>
+     <pre class="no-marg-top">
+<code class="html">&lt;i class="icon icon-user-regular"&gt;&lt;/i&gt;</code>
+     </pre>
+
+     <h4 class="no-marg-top no-marg-bottom">In the SCSS</h4>
+     <p class="no-marg-top">You can use mixins to include your icon.</p>
+     <h5 class="no-marg-top no-marg-bottom">Example</h5>
+     <pre class="no-marg-top">
+<code class="scss">@include icon("\unicode")</code>
+     </pre>
+
+     <h4 class="no-marg-top no-marg-bottom">In the CSS</h4>
+     <p class="no-marg-top no-marg-bottom">Copy this in your CSS page:</p>
+     <pre class="no-marg-top">
+<code class="css">font-family: "fajny-css-icons";
+content: "\unicode";</code>
+     </pre>
+</section>
+
+<section class="no-marg-top">
+     <div class="input-container input-icon-container">
+          <input type="text" id="search" name="input" onkeyup="search()" required />
+          <span class="bar"></span>
+          <label for="search">Search</label>
+     </div>
+</section>
+
+<section class="no-marg-top">
+     <div class="row">
+          <div class="col-1 filters">
+               <h4>Filters</h4>
+               <div class="radio-container">
+                    <input type="radio" id="all" name="filters" onclick="filterSelection('all')" checked />
+                    <label for="all" class="radio-label"></label>
+                    <label for="all" class="text-label">All</label>
+               </div>
+
+               <div class="radio-container">
+                    <input type="radio" id="regular" name="filters" onclick="filterSelection('regular')" />
+                    <label for="regular" class="radio-label"></label>
+                    <label for="regular" class="text-label">Regular</label>
+               </div>
+
+               <div class="radio-container">
+                    <input type="radio" id="bold" name="filters" onclick="filterSelection('bold')" />
+                    <label for="bold" class="radio-label"></label>
+                    <label for="bold" class="text-label">Bold</label>
+               </div>
+
+               <div class="radio-container">
+                    <input type="radio" id="solid" name="filters" onclick="filterSelection('solid')" />
+                    <label for="solid" class="radio-label"></label>
+                    <label for="solid" class="text-label">Solid</label>
+               </div>
+
+               <div class="radio-container">
+                    <input type="radio" id="brand" name="filters" onclick="filterSelection('brand')" />
+                    <label for="brand" class="radio-label"></label>
+                    <label for="brand" class="text-label">Brand</label>
+               </div>
+          </div>
+     </div>
+
+     <div class="row">
+          <div class="col-1">
+               <ul class="list-icons" id="list-icons">
+                    {% for icon in site.icons %}
+                    {% if icon.unicode_regular %}
+                    <li class="filterDiv regular item">
+                         <i class="icon icon-{{ icon.title }}-regular"></i>
+                         <span>{{ icon.title }}</span>
+                         <span>regular</span>
+                         <p class="code no-marg-top">
+                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-regular'&gt;&lt;/i&gt;">Copy code</a>
+                              <br />
+                              <a class="copy" data-clipboard-text="{{ icon.unicode_regular }}">Copy unicode</a>
+                         </p>
+                         <div class="btn-container">
+                              <a href="assets/images/icons/{{ icon.title }}-regular.svg" class="btn btn-rectangle btn-primary" download>
+                                   Download SVG <i class="icon icon-download-solid"></i>
+                              </a>
+                         </div>
+                    </li>
+
+                    <li class="filterDiv bold item">
+                         <i class="icon icon-{{ icon.title }}-bold"></i>
+                         <span>{{ icon.title }}</span>
+                         <span>bold</span>
+                         <p class="code no-marg-top">
+                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-bold'&gt;&lt;/i&gt;">Copy code</a>
+                              <br />
+                              <a class="copy" data-clipboard-text="{{ icon.unicode_bold }}">Copy unicode</a>
+                         </p>
+                         <div class="btn-container">
+                              <a href="assets/images/icons/{{ icon.title }}-bold.svg" class="btn btn-rectangle btn-primary" download>
+                                   Download SVG <i class="icon icon-download-solid"></i>
+                              </a>
+                         </div>
+                    </li>
+                    {% endif %}
+
+                    {% if icon.unicode_solid %}
+                    <li class="filterDiv solid item">
+                         <i class="icon icon-{{ icon.title }}-solid"></i>
+                         <span>{{ icon.title }}</span>
+                         <span>solid</span>
+                         <p class="code no-marg-top">
+                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-solid'&gt;&lt;/i&gt;">Copy code</a>
+                              <br />
+                              <a class="copy" data-clipboard-text="{{ icon.unicode_solid }}">Copy unicode</a>
+                         </p>
+                         <div class="btn-container">
+                              <a href="assets/images/icons/{{ icon.title }}-solid.svg" class="btn btn-rectangle btn-primary" download>
+                                   Download SVG <i class="icon icon-download-solid"></i>
+                              </a>
+                         </div>
+                    </li>
+                    {% endif %}
+
+                    {% if icon.unicode_brand %}
+                    <li class="filterDiv brand item">
+                         <i class="icon icon-{{ icon.title }}-brand"></i>
+                         <span>{{ icon.title }}</span>
+                         <span>brand</span>
+                         <p class="code no-marg-top">
+                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-brand'&gt;&lt;/i&gt;">Copy code</a>
+                              <br />
+                              <a class="copy" data-clipboard-text="{{ icon.unicode_brand }}">Copy unicode</a>
+                         </p>
+                         <div class="btn-container">
+                              <a href="assets/images/icons/{{ icon.title }}-brand.svg" class="btn btn-rectangle btn-primary" download>
+                                   Download SVG <i class="icon icon-download-solid"></i>
+                              </a>
+                         </div>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+               </ul>
+
+               <div class="button-container">
+                    <button class="btn btn-rectangle btn-primary btn-large" id="load-more-comments">Load More</button>
+               </div>
+          </div>
+     </div>
+</section>

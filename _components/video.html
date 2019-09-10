@@ -1,0 +1,71 @@
+---
+layout: detail
+title: Video
+desc: Video for Fajny CSS
+---
+<p>Container for videos.<br/><i class="icon icon-warning-bold font-warning"></i> The HTML 5 autoplay function only works with the sound off.</p>
+
+<h2 class="no-marg-bottom">File to include</h2>
+<pre class="results">
+<code class="scss">@include "components/video";</code>
+</pre>
+
+<h2 class="no-marg-top no-marg-bottom">HTML video with controls</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="video-container">
+               <video controls>
+                    <source src="/assets/images/video-html.mp4" />
+                    Your browser doesn't support the video tag.
+               </video>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="video-container"&gt;
+     &lt;video controls&gt;
+          &lt;source src="/assets/images/video-html.mp4" /&gt;
+          Your browser doesn't support the video tag.
+     &lt;/video&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">HTML autoplay</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="video-container">
+               <video autoplay muted loop>
+                    <source src="/assets/images/video-html.mp4" />
+                    Your browser doesn't support the video tag.
+               </video>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="video-container"&gt;
+     &lt;video autoplay muted loop&gt;
+          &lt;source src="/assets/images/video-html.mp4" /&gt;
+          Your browser doesn't support the video tag.
+     &lt;/video&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Embed video</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="video-container video-embed">
+               <iframe src="https://www.youtube.com/embed/XEfDYMngJeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="video-container video-embed"&gt;
+     &lt;iframe src="https://www.youtube.com/embed/XEfDYMngJeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>

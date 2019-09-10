@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>regular/map-regular</title>
+    <desc>Created with Sketch.</desc>
+    <g id="regular/map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M65.61,7.48999996 L34.71,0.629999951 L34.71,0.629999951 L34.23,0.519999951 L33.76,0.629999951 L33.76,0.629999951 L0.499999951,7.99999995 L0.499999951,100 L34.23,92.51 L65.13,99.37 L65.13,99.37 L65.6,99.48 L66.07,99.37 L66.07,99.37 L99.34,92 L99.34,-4.9999997e-08 L65.61,7.48999996 Z M31.88,88.21 L5.20999996,94.13 L5.20999996,11.79 L31.88,5.86999996 L31.88,88.21 Z M63.26,94.13 L36.58,88.21 L36.58,5.86999996 L63.26,11.79 L63.26,94.13 Z M94.63,88.21 L67.96,94.13 L67.96,11.79 L94.63,5.86999996 L94.63,88.21 Z" id="map" fill="#000000"></path>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+---
+layout: detail
+title: Colors
+desc: Colors for Fajny CSS
+---
+<p>
+     Fajny CSS has its own color palette. If you want to use your own colors, you can edit them in the file <code>scss/_colors.scss</code>.
+     <br />
+     You can find a nice color palette generator here: <a href="https://coolors.co/" target="_blank">https://coolors.co/</a>.
+</p>
+
+<h2 class="no-marg-bottom">File to include</h2>
+<pre class="results">
+<code class="scss">@import "colors";</code>
+</pre>
+
+<h2 class="no-marg-top">Results</h2>
+<div class="results">
+     <div class="list-results">
+          <ul class="list-colors">
+               {% for item in site.data.colors %}
+               <li class="bg-{{item.name}}">
+                    ${{item.name}}
+                    <br />
+                    Hex: #{{ item.hex }}
+                    <br />
+                    RGBA: ({{ item.rgba }})
+               </li>
+               {% endfor %}
+          </ul>
+     </div>
+</div>

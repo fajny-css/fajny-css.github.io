@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>solid/chevron-left-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="solid/chevron-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M21.4999588,50 C21.4915284,46.7280682 22.7912822,43.5884968 25.11,41.28 L63.94,2.43999995 C67.2206178,-0.663412855 72.3753952,-0.591884668 75.5686399,2.60136008 C78.7618846,5.79460483 78.8334128,10.9493822 75.73,14.23 L39.95,50 L75.73,85.77 C78.8334128,89.0506178 78.7618846,94.2053952 75.5686399,97.3986399 C72.3753952,100.591885 67.2206178,100.663413 63.94,97.56 L25.11,58.72 C22.7912822,56.4115032 21.4915284,53.2719318 21.4999588,50 Z" id="chevron-left" fill="#000000"></path>
+    </g>
+</svg>

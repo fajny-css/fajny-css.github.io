@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <title>Pagination | Fajny CSS</title>
+          <meta content="IE=edge" http-equiv="X-UA-Compatible">
+          <meta content="width=device-width, initial-scale=1" name="viewport">
+          <meta content="Pagination for Fajny CSS" name="description">
+          <meta content="Julien Sebag" name="author">
+          <link href="/assets/images/favicon.png" rel="shortcut icon">
+
+          <!-- Styles -->
+          <link href="/assets/css/fajny.min.css" rel="stylesheet" />
+          <link href="/assets/css/fajny-icons.min.css" rel="stylesheet" />
+          <link rel="stylesheet" href="/assets/css/template.min.css" />
+
+          <!-- JS -->
+          <script src="/assets/js/highlight.pack.js"></script>
+          <script src="/assets/js/includes.js"></script>
+
+          <style>.results .list-results .pagination li{margin-right:5px}</style>
+     </head>
+
+     <body>
+          <header class="nav-template">
+     <nav>
+          <div class="burger" onclick="openNav(this)">
+               <span></span>
+               <span></span>
+               <span></span>
+          </div>
+
+          <ul>
+               
+               <li>
+                    <a href="/" >Home</a>
+               </li>
+               
+               <li>
+                    <a href="/getting-started.html" >Getting Started</a>
+               </li>
+               
+               <li>
+                    <a href="/basics.html" >Layouts</a>
+               </li>
+               
+               <li>
+                    <a href="/icons.html" >Icons</a>
+               </li>
+               
+               <li>
+                    <a href="/styles.html" >Styles</a>
+               </li>
+               
+               <li>
+                    <a href="/components.html" >Components</a>
+               </li>
+               
+               <li>
+                    <a href="/helpers.html" >Helpers</a>
+               </li>
+               
+               <li class="social-links">
+                    <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                    <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+               </li>
+               <li class="download">
+                    <a href="fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+               </li>
+          </ul>
+
+          <div class="logo">
+               <a href="/"><img src="/assets/images/logo-fajny-css-white.svg" alt="Logo Fajny CSS"></a>
+          </div>
+     </nav>
+</header>
+          <main class="container no-padd-bottom">
+               <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
+               <h1 class="no-marg-top">Pagination</h1>
+               <p>Responsive pagination for your list pages. Can be useful not to load all your articles when using it in a blog.</p>
+
+<h2 class="no-marg-bottom">File to include</h2>
+<pre class="results">
+<code class="scss">@include "components/pagination";</code>
+</pre>
+
+<h2 class="no-marg-top no-marg-bottom">Pagination Left</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="pagination-container pagination-left">
+               <ul class="pagination">
+                    <li>
+                         <a href="#"><i class="icon icon-chevron-left-solid"></i></a>
+                    </li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">10</a></li>
+                    <li>
+                         <a href="#"><i class="icon icon-chevron-right-solid"></i></a>
+                    </li>
+               </ul>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="pagination-container pagination-left"&gt;
+     &lt;ul class="pagination"&gt;
+          &lt;li&gt;
+               &lt;a href="#"&gt;&lt;i class="icon icon-chevron-left-solid"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="active"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;...&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;10&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;
+               &lt;a href="#"&gt;&lt;i class="icon icon-chevron-right-solid"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+     &lt;/ul&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Pagination Center</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="pagination-container pagination-center">
+               <ul class="pagination">
+                    <li>
+                         <a href="#"><i class="icon icon-chevron-left-solid"></i></a>
+                    </li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">10</a></li>
+                    <li>
+                         <a href="#"><i class="icon icon-chevron-right-solid"></i></a>
+                    </li>
+               </ul>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="pagination-container pagination-center"&gt;
+     &lt;ul class="pagination"&gt;
+          &lt;li&gt;
+               &lt;a href="#"&gt;&lt;i class="icon icon-chevron-left-solid"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="active"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;...&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;10&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;
+               &lt;a href="#"&gt;&lt;i class="icon icon-chevron-right-solid"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+     &lt;/ul&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+
+<h2 class="no-marg-bottom">Pagination Right</h2>
+<div class="results">
+     <div class="list-results">
+          <div class="pagination-container pagination-right">
+               <ul class="pagination">
+                    <li>
+                         <a href="#"><i class="icon icon-chevron-left-solid"></i></a>
+                    </li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">10</a></li>
+                    <li>
+                         <a href="#"><i class="icon icon-chevron-right-solid"></i></a>
+                    </li>
+               </ul>
+          </div>
+     </div>
+     <div class="code-result">
+          <pre>
+<code class="html">&lt;div class="pagination-container pagination-right"&gt;
+     &lt;ul class="pagination"&gt;
+          &lt;li&gt;
+               &lt;a href="#"&gt;&lt;i class="icon icon-chevron-left-solid"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class="active"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;...&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;10&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;
+               &lt;a href="#"&gt;&lt;i class="icon icon-chevron-right-solid"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+     &lt;/ul&gt;
+&lt;/div&gt;</code>
+          </pre>
+     </div>
+</div>
+               <footer>
+     <hr />
+     <div class="footer-container">
+          <div class="left">
+               <p>
+                    <div>V1.0</div>
+                    <div>
+                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+                          <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                          <a href="/fajny-css.zip" download=""><i class="icon icon-download-solid"></i></a>
+                    </div>
+               </p>
+          </div>
+
+          <div class="right">
+               <p>
+                    Pictures from <a href="https://unsplash.com/" target="_blank">Unsplash</a>, videos from <a href="https://mixkit.co/" target="_blank">Mixkit</a>
+                    <br />
+                    Made by <a href="https://www.julien-sebag.fr/" target="_blank">Julien Sebag</a> | 2019
+               </p>
+          </div>
+     </div>
+</footer>
+          </main>
+
+          <script src="/assets/js/clipboard.min.js"></script>
+          <script>
+               //Clipboard
+               new ClipboardJS(".copy");
+          </script>
+          <script src="/assets/js/load-more.js"></script>
+          <script src="/assets/js/script.min.js"></script>
+     </body>
+</html>

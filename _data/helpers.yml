@@ -1,1 +1,34 @@
+- name: text-left
+  effect: Align text on the left.
+- name: text-center
+  effect: Align text in the center.
+- name: text-right
+  effect: Align text on the right.
+- name: clear-float
+  effect: Add a float none.
+- name: hidden
+  effect: Add a display none.
+- name: no-marg
+  effect: Set all the margins to 0.
 - name: no-marg-top
+  effect: Set the margin-top to 0.
+- name: no-marg-bottom
+  effect: Set the margin-bottom to 0.
+- name: no-marg-left
+  effect: Set the margin-left to 0.
+- name: no-marg-right
+  effect: Set the margin-right to 0.
+- name: no-padd
+  effect: Set all the paddings to 0.
+- name: no-padd-top
+  effect: Set the padding-top to 0.
+- name: no-padd-bottom
+  effect: Set the padding-bottom to 0.
+- name: no-padd-left
+  effect: Set the padding-left to 0.
+- name: no-padd-right
+  effect: Set the padding-right to 0.
+- name: no-select
+  effect: Prevent the user to select the element.
+- name: clearfix
+  effect: Add a 5px height line and clears both sides between two elements.

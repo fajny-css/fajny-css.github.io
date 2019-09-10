@@ -2,7 +2,7 @@
 layout: detail
 title: Helpers
 desc: Helpers classes for Fajny CSS
-additional-css: '.results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-last-child(-n+2){margin-bottom:0}.results .col-3-12:nth-child(4n+0){margin-right:0}.color,.border{width:50px;height:50px;float:left;margin-bottom:20px;margin-right:20px}.border{border-style:solid;border-width:1px}.text{width:auto;float:left;margin-bottom:20px;margin-right:20px}'
+additional-css: ".results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-last-child(-n+2){margin-bottom:0}.results .col-3-12:nth-child(4n+0){margin-right:0}.color,.border{width:50px;height:50px;float:left;margin-bottom:20px;margin-right:20px}.border{border-style:solid;border-width:1px}.text{width:auto;float:left;margin-bottom:20px;margin-right:20px}"
 ---
 
 <p>Helpers are classes created to override some CSS properties in your HTML. Just add them in the HTML class of your element.</p>
@@ -63,10 +63,10 @@ additional-css: '.results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 
 		{% for item in site.data.background-colors %}
 		<div class="col-3-12">
-               <div class="color bg-{{item.name}}"></div>
+			<div class="color bg-{{ item.name }}"></div>
 		</div>
 		<div class="col-3-12">
-			<p class="no-marg-top no-marg-bottom">.bg-{{item.name}}</p>
+			<p class="no-marg-top no-marg-bottom">.bg-{{ item.name }}</p>
 		</div>
 		{% endfor %}
 	</div>
@@ -93,10 +93,74 @@ additional-css: '.results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 
 		{% for item in site.data.border-colors %}
 		<div class="col-3-12">
-               <div class="border border-{{item.name}}"></div>
+			<div class="border border-{{ item.name }}"></div>
 		</div>
 		<div class="col-3-12">
-			<p class="no-marg-top no-marg-bottom">.border-{{item.name}}</p>
+			<p class="no-marg-top no-marg-bottom">.border-{{ item.name }}</p>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<h2 class="no-marg-bottom">
+	Shadow colors helpers
+	<br />
+	<i class="icon icon-warning-bold font-warning"></i> On bright backgrounds the shadow must not be brighter than grayscale 40.
+</h2>
+<div class="results">
+	<div class="list-results">
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">Shadow color</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">CSS Class</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">Shadow color</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">CSS Class</h5>
+		</div>
+
+		{% for item in site.data.shadow-colors %}
+		<div class="col-3-12">
+			<div class="color bg-{{ item.name }} shadow-bottom-{{ item.color }}"></div>
+		</div>
+		<div class="col-3-12">
+			<p class="no-marg-top no-marg-bottom">.shadow-bottom-{{ item.color }}</p>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<h2 class="no-marg-bottom">Shadow positions helpers</h2>
+<div class="results">
+	<div class="list-results">
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">Shadow position</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">CSS Class</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">Shadow position</h5>
+		</div>
+
+		<div class="col-3-12">
+			<h5 class="no-marg-top no-marg-bottom">CSS Class</h5>
+		</div>
+
+		{% for item in site.data.shadow-position %}
+		<div class="col-3-12">
+			<div class="color bg-{{ item.color }} shadow-{{ item.position }}-{{ item.color }}"></div>
+		</div>
+		<div class="col-3-12">
+			<p class="no-marg-top no-marg-bottom">.shadow-{{ item.position }}-{{ item.color }}</p>
 		</div>
 		{% endfor %}
 	</div>
@@ -123,10 +187,10 @@ additional-css: '.results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 
 		{% for item in site.data.font-colors %}
 		<div class="col-3-12">
-               <div class="text font-{{item.name}}">Text</div>
+			<div class="text font-{{ item.name }}">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p class="no-marg-top no-marg-bottom">.font-{{item.name}}</p>
+			<p class="no-marg-top no-marg-bottom">.font-{{ item.name }}</p>
 		</div>
 		{% endfor %}
 	</div>

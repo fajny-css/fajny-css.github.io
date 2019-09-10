@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>regular/stop-regular</title>
-    <desc>Created with Sketch.</desc>
-    <g id="regular/stop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M95.71,100 L4.28999995,100 C1.92069838,100 -4.9999997e-08,98.0793016 -4.9999997e-08,95.71 L-4.9999997e-08,4.28999995 C-4.9999997e-08,1.92069838 1.92069838,-4.9999997e-08 4.28999995,-4.9999997e-08 L95.71,-4.9999997e-08 C98.0793016,-4.9999997e-08 100,1.92069838 100,4.28999995 L100,95.71 C100,98.0793016 98.0793016,100 95.71,100 Z M4.75999995,95.24 L95.24,95.24 L95.24,4.75999995 L4.75999995,4.75999995 L4.75999995,95.24 Z" id="stop" fill="#000000"></path>
-    </g>
-</svg>

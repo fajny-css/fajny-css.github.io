@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/circle-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M50,100 C22.3857625,100 -4.9999997e-08,77.6142375 -4.9999997e-08,50 C-4.9999997e-08,22.3857625 22.3857625,-4.9999997e-08 50,-4.9999997e-08 C77.6142375,-4.9999997e-08 100,22.3857625 100,50 C99.9669389,77.6005315 77.6005315,99.9669389 50,100 Z M50,16.67 C31.5923493,16.67 16.67,31.5923493 16.67,50 C16.67,68.4076507 31.5923493,83.33 50,83.33 C68.4076507,83.33 83.33,68.4076507 83.33,50 C83.3079593,31.6014866 68.3985134,16.6920407 50,16.67 Z" id="circle" fill="#000000"></path>
-    </g>
-</svg>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/chevron-up-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/chevron-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M50,21.4999588 C53.2719318,21.4915284 56.4115032,22.7912822 58.72,25.11 L97.56,63.94 C100.663413,67.2206178 100.591885,72.3753952 97.3986399,75.5686399 C94.2053952,78.7618846 89.0506178,78.8334128 85.77,75.73 L50,39.95 L14.23,75.73 C10.9493822,78.8334128 5.79460483,78.7618846 2.60136008,75.5686399 C-0.591884668,72.3753952 -0.663412855,67.2206178 2.43999995,63.94 L41.28,25.11 C43.5884968,22.7912822 46.7280682,21.4915284 50,21.4999588 Z" id="chevron-up" fill="#000000"></path>
-    </g>
-</svg>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/heart-full-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/heart-full" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M73.81,6.49999996 C63.5652311,6.50836926 54.2644173,12.4849527 50,21.8 C44.8872389,10.5886541 32.6484559,4.46016263 20.6085953,7.08244426 C8.56873479,9.70472589 -0.0128260708,20.3678882 -1.44080286e-05,32.69 C-1.44080286e-05,58.38 35.64,85.25 46.57,92.87 C48.6311836,94.3061123 51.3688164,94.3061123 53.43,92.87 C64.36,85.25 100,58.38 100,32.69 C99.9834677,18.2325158 88.2674842,6.51653226 73.81,6.49999996 Z" id="heart-full" fill="#000000"></path>
-    </g>
-</svg>

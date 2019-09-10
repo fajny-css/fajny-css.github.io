@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/minus-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M91.67,41.5 L8.32999996,41.5 C3.83902436,41.6555797 0.278747244,45.3413304 0.278747244,49.835 C0.278747244,54.3286696 3.83902436,58.0144203 8.32999996,58.17 L91.67,58.17 C96.1609756,58.0144203 99.7212528,54.3286696 99.7212528,49.835 C99.7212528,45.3413304 96.1609756,41.6555797 91.67,41.5 Z" id="minus" fill="#000000"></path>
-    </g>
-</svg>

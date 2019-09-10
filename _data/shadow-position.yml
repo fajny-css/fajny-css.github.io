@@ -1,8 +1,0 @@
-- position: top
-  color: primary
-- position: bottom
-  color: secondary
-- position: left
-  color: danger
-- position: right
-  color: success

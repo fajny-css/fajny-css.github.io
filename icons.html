@@ -3,42 +3,43 @@ layout: default
 title: Icons
 desc: Icon font for Fajny CSS
 ---
-<section class="no-marg-top">
-     <p class="no-marg-top">
-          Fanjy CSS uses its own icon font. If you want to use it add this in the <code>head</code> of your HTML:
-          <br />
-          <code>
-               &lt;link href="css/fajny-icons.min.css" rel="stylesheet" /&gt;
-          </code>
-          <br />
-          or via CDN
-          <br />
-          <code>&lt;link rel="stylesheet" href="https://unpkg.com/fajny-css-icons@1.0.0/css/fajny-icons.min.css" /&gt;</code>
-     </p>
+<section>
+     <p>Fanjy CSS uses its own icon font. If you want to use it add this in the <code>head</code> of your HTML:</p>
+     
+     <pre class="results results-marg">
+<code class="html">&lt;link href="css/fajny-icons.min.css" rel="stylesheet" /&gt;</code>
+     </pre>
+
+     <p>or via CDN</p>
+     
+     <pre class="results results-marg">
+<code class="html">&lt;link rel="stylesheet" href="https://unpkg.com/fajny-css-icons@1.0.0/css/fajny-icons.min.css" /&gt;</code>
+     </pre>
+
      <h2>How to use</h2>
-     <h4 class="no-marg-bottom">In the HTML</h4>
-     <p class="no-marg-top">Copy the code and insert it in your HTML page.</p>
-     <h5 class="no-marg-top no-marg-bottom">Example</h5>
-     <pre class="no-marg-top">
+     <h4>In the HTML</h4>
+     <p>Copy the code and insert it in your HTML page.</p>
+     <h5 >Example</h5>
+     <pre>
 <code class="html">&lt;i class="icon icon-user-regular"&gt;&lt;/i&gt;</code>
      </pre>
 
-     <h4 class="no-marg-top no-marg-bottom">In the SCSS</h4>
-     <p class="no-marg-top">You can use mixins to include your icon.</p>
-     <h5 class="no-marg-top no-marg-bottom">Example</h5>
-     <pre class="no-marg-top">
+     <h4 >In the SCSS</h4>
+     <p>You can use mixins to include your icon.</p>
+     <h5 >Example</h5>
+     <pre>
 <code class="scss">@include icon("\unicode")</code>
      </pre>
 
-     <h4 class="no-marg-top no-marg-bottom">In the CSS</h4>
-     <p class="no-marg-top no-marg-bottom">Copy this in your CSS page:</p>
-     <pre class="no-marg-top">
+     <h4 >In the CSS</h4>
+     <p >Copy this in your CSS page:</p>
+     <pre>
 <code class="css">font-family: "fajny-css-icons";
 content: "\unicode";</code>
      </pre>
 </section>
 
-<section class="no-marg-top">
+<section>
      <div class="input-container input-icon-container">
           <input type="text" id="search" name="input" onkeyup="search()" required />
           <span class="bar"></span>
@@ -46,7 +47,7 @@ content: "\unicode";</code>
      </div>
 </section>
 
-<section class="no-marg-top">
+<section>
      <div class="row">
           <div class="col-1 filters">
                <h4>Filters</h4>

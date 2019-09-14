@@ -35,6 +35,7 @@ body, .accordion .open-accordion,
   background-position: center !important;
   background-size: cover !important; }
 
+/*============================================================= Variables =============================================================*/
 /*============================================================= Colors =============================================================*/
 /*============================================================= Import from Google Fonts =============================================================*/
 /*============================================================= Variables =============================================================*/
@@ -74,42 +75,75 @@ blockquote p {
 h1 {
   font-size: 32px;
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; }
   h1.display {
-    font-size: 80px; }
+    font-size: 80px;
+    margin: 0;
+      margin-top: 40px;
+      margin-bottom: 40px; }
 
 h2 {
   font-size: 24px;
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; }
   h2.display {
-    font-size: 64px; }
+    font-size: 64px;
+    margin: 0;
+      margin-top: 40px;
+      margin-bottom: 40px; }
 
 h3 {
   font-size: 24px;
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; }
   h3.display {
-    font-size: 55px; }
+    font-size: 55px;
+    margin: 0;
+      margin-top: 30px;
+      margin-bottom: 30px; }
 
 h4 {
   font-size: 18px;
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px; }
   h4.display {
-    font-size: 45px; }
+    font-size: 45px;
+    margin: 0;
+      margin-top: 30px;
+      margin-bottom: 30px; }
 
 h5 {
   font-size: 18px;
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px; }
   h5.display {
-    font-size: 35px; }
+    font-size: 35px;
+    margin: 0;
+      margin-top: 20px;
+      margin-bottom: 20px; }
 
 h6 {
   font-size: 18px;
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 nav {
   font-size: 18px; }
@@ -125,7 +159,10 @@ blockquote p {
 
 p {
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 p,
 ul,
@@ -3539,334 +3576,334 @@ table {
  =============================================================*/
 /*============================================================= Helpers =============================================================*/
 .text-left {
-  text-align: left; }
+  text-align: left !important; }
 
 .text-center {
-  text-align: center; }
+  text-align: center !important; }
 
 .text-right {
-  text-align: right; }
+  text-align: right !important; }
 
 .clear-float {
-  float: none; }
+  float: none !important; }
 
 .hidden {
-  display: none; }
+  display: none !important; }
 
 .no-marg {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 0;
-  margin-left: 0; }
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
 
 .no-marg-top {
-  margin-top: 0; }
+  margin-top: 0 !important; }
 
 .no-marg-bottom {
-  margin-bottom: 0; }
+  margin-bottom: 0 !important; }
 
 .no-marg-left {
-  margin-left: 0; }
+  margin-left: 0 !important; }
 
 .no-marg-right {
-  margin-right: 0; }
+  margin-right: 0 !important; }
 
 .no-padd {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-right: 0;
-  padding-left: 0; }
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
 
 .no-padd-top {
-  padding-top: 0; }
+  padding-top: 0 !important; }
 
 .no-padd-bottom {
-  padding-bottom: 0; }
+  padding-bottom: 0 !important; }
 
 .no-padd-left {
-  padding-left: 0; }
+  padding-left: 0 !important; }
 
 .no-padd-right {
-  padding-right: 0; }
+  padding-right: 0 !important; }
 
 .no-select {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important; }
 
 /*============================================================= Color helpers =============================================================*/
 .bg-primary {
-  background-color: #1b4568; }
+  background-color: #1b4568 !important; }
 
 .bg-secondary {
-  background-color: #266dd3; }
+  background-color: #266dd3 !important; }
 
 .bg-danger {
-  background-color: #ff312e; }
+  background-color: #ff312e !important; }
 
 .bg-success {
-  background-color: #97db4f; }
+  background-color: #97db4f !important; }
 
 .bg-warning {
-  background-color: #f46036; }
+  background-color: #f46036 !important; }
 
 .bg-black {
-  background-color: #000103; }
+  background-color: #000103 !important; }
 
 .bg-white {
-  background-color: #ffffff; }
+  background-color: #ffffff !important; }
 
 .bg-dark-gray {
-  background-color: #1b1b1b; }
+  background-color: #1b1b1b !important; }
 
 .bg-gray {
-  background-color: #767676; }
+  background-color: #767676 !important; }
 
 .bg-light-gray {
-  background-color: #c6c6c6; }
+  background-color: #c6c6c6 !important; }
 
 .bg-lighter-gray {
-  background-color: #dddddd; }
+  background-color: #dddddd !important; }
 
 .bg-grayscale-95 {
-  background-color: #272727; }
+  background-color: #272727 !important; }
 
 .bg-grayscale-90 {
-  background-color: #313131; }
+  background-color: #313131 !important; }
 
 .bg-grayscale-85 {
-  background-color: #3d3d3d; }
+  background-color: #3d3d3d !important; }
 
 .bg-grayscale-80 {
-  background-color: #494949; }
+  background-color: #494949 !important; }
 
 .bg-grayscale-75 {
-  background-color: #545454; }
+  background-color: #545454 !important; }
 
 .bg-grayscale-70 {
-  background-color: #5f5f5f; }
+  background-color: #5f5f5f !important; }
 
 .bg-grayscale-65 {
-  background-color: #6b6b6b; }
+  background-color: #6b6b6b !important; }
 
 .bg-grayscale-60 {
-  background-color: #767676; }
+  background-color: #767676 !important; }
 
 .bg-grayscale-55 {
-  background-color: #828282; }
+  background-color: #828282 !important; }
 
 .bg-grayscale-50 {
-  background-color: #8d8d8d; }
+  background-color: #8d8d8d !important; }
 
 .bg-grayscale-45 {
-  background-color: #989898; }
+  background-color: #989898 !important; }
 
 .bg-grayscale-40 {
-  background-color: #a4a4a4; }
+  background-color: #a4a4a4 !important; }
 
 .bg-grayscale-35 {
-  background-color: #afafaf; }
+  background-color: #afafaf !important; }
 
 .bg-grayscale-30 {
-  background-color: #bababa; }
+  background-color: #bababa !important; }
 
 .bg-grayscale-25 {
-  background-color: #c6c6c6; }
+  background-color: #c6c6c6 !important; }
 
 .bg-grayscale-20 {
-  background-color: #d1d1d1; }
+  background-color: #d1d1d1 !important; }
 
 .bg-grayscale-15 {
-  background-color: #dddddd; }
+  background-color: #dddddd !important; }
 
 .bg-grayscale-10 {
-  background-color: #e8e8e8; }
+  background-color: #e8e8e8 !important; }
 
 .bg-grayscale-5 {
-  background-color: #f3f3f3; }
+  background-color: #f3f3f3 !important; }
 
 /*============================================================= Borders helpers =============================================================*/
 .border-primary {
-  border-color: #1b4568; }
+  border-color: #1b4568 !important; }
 
 .border-secondary {
-  border-color: #266dd3; }
+  border-color: #266dd3 !important; }
 
 .border-danger {
-  border-color: #ff312e; }
+  border-color: #ff312e !important; }
 
 .border-success {
-  border-color: #97db4f; }
+  border-color: #97db4f !important; }
 
 .border-warning {
-  border-color: #f46036; }
+  border-color: #f46036 !important; }
 
 .border-black {
-  border-color: #000103; }
+  border-color: #000103 !important; }
 
 .border-white {
-  border-color: #ffffff; }
+  border-color: #ffffff !important; }
 
 .border-dark-gray {
-  border-color: #1b1b1b; }
+  border-color: #1b1b1b !important; }
 
 .border-gray {
-  border-color: #767676; }
+  border-color: #767676 !important; }
 
 .border-light-gray {
-  border-color: #c6c6c6; }
+  border-color: #c6c6c6 !important; }
 
 .border-lighter-gray {
-  border-color: #dddddd; }
+  border-color: #dddddd !important; }
 
 .border-grayscale-95 {
-  border-color: #272727; }
+  border-color: #272727 !important; }
 
 .border-grayscale-90 {
-  border-color: #313131; }
+  border-color: #313131 !important; }
 
 .border-grayscale-85 {
-  border-color: #3d3d3d; }
+  border-color: #3d3d3d !important; }
 
 .border-grayscale-80 {
-  border-color: #494949; }
+  border-color: #494949 !important; }
 
 .border-grayscale-75 {
-  border-color: #545454; }
+  border-color: #545454 !important; }
 
 .border-grayscale-70 {
-  border-color: #5f5f5f; }
+  border-color: #5f5f5f !important; }
 
 .border-grayscale-65 {
-  border-color: #6b6b6b; }
+  border-color: #6b6b6b !important; }
 
 .border-grayscale-60 {
-  border-color: #767676; }
+  border-color: #767676 !important; }
 
 .border-grayscale-55 {
-  border-color: #828282; }
+  border-color: #828282 !important; }
 
 .border-grayscale-50 {
-  border-color: #8d8d8d; }
+  border-color: #8d8d8d !important; }
 
 .border-grayscale-45 {
-  border-color: #989898; }
+  border-color: #989898 !important; }
 
 .border-grayscale-40 {
-  border-color: #a4a4a4; }
+  border-color: #a4a4a4 !important; }
 
 .border-grayscale-35 {
-  border-color: #afafaf; }
+  border-color: #afafaf !important; }
 
 .border-grayscale-30 {
-  border-color: #bababa; }
+  border-color: #bababa !important; }
 
 .border-grayscale-25 {
-  border-color: #c6c6c6; }
+  border-color: #c6c6c6 !important; }
 
 .border-grayscale-20 {
-  border-color: #d1d1d1; }
+  border-color: #d1d1d1 !important; }
 
 .border-grayscale-15 {
-  border-color: #dddddd; }
+  border-color: #dddddd !important; }
 
 .border-grayscale-10 {
-  border-color: #e8e8e8; }
+  border-color: #e8e8e8 !important; }
 
 .border-grayscale-5 {
-  border-color: #f3f3f3; }
+  border-color: #f3f3f3 !important; }
 
 /*============================================================= Font color helpers =============================================================*/
 .font-primary {
-  color: #1b4568; }
+  color: #1b4568 !important; }
 
 .font-secondary {
-  color: #266dd3; }
+  color: #266dd3 !important; }
 
 .font-danger {
-  color: #ff312e; }
+  color: #ff312e !important; }
 
 .font-success {
-  color: #97db4f; }
+  color: #97db4f !important; }
 
 .font-warning {
-  color: #f46036; }
+  color: #f46036 !important; }
 
 .font-black {
-  color: #000103; }
+  color: #000103 !important; }
 
 .font-white {
-  color: #ffffff; }
+  color: #ffffff !important; }
 
 .font-dark-gray {
-  color: #1b1b1b; }
+  color: #1b1b1b !important; }
 
 .font-gray {
-  color: #767676; }
+  color: #767676 !important; }
 
 .font-light-gray {
-  color: #c6c6c6; }
+  color: #c6c6c6 !important; }
 
 .font-lighter-gray {
-  color: #dddddd; }
+  color: #dddddd !important; }
 
 .font-grayscale-95 {
-  color: #272727; }
+  color: #272727 !important; }
 
 .font-grayscale-90 {
-  color: #313131; }
+  color: #313131 !important; }
 
 .font-grayscale-85 {
-  color: #3d3d3d; }
+  color: #3d3d3d !important; }
 
 .font-grayscale-80 {
-  color: #494949; }
+  color: #494949 !important; }
 
 .font-grayscale-75 {
-  color: #545454; }
+  color: #545454 !important; }
 
 .font-grayscale-70 {
-  color: #5f5f5f; }
+  color: #5f5f5f !important; }
 
 .font-grayscale-65 {
-  color: #6b6b6b; }
+  color: #6b6b6b !important; }
 
 .font-grayscale-60 {
-  color: #767676; }
+  color: #767676 !important; }
 
 .font-grayscale-55 {
-  color: #828282; }
+  color: #828282 !important; }
 
 .font-grayscale-50 {
-  color: #8d8d8d; }
+  color: #8d8d8d !important; }
 
 .font-grayscale-45 {
-  color: #989898; }
+  color: #989898 !important; }
 
 .font-grayscale-40 {
-  color: #a4a4a4; }
+  color: #a4a4a4 !important; }
 
 .font-grayscale-35 {
-  color: #afafaf; }
+  color: #afafaf !important; }
 
 .font-grayscale-30 {
-  color: #bababa; }
+  color: #bababa !important; }
 
 .font-grayscale-25 {
-  color: #c6c6c6; }
+  color: #c6c6c6 !important; }
 
 .font-grayscale-20 {
-  color: #d1d1d1; }
+  color: #d1d1d1 !important; }
 
 .font-grayscale-15 {
-  color: #dddddd; }
+  color: #dddddd !important; }
 
 .font-grayscale-10 {
-  color: #e8e8e8; }
+  color: #e8e8e8 !important; }
 
 .font-grayscale-5 {
-  color: #f3f3f3; }
+  color: #f3f3f3 !important; }
 
 /*============================================================= Shadow top color helpers =============================================================*/
 .shadow-top-primary {

@@ -9,3 +9,5 @@ collections:
     output: true
   helpers:
     output: true
+sass:
+    style: compressed

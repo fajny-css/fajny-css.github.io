@@ -2,311 +2,289 @@
 layout: detail
 title: Forms
 desc: Forms for Fajny CSS
+intro: Forms have different components. Since Fajny does not use JavaScript some components can not be properly designed. An error text is already coded, but you would have to use a JS form checker.
+file_include: components/forms
 additional-css: .error{display:none}select:selected{color:red}
 ---
-<p>Forms have different components. Since Fajny does not use JavaScript some components can not be properly designed. An error text is already coded, but you would have to use a JS form checker.</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/forms";</code>
-</pre>
-
-<h2 >Inputs</h2>
+<h2>Inputs</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="input-container">
-               <input type="text" id="input1" name="input" required />
-               <span class="bar"></span>
-               <label for="input1">Email</label>
-               <div class="error">
-                    <div>Email is required</div>
-                    <div>Email must be a valid email address</div>
-               </div>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="input-container"&gt;
-     &lt;input type="text" id="input1" name="input" required /&gt;
-     &lt;span class="bar"&gt;&lt;/span&gt;
-     &lt;label for="input1"&gt;Email&lt;/label&gt;
-     &lt;div class="error"&gt;
-          &lt;div&gt;Email is required&lt;/div&gt;
-          &lt;div&gt;Email must be a valid email address&lt;/div&gt;
-     &lt;/div&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<div class="input-container">
+			<input type="text" id="input1" name="input" required />
+			<span class="bar"></span>
+			<label for="input1">Email</label>
+			<div class="error">
+				<div>Email is required</div>
+				<div>Email must be a valid email address</div>
+			</div>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;input-container&quot;&gt;
+    &lt;input type=&quot;text&quot; id=&quot;input1&quot; name=&quot;input&quot; required /&gt;
+    &lt;span class=&quot;bar&quot;&gt;&lt;/span&gt;
+    &lt;label for=&quot;input1&quot;&gt;Email&lt;/label&gt;
+    &lt;div class=&quot;error&quot;&gt;
+            &lt;div&gt;Email is required&lt;/div&gt;
+            &lt;div&gt;Email must be a valid email address&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Inputs with icon</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="input-container input-icon-container">
-               <input type="text" id="input2" name="input" required />
-               <span class="bar"></span>
-               <label for="input2">Search</label>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="input-container input-icon-container"&gt;
-     &lt;input type="text" id="input2" name="input" required /&gt;
-     &lt;span class="bar"&gt;&lt;/span&gt;
-     &lt;label for="input2"&gt;Search&lt;/label&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<div class="input-container input-icon-container">
+			<input type="text" id="input2" name="input" required />
+			<span class="bar"></span>
+			<label for="input2">Search</label>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;input-container input-icon-container&quot;&gt;
+    &lt;input type=&quot;text&quot; id=&quot;input2&quot; name=&quot;input&quot; required /&gt;
+    &lt;span class=&quot;bar&quot;&gt;&lt;/span&gt;
+    &lt;label for=&quot;input2&quot;&gt;Search&lt;/label&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Inputs with two icons</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="input-container input-double-icon-container">
-               <input type="text" id="input3" name="input" required />
-               <span class="bar"></span>
-               <label for="input3">Search</label>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="input-container input-double-icon-container"&gt;
-     &lt;input type="text" id="input3" name="input" required /&gt;
-     &lt;span class="bar"&gt;&lt;/span&gt;
-     &lt;label for="input3"&gt;Search&lt;/label&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<div class="input-container input-double-icon-container">
+			<input type="text" id="input3" name="input" required />
+			<span class="bar"></span>
+			<label for="input3">Search</label>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;input-container input-double-icon-container&quot;&gt;
+    &lt;input type=&quot;text&quot; id=&quot;input3&quot; name=&quot;input&quot; required /&gt;
+    &lt;span class=&quot;bar&quot;&gt;&lt;/span&gt;
+    &lt;label for=&quot;input3&quot;&gt;Search&lt;/label&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Inputs disabled</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="input-container">
-               <input type="text" id="input4" required disabled />
-               <span class="bar"></span>
-               <label for="input4">Email</label>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="input-container"&gt;
-     &lt;input type="text" id="input4" required disabled /&gt;
-     &lt;span class="bar"&gt;&lt;/span&gt;
-     &lt;label for="input4"&gt;Email&lt;/label&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<div class="input-container">
+			<input type="text" id="input4" required disabled />
+			<span class="bar"></span>
+			<label for="input4">Email</label>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;input-container&quot;&gt;
+    &lt;input type=&quot;text&quot; id=&quot;input4&quot; required disabled /&gt;
+    &lt;span class=&quot;bar&quot;&gt;&lt;/span&gt;
+    &lt;label for=&quot;input4&quot;&gt;Email&lt;/label&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Textarea</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="input-container">
-               <textarea name="" id="textarea" name="" required></textarea>
-               <span class="bar"></span>
-               <label for="textarea">Your message</label>
-               <div class="error">
-                    <div>Message is required</div>
-               </div>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="input-container"&gt;
-     &lt;textarea name="" id="textarea" name="" required&gt;&lt;/textarea&gt;
-     &lt;span class="bar"&gt;&lt;/span&gt;
-     &lt;label for="textarea"&gt;Your message&lt;/label&gt;
-     &lt;div class="error"&gt;
-          &lt;div&gt;Message is required&lt;/div&gt;
-     &lt;/div&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<div class="input-container">
+			<textarea name="" id="textarea" name="" required></textarea>
+			<span class="bar"></span>
+			<label for="textarea">Your message</label>
+			<div class="error">
+				<div>Message is required</div>
+			</div>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;input-container&quot;&gt;
+    &lt;textarea name=&quot;&quot; id=&quot;textarea&quot; name=&quot;&quot; required&gt;&lt;/textarea&gt;
+    &lt;span class=&quot;bar&quot;&gt;&lt;/span&gt;
+    &lt;label for=&quot;textarea&quot;&gt;Your message&lt;/label&gt;
+    &lt;div class=&quot;error&quot;&gt;
+            &lt;div&gt;Message is required&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Select</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="select-container">
-               <select>
-                    <option value="value1">Label 1</option>
-                    <option value="value2">Label 2</option>
-                    <option value="value3">Label 3</option>
-                    <option value="value4">Label 4</option>
-               </select>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="select-container"&gt;
-     &lt;select&gt;
-          &lt;option value="value1"&gt;Label 1&lt;/option&gt;
-          &lt;option value="value2"&gt;Label 2&lt;/option&gt;
-          &lt;option value="value3"&gt;Label 3&lt;/option&gt;
-          &lt;option value="value4"&gt;Label 4&lt;/option&gt;
-     &lt;/select&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<div class="select-container">
+			<select>
+				<option value="value1">Label 1</option>
+				<option value="value2">Label 2</option>
+				<option value="value3">Label 3</option>
+				<option value="value4">Label 4</option>
+			</select>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;select-container&quot;&gt;
+    &lt;select&gt;
+            &lt;option value=&quot;value1&quot;&gt;Label 1&lt;/option&gt;
+            &lt;option value=&quot;value2&quot;&gt;Label 2&lt;/option&gt;
+            &lt;option value=&quot;value3&quot;&gt;Label 3&lt;/option&gt;
+            &lt;option value=&quot;value4&quot;&gt;Label 4&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Radio buttons</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="radio-container">
-               <input type="radio" id="radio1" name="radio" checked />
-               <label for="radio1" class="radio-label"></label>
-               <label for="radio1" class="text-label">Label</label>
-          </div>
+	<div class="list-results">
+		<div class="radio-container">
+			<input type="radio" id="radio1" name="radio" checked />
+			<label for="radio1" class="radio-label"></label>
+			<label for="radio1" class="text-label">Label</label>
+		</div>
 
-          <div class="radio-container">
-               <input type="radio" id="radio2" name="radio" />
-               <label for="radio2" class="radio-label"></label>
-               <label for="radio2" class="text-label">Label</label>
-          </div>
+		<div class="radio-container">
+			<input type="radio" id="radio2" name="radio" />
+			<label for="radio2" class="radio-label"></label>
+			<label for="radio2" class="text-label">Label</label>
+		</div>
 
-          <div class="radio-container">
-               <input type="radio" id="radio3" name="radio-disabled" disabled checked />
-               <label for="radio3" class="radio-label"></label>
-               <label for="radio3" class="text-label">Label</label>
-          </div>
+		<div class="radio-container">
+			<input type="radio" id="radio3" name="radio-disabled" disabled checked />
+			<label for="radio3" class="radio-label"></label>
+			<label for="radio3" class="text-label">Label</label>
+		</div>
 
-          <div class="radio-container">
-               <input type="radio" id="radio4" name="radio-disabled" disabled />
-               <label for="radio4" class="radio-label"></label>
-               <label for="radio4" class="text-label">Label</label>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="radio-container"&gt;
-     &lt;input type="radio" id="radio1" name="radio" checked /&gt;
-     &lt;label for="radio1" class="radio-label"&gt;&lt;/label&gt;
-     &lt;label for="radio1" class="text-label"&gt;Label&lt;/label&gt;
+		<div class="radio-container">
+			<input type="radio" id="radio4" name="radio-disabled" disabled />
+			<label for="radio4" class="radio-label"></label>
+			<label for="radio4" class="text-label">Label</label>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;radio-container&quot;&gt;
+    &lt;input type=&quot;radio&quot; id=&quot;radio1&quot; name=&quot;radio&quot; checked /&gt;
+    &lt;label for=&quot;radio1&quot; class=&quot;radio-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;radio1&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
 
-&lt;div class="radio-container"&gt;
-     &lt;input type="radio" id="radio2" name="radio" /&gt;
-     &lt;label for="radio2" class="radio-label"&gt;&lt;/label&gt;
-     &lt;label for="radio2" class="text-label"&gt;Label&lt;/label&gt;
+&lt;div class=&quot;radio-container&quot;&gt;
+    &lt;input type=&quot;radio&quot; id=&quot;radio2&quot; name=&quot;radio&quot; /&gt;
+    &lt;label for=&quot;radio2&quot; class=&quot;radio-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;radio2&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
 
-&lt;div class="radio-container"&gt;
-     &lt;input type="radio" id="radio3" name="radio-disabled" disabled checked /&gt;
-     &lt;label for="radio3" class="radio-label"&gt;&lt;/label&gt;
-     &lt;label for="radio3" class="text-label"&gt;Label&lt;/label&gt;
+&lt;div class=&quot;radio-container&quot;&gt;
+    &lt;input type=&quot;radio&quot; id=&quot;radio3&quot; name=&quot;radio-disabled&quot; disabled checked /&gt;
+    &lt;label for=&quot;radio3&quot; class=&quot;radio-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;radio3&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
 
-&lt;div class="radio-container"&gt;
-     &lt;input type="radio" id="radio4" name="radio-disabled" disabled /&gt;
-     &lt;label for="radio4" class="radio-label"&gt;&lt;/label&gt;
-     &lt;label for="radio4" class="text-label"&gt;Label&lt;/label&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+&lt;div class=&quot;radio-container&quot;&gt;
+    &lt;input type=&quot;radio&quot; id=&quot;radio4&quot; name=&quot;radio-disabled&quot; disabled /&gt;
+    &lt;label for=&quot;radio4&quot; class=&quot;radio-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;radio4&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Checkboxes</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="checkbox-container">
-               <input type="checkbox" id="checkbox1" name="checkbox" checked />
-               <label for="checkbox1" class="checkbox-label"></label>
-               <label for="checkbox1" class="text-label">Label</label>
-          </div>
-          <div class="checkbox-container">
-               <input type="checkbox" id="checkbox2" name="checkbox" />
-               <label for="checkbox2" class="checkbox-label"></label>
-               <label for="checkbox2" class="text-label">Label</label>
-          </div>
+	<div class="list-results">
+		<div class="checkbox-container">
+			<input type="checkbox" id="checkbox1" name="checkbox" checked />
+			<label for="checkbox1" class="checkbox-label"></label>
+			<label for="checkbox1" class="text-label">Label</label>
+		</div>
+		<div class="checkbox-container">
+			<input type="checkbox" id="checkbox2" name="checkbox" />
+			<label for="checkbox2" class="checkbox-label"></label>
+			<label for="checkbox2" class="text-label">Label</label>
+		</div>
 
-          <div class="checkbox-container">
-               <input type="checkbox" id="checkbox3" name="checkbox" disabled checked />
-               <label for="checkbox3" class="checkbox-label"></label>
-               <label for="checkbox3" class="text-label">Label</label>
-          </div>
+		<div class="checkbox-container">
+			<input type="checkbox" id="checkbox3" name="checkbox" disabled checked />
+			<label for="checkbox3" class="checkbox-label"></label>
+			<label for="checkbox3" class="text-label">Label</label>
+		</div>
 
-          <div class="checkbox-container">
-               <input type="checkbox" id="checkbox4" name="checkbox" disabled />
-               <label for="checkbox4" class="checkbox-label"></label>
-               <label for="checkbox4" class="text-label">Label</label>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="checkbox-container"&gt;
-     &lt;input type="checkbox" id="checkbox1" name="checkbox" checked /&gt;
-     &lt;label for="checkbox1" class="checkbox-label"&gt;&lt;/label&gt;
-     &lt;label for="checkbox1" class="text-label"&gt;Label&lt;/label&gt;
+		<div class="checkbox-container">
+			<input type="checkbox" id="checkbox4" name="checkbox" disabled />
+			<label for="checkbox4" class="checkbox-label"></label>
+			<label for="checkbox4" class="text-label">Label</label>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;checkbox-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;checkbox1&quot; name=&quot;checkbox&quot; checked /&gt;
+    &lt;label for=&quot;checkbox1&quot; class=&quot;checkbox-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;checkbox1&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
-&lt;div class="checkbox-container"&gt;
-     &lt;input type="checkbox" id="checkbox2" name="checkbox" /&gt;
-     &lt;label for="checkbox2" class="checkbox-label"&gt;&lt;/label&gt;
-     &lt;label for="checkbox2" class="text-label"&gt;Label&lt;/label&gt;
-&lt;/div&gt;
-
-&lt;div class="checkbox-container"&gt;
-     &lt;input type="checkbox" id="checkbox3" name="checkbox" disabled checked /&gt;
-     &lt;label for="checkbox3" class="checkbox-label"&gt;&lt;/label&gt;
-     &lt;label for="checkbox3" class="text-label"&gt;Label&lt;/label&gt;
+&lt;div class=&quot;checkbox-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;checkbox2&quot; name=&quot;checkbox&quot; /&gt;
+    &lt;label for=&quot;checkbox2&quot; class=&quot;checkbox-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;checkbox2&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
 
-&lt;div class="checkbox-container"&gt;
-     &lt;input type="checkbox" id="checkbox4" name="checkbox" disabled /&gt;
-     &lt;label for="checkbox4" class="checkbox-label"&gt;&lt;/label&gt;
-     &lt;label for="checkbox4" class="text-label"&gt;Label&lt;/label&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+&lt;div class=&quot;checkbox-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;checkbox3&quot; name=&quot;checkbox&quot; disabled checked /&gt;
+    &lt;label for=&quot;checkbox3&quot; class=&quot;checkbox-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;checkbox3&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;checkbox-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;checkbox4&quot; name=&quot;checkbox&quot; disabled /&gt;
+    &lt;label for=&quot;checkbox4&quot; class=&quot;checkbox-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;checkbox4&quot; class=&quot;text-label&quot;&gt;Label&lt;/label&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>
 
 <h2>Toggle switches</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="toggle-switch-container">
-               <input type="checkbox" id="toggle1" name="toggle" checked />
-               <label for="toggle1" class="toggle-label"></label>
-               <label for="toggle1" class="label-text">Label</label>
-          </div>
-          <div class="toggle-switch-container">
-               <input type="checkbox" id="toggle2" name="toggle" />
-               <label for="toggle2" class="toggle-label"></label>
-               <label for="toggle2" class="label-text">Label</label>
-          </div>
-          <div class="toggle-switch-container">
-               <input type="checkbox" id="toggle3" name="toggle" disabled checked />
-               <label for="toggle3" class="toggle-label"></label>
-               <label for="toggle3" class="label-text">Label</label>
-          </div>
-          <div class="toggle-switch-container">
-               <input type="checkbox" id="toggle4" name="toggle" disabled />
-               <label for="toggle4" class="toggle-label"></label>
-               <label for="toggle4" class="label-text">Label</label>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="toggle-switch-container"&gt;
-     &lt;input type="checkbox" id="toggle1" name="toggle" checked /&gt;
-     &lt;label for="toggle1" class="toggle-label"&gt;&lt;/label&gt;
-     &lt;label for="toggle1" class="label-text"&gt;Label&lt;/label&gt;
+	<div class="list-results">
+		<div class="toggle-switch-container">
+			<input type="checkbox" id="toggle1" name="toggle" checked />
+			<label for="toggle1" class="toggle-label"></label>
+			<label for="toggle1" class="label-text">Label</label>
+		</div>
+		<div class="toggle-switch-container">
+			<input type="checkbox" id="toggle2" name="toggle" />
+			<label for="toggle2" class="toggle-label"></label>
+			<label for="toggle2" class="label-text">Label</label>
+		</div>
+		<div class="toggle-switch-container">
+			<input type="checkbox" id="toggle3" name="toggle" disabled checked />
+			<label for="toggle3" class="toggle-label"></label>
+			<label for="toggle3" class="label-text">Label</label>
+		</div>
+		<div class="toggle-switch-container">
+			<input type="checkbox" id="toggle4" name="toggle" disabled />
+			<label for="toggle4" class="toggle-label"></label>
+			<label for="toggle4" class="label-text">Label</label>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;toggle-switch-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;toggle1&quot; name=&quot;toggle&quot; checked /&gt;
+    &lt;label for=&quot;toggle1&quot; class=&quot;toggle-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;toggle1&quot; class=&quot;label-text&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
-&lt;div class="toggle-switch-container"&gt;
-     &lt;input type="checkbox" id="toggle2" name="toggle" /&gt;
-     &lt;label for="toggle2" class="toggle-label"&gt;&lt;/label&gt;
-     &lt;label for="toggle2" class="label-text"&gt;Label&lt;/label&gt;
+&lt;div class=&quot;toggle-switch-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;toggle2&quot; name=&quot;toggle&quot; /&gt;
+    &lt;label for=&quot;toggle2&quot; class=&quot;toggle-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;toggle2&quot; class=&quot;label-text&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
-&lt;div class="toggle-switch-container"&gt;
-     &lt;input type="checkbox" id="toggle3" name="toggle" disabled checked /&gt;
-     &lt;label for="toggle3" class="toggle-label"&gt;&lt;/label&gt;
-     &lt;label for="toggle3" class="label-text"&gt;Label&lt;/label&gt;
+&lt;div class=&quot;toggle-switch-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;toggle3&quot; name=&quot;toggle&quot; disabled checked /&gt;
+    &lt;label for=&quot;toggle3&quot; class=&quot;toggle-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;toggle3&quot; class=&quot;label-text&quot;&gt;Label&lt;/label&gt;
 &lt;/div&gt;
-&lt;div class="toggle-switch-container"&gt;
-     &lt;input type="checkbox" id="toggle4" name="toggle" disabled /&gt;
-     &lt;label for="toggle4" class="toggle-label"&gt;&lt;/label&gt;
-     &lt;label for="toggle4" class="label-text"&gt;Label&lt;/label&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+&lt;div class=&quot;toggle-switch-container&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;toggle4&quot; name=&quot;toggle&quot; disabled /&gt;
+    &lt;label for=&quot;toggle4&quot; class=&quot;toggle-label&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;toggle4&quot; class=&quot;label-text&quot;&gt;Label&lt;/label&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>

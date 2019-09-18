@@ -1,0 +1,6 @@
+- name: link_cdn
+  link_framework: "&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/fajny-css/css/fajny.min.css&quot; type=&quot;text/css&quot; /&gt;"
+  link_icons: "&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/fajny-css-icons/css/fajny-icons.min.css&quot; type=&quot;text/css&quot; /&gt;"
+- name: link_local
+  link_framework: "&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/css/fajny.min.css&quot; type=&quot;text/css&quot; /&gt;"
+  link_icons: "&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/css/fajny-icons.min.css&quot; type=&quot;text/css&quot; /&gt;"

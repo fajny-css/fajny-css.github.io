@@ -1,0 +1,6 @@
+- name: email
+  link: julien.sebag@me.com
+  icon: mail-bold
+- name: github
+  link: https://github.com/JulSeb42/fajny-css
+  icon: github-brand

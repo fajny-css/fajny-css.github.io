@@ -2,16 +2,11 @@
 layout: detail
 title: Buttons
 desc: Buttons for Fajny CSS
+intro: Buttons exist in different sizes and colors.
+file_include: components/buttons
 additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .dropdown-content{top:38px}.results .list-results .dropdown-content li{float:none;margin-right:0}
 ---
-<p>Buttons exist in different sizes and colors.</p>
-
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/buttons";</code>
-</pre>
-
-<h2 >Normal</h2>
+<h2>Normal</h2>
 <div class="results">
      <div class="list-results">
                <a href="#" class="btn btn-rectangle btn-primary">Primary</a>
@@ -23,15 +18,13 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
                <a href="#" class="btn btn-rectangle btn-disabled">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-rectangle btn-primary"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-secondary"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-success"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-danger"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-warning"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-white"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-disabled"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-primary&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-success&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-danger&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-warning&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-white&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-disabled&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -48,16 +41,14 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-rectangle btn-outline btn-disabled">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-rectangle btn-outline btn-primary"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-secondary"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-success"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-danger"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-warning"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-gray"&gt;Gray&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-white"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-disabled"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-primary&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-success&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-danger&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-warning&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-gray&quot;&gt;Gray&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-white&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-disabled&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -73,15 +64,13 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-pill btn-disabled">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-pill btn-primary"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-secondary"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-success"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-danger"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-warning"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-white"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-disabled"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-primary&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-success&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-danger&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-warning&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-white&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-disabled&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -98,16 +87,14 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-pill btn-outline btn-disabled">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-pill btn-outline btn-primary"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-secondary"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-success"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-danger"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-warning"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-gray"&gt;Gray&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-white"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-disabled"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-primary&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-success&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-danger&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-warning&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-gray&quot;&gt;Gray&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-white&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-disabled&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -123,15 +110,13 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-rectangle btn-disabled btn-large">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-rectangle btn-primary btn-large"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-secondary btn-large"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-success btn-large"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-danger btn-large"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-warning btn-large"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-white btn-large"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-disabled btn-large"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-primary btn-large&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-secondary btn-large&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-success btn-large&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-danger btn-large&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-warning btn-large&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-white btn-large&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-disabled btn-large&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -148,16 +133,14 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-rectangle btn-outline btn-disabled btn-large">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-rectangle btn-outline btn-primary btn-large"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-secondary btn-large"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-success btn-large"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-danger btn-large"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-warning btn-large"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-gray btn-large"&gt;Gray&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-white btn-large"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-rectangle btn-outline btn-disabled btn-large"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-primary btn-large&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-secondary btn-large&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-success btn-large&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-danger btn-large&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-warning btn-large&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-gray btn-large&quot;&gt;Gray&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-white btn-large&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-outline btn-disabled btn-large&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -173,15 +156,13 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-pill btn-disabled btn-large">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-pill btn-primary btn-large"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-secondary btn-large"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-success btn-large"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-danger btn-large"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-warning btn-large"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-white btn-large"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-disabled btn-large"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-primary btn-large&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-secondary btn-large&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-success btn-large&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-danger btn-large&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-warning btn-large&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-white btn-large&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-disabled btn-large&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -198,16 +179,14 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-pill btn-outline btn-disabled btn-large">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-pill btn-outline btn-primary btn-large"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-secondary btn-large"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-success btn-large"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-danger btn-large"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-warning btn-large"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-gray btn-large"&gt;Gray&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-white btn-large"&gt;White&lt;/a&gt;
-&lt;a href="#" class="btn btn-pill btn-outline btn-disabled btn-large"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-primary btn-large&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-secondary btn-large&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-success btn-large&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-danger btn-large&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-warning btn-large&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-gray btn-large&quot;&gt;Gray&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-white btn-large&quot;&gt;White&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-pill btn-outline btn-disabled btn-large&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -217,9 +196,7 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-rectangle btn-primary">Primary with Icon <i class="icon icon-save-solid"></i></a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-rectangle btn-primary"&gt;Primary with Icon &lt;i class="icon icon-save-solid"&gt;&lt;/i&gt;&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-primary&quot;&gt;Primary with Icon &lt;i class=&quot;icon icon-save-solid&quot;&gt;&lt;/i&gt;&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -229,9 +206,7 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-round"><i class="icon icon-edit-solid"></i></a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-round"&gt;&lt;i class="icon icon-edit-solid"&gt;&lt;/i&gt;&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-round&quot;&gt;&lt;i class=&quot;icon icon-edit-solid&quot;&gt;&lt;/i&gt;&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -246,14 +221,12 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           <a href="#" class="btn btn-full btn-disabled">Disabled</a>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;a href="#" class="btn btn-full btn-primary"&gt;Primary&lt;/a&gt;
-&lt;a href="#" class="btn btn-full btn-secondary"&gt;Secondary&lt;/a&gt;
-&lt;a href="#" class="btn btn-full btn-success"&gt;Success&lt;/a&gt;
-&lt;a href="#" class="btn btn-full btn-danger"&gt;Danger&lt;/a&gt;
-&lt;a href="#" class="btn btn-full btn-warning"&gt;Warning&lt;/a&gt;
-&lt;a href="#" class="btn btn-full btn-disabled"&gt;Disabled&lt;/a&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;a href=&quot;#&quot; class=&quot;btn btn-full btn-primary&quot;&gt;Primary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-full btn-secondary&quot;&gt;Secondary&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-full btn-success&quot;&gt;Success&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-full btn-danger&quot;&gt;Danger&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-full btn-warning&quot;&gt;Warning&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-full btn-disabled&quot;&gt;Disabled&lt;/a&gt;" %}
      </div>
 </div>
 
@@ -272,17 +245,15 @@ additional-css: .btn{margin-right:20px}.btn-full{margin-bottom:20px}.dropdown .d
           </div>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="dropdown"&gt;
-     &lt;a href="#" class="btn btn-rectangle btn-primary btn-dropdown"&gt;Dropdown&lt;/a&gt;
-     &lt;ul class="dropdown-content"&gt;
-          &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-     &lt;/ul&gt;
-&lt;/div&gt;</code>
-          </pre>
+          {% include code_html.html content="&lt;div class=&quot;dropdown&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-rectangle btn-primary btn-dropdown&quot;&gt;Dropdown&lt;/a&gt;
+    &lt;ul class=&quot;dropdown-content&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;" %}
      </div>
 </div>

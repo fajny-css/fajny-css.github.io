@@ -5,24 +5,30 @@
           <title>Helpers | Fajny CSS</title>
           <meta content="IE=edge" http-equiv="X-UA-Compatible">
           <meta content="width=device-width, initial-scale=1" name="viewport">
-          <meta content="Helpers classes for Fajny CSS" name="description">
-          <meta content="Julien Sebag" name="author">
+          <meta name="description" content="Helpers classes for Fajny CSS">
+          <meta name="author" content="Julien Sebag">
+          <meta property="og:title" content="Helpers" />
+          <meta property="og:type" content="framework.documentation" />
+          <meta property="og:url" content="/helpers/helpers.html" />
+          <meta property="og:image" content="/assets/images/og_cover.png" />
+          <meta property="og:site_name" content="Fajny CSS" />
+          <meta property="og:locale" content="en_GB" />
           <link href="/assets/images/favicon.png" rel="shortcut icon">
 
-          <!-- Styles -->
-          <link href="/assets/css/fajny.min.css" rel="stylesheet" />
-          <link href="/assets/css/fajny-icons.min.css" rel="stylesheet" />
-          <link rel="stylesheet" href="/assets/css/template.css" />
-
+          <!-- CSS -->
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css/css/fajny.min.css" />
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css-icons/css/fajny-icons.min.css" />
+          <link rel="stylesheet" href="/assets/css/template.css">
+          
           <!-- JS -->
           <script src="/assets/js/highlight.pack.js"></script>
-          <script src="/assets/js/includes.js"></script>
 
+          <!-- Additional CSS -->
           <style>.results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-last-child(-n+2){margin-bottom:0}.results .col-3-12:nth-child(4n+0){margin-right:0}.color,.border{width:50px;height:50px;float:left;margin-bottom:20px;margin-right:20px}.border{border-style:solid;border-width:1px}.text{width:auto;float:left;margin-bottom:20px;margin-right:20px}</style>
      </head>
 
      <body>
-          <header class="nav-template">
+         <header class="nav-template">
      <nav>
           <div class="burger" onclick="openNav(this)">
                <span></span>
@@ -60,167 +66,213 @@
                     <a href="/helpers.html" >Helpers</a>
                </li>
                
+
                <li class="social-links">
+                    
+                    
+                    
+                    
+                    
+                    
                     <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                    
+                    
+                    
+                    
+                    
                     <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+                    
+                    
+                    
+                    
                </li>
                <li class="download">
-                    <a href="fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="/fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
                </li>
           </ul>
 
           <div class="logo">
+               
+               
+               
+               
                <a href="/"><img src="/assets/images/logo-fajny-css-white.svg" alt="Logo Fajny CSS"></a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
           </div>
      </nav>
 </header>
-          <main class="container no-padd-bottom">
-               <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
-               <h1 class="no-marg-top">Helpers</h1>
-               <p>Helpers are classes created to override some CSS properties in your HTML. Just add them in the HTML class of your element.</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "helpers";</code>
-</pre>
+         <main class="container no-padd-bottom">
+    <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
+    <h1 class="no-marg-top">Helpers</h1>
 
-<h2 >How to use them</h2>
+    <p><p>Helpers are classes created to override some CSS properties in your HTML. Just add them in the HTML class of your element.</p>
+</p>
+
+    <h2>File to include</h2>
+
+<pre><code class="scss">@include "helpers";</code></pre>
+    
+    <h2>How to use them</h2>
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Effect</h5>
+			<h5>Effect</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Effect</h5>
+			<h5>Effect</h5>
 		</div>
 
 		
 		<div class="col-3-12">
-			<p >.text-left</p>
+			<p>.text-left</p>
 		</div>
 		<div class="col-3-12">
-			<p >Align text on the left.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.text-center</p>
-		</div>
-		<div class="col-3-12">
-			<p >Align text in the center.</p>
+			<p>Align text on the left.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.text-right</p>
+			<p>.text-center</p>
 		</div>
 		<div class="col-3-12">
-			<p >Align text on the right.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.clear-float</p>
-		</div>
-		<div class="col-3-12">
-			<p >Add a float none.</p>
+			<p>Align text in the center.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.hidden</p>
+			<p>.text-right</p>
 		</div>
 		<div class="col-3-12">
-			<p >Add a display none.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.no-marg</p>
-		</div>
-		<div class="col-3-12">
-			<p >Set all the margins to 0.</p>
+			<p>Align text on the right.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.no-marg-top</p>
+			<p>.clear-float</p>
 		</div>
 		<div class="col-3-12">
-			<p >Set the margin-top to 0.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.no-marg-bottom</p>
-		</div>
-		<div class="col-3-12">
-			<p >Set the margin-bottom to 0.</p>
+			<p>Add a float none.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.no-marg-left</p>
+			<p>.hidden</p>
 		</div>
 		<div class="col-3-12">
-			<p >Set the margin-left to 0.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.no-marg-right</p>
-		</div>
-		<div class="col-3-12">
-			<p >Set the margin-right to 0.</p>
+			<p>Add a display none.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.no-padd</p>
+			<p>.no-marg</p>
 		</div>
 		<div class="col-3-12">
-			<p >Set all the paddings to 0.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.no-padd-top</p>
-		</div>
-		<div class="col-3-12">
-			<p >Set the padding-top to 0.</p>
+			<p>Set all the margins to 0.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.no-padd-bottom</p>
+			<p>.no-marg-top</p>
 		</div>
 		<div class="col-3-12">
-			<p >Set the padding-bottom to 0.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.no-padd-left</p>
-		</div>
-		<div class="col-3-12">
-			<p >Set the padding-left to 0.</p>
+			<p>Set the margin-top to 0.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.no-padd-right</p>
+			<p>.no-marg-bottom</p>
 		</div>
 		<div class="col-3-12">
-			<p >Set the padding-right to 0.</p>
-		</div>
-		
-		<div class="col-3-12">
-			<p >.no-select</p>
-		</div>
-		<div class="col-3-12">
-			<p >Prevent the user to select the element.</p>
+			<p>Set the margin-bottom to 0.</p>
 		</div>
 		
 		<div class="col-3-12">
-			<p >.clearfix</p>
+			<p>.no-marg-left</p>
 		</div>
 		<div class="col-3-12">
-			<p >Add a 5px height line and clears both sides between two elements.</p>
+			<p>Set the margin-left to 0.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.no-marg-right</p>
+		</div>
+		<div class="col-3-12">
+			<p>Set the margin-right to 0.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.no-padd</p>
+		</div>
+		<div class="col-3-12">
+			<p>Set all the paddings to 0.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.no-padd-top</p>
+		</div>
+		<div class="col-3-12">
+			<p>Set the padding-top to 0.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.no-padd-bottom</p>
+		</div>
+		<div class="col-3-12">
+			<p>Set the padding-bottom to 0.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.no-padd-left</p>
+		</div>
+		<div class="col-3-12">
+			<p>Set the padding-left to 0.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.no-padd-right</p>
+		</div>
+		<div class="col-3-12">
+			<p>Set the padding-right to 0.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.no-select</p>
+		</div>
+		<div class="col-3-12">
+			<p>Prevent the user to select the element.</p>
+		</div>
+		
+		<div class="col-3-12">
+			<p>.clearfix</p>
+		</div>
+		<div class="col-3-12">
+			<p>Add a 5px height line and clears both sides between two elements.</p>
 		</div>
 		
 	</div>
@@ -230,19 +282,19 @@
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		
@@ -250,210 +302,210 @@
 			<div class="color bg-primary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-primary</p>
+			<p>.bg-primary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-secondary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-secondary</p>
+			<p>.bg-secondary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-danger"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-danger</p>
+			<p>.bg-danger</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-success"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-success</p>
+			<p>.bg-success</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-warning"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-warning</p>
+			<p>.bg-warning</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-black"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-black</p>
+			<p>.bg-black</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-white"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-white</p>
+			<p>.bg-white</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-dark-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-dark-gray</p>
+			<p>.bg-dark-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-gray</p>
+			<p>.bg-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-light-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-light-gray</p>
+			<p>.bg-light-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-lighter-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-lighter-gray</p>
+			<p>.bg-lighter-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-95"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-95</p>
+			<p>.bg-grayscale-95</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-90"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-90</p>
+			<p>.bg-grayscale-90</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-85"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-85</p>
+			<p>.bg-grayscale-85</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-80"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-80</p>
+			<p>.bg-grayscale-80</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-75"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-75</p>
+			<p>.bg-grayscale-75</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-70"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-70</p>
+			<p>.bg-grayscale-70</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-65"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-65</p>
+			<p>.bg-grayscale-65</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-60"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-60</p>
+			<p>.bg-grayscale-60</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-55"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-55</p>
+			<p>.bg-grayscale-55</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-50"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-50</p>
+			<p>.bg-grayscale-50</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-45"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-45</p>
+			<p>.bg-grayscale-45</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-40"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-40</p>
+			<p>.bg-grayscale-40</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-35"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-35</p>
+			<p>.bg-grayscale-35</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-30</p>
+			<p>.bg-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-25"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-25</p>
+			<p>.bg-grayscale-25</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-20"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-20</p>
+			<p>.bg-grayscale-20</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-15"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-15</p>
+			<p>.bg-grayscale-15</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-10"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-10</p>
+			<p>.bg-grayscale-10</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-5"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-grayscale-5</p>
+			<p>.bg-grayscale-5</p>
 		</div>
 		
 	</div>
@@ -463,19 +515,19 @@
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		
@@ -483,210 +535,210 @@
 			<div class="border border-primary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-primary</p>
+			<p>.border-primary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-secondary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-secondary</p>
+			<p>.border-secondary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-danger"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-danger</p>
+			<p>.border-danger</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-success"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-success</p>
+			<p>.border-success</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-warning"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-warning</p>
+			<p>.border-warning</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-black"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-black</p>
+			<p>.border-black</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-white"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-white</p>
+			<p>.border-white</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-dark-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-dark-gray</p>
+			<p>.border-dark-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-gray</p>
+			<p>.border-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-light-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-light-gray</p>
+			<p>.border-light-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-lighter-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-lighter-gray</p>
+			<p>.border-lighter-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-95"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-95</p>
+			<p>.border-grayscale-95</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-90"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-90</p>
+			<p>.border-grayscale-90</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-85"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-85</p>
+			<p>.border-grayscale-85</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-80"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-80</p>
+			<p>.border-grayscale-80</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-75"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-75</p>
+			<p>.border-grayscale-75</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-70"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-70</p>
+			<p>.border-grayscale-70</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-65"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-65</p>
+			<p>.border-grayscale-65</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-60"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-60</p>
+			<p>.border-grayscale-60</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-55"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-55</p>
+			<p>.border-grayscale-55</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-50"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-50</p>
+			<p>.border-grayscale-50</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-45"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-45</p>
+			<p>.border-grayscale-45</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-40"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-40</p>
+			<p>.border-grayscale-40</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-35"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-35</p>
+			<p>.border-grayscale-35</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-30</p>
+			<p>.border-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-25"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-25</p>
+			<p>.border-grayscale-25</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-20"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-20</p>
+			<p>.border-grayscale-20</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-15"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-15</p>
+			<p>.border-grayscale-15</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-10"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-10</p>
+			<p>.border-grayscale-10</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="border border-grayscale-5"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-grayscale-5</p>
+			<p>.border-grayscale-5</p>
 		</div>
 		
 	</div>
@@ -700,19 +752,19 @@
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Shadow color</h5>
+			<h5>Shadow color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Shadow color</h5>
+			<h5>Shadow color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		
@@ -720,210 +772,210 @@
 			<div class="color bg-primary shadow-bottom-primary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-primary</p>
+			<p>.shadow-bottom-primary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-secondary shadow-bottom-secondary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-secondary</p>
+			<p>.shadow-bottom-secondary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-danger shadow-bottom-danger"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-danger</p>
+			<p>.shadow-bottom-danger</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-success shadow-bottom-success"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-success</p>
+			<p>.shadow-bottom-success</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-warning shadow-bottom-warning"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-warning</p>
+			<p>.shadow-bottom-warning</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-black shadow-bottom-black"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-black</p>
+			<p>.shadow-bottom-black</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-white shadow-bottom-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-gray</p>
+			<p>.shadow-bottom-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-dark-gray shadow-bottom-dark-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-dark-gray</p>
+			<p>.shadow-bottom-dark-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-gray shadow-bottom-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-gray</p>
+			<p>.shadow-bottom-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-light-gray shadow-bottom-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-gray</p>
+			<p>.shadow-bottom-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-lighter-gray shadow-bottom-gray"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-gray</p>
+			<p>.shadow-bottom-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-95 shadow-bottom-grayscale-95"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-95</p>
+			<p>.shadow-bottom-grayscale-95</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-90 shadow-bottom-grayscale-90"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-90</p>
+			<p>.shadow-bottom-grayscale-90</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-85 shadow-bottom-grayscale-85"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-85</p>
+			<p>.shadow-bottom-grayscale-85</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-80 shadow-bottom-grayscale-80"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-80</p>
+			<p>.shadow-bottom-grayscale-80</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-75 shadow-bottom-grayscale-75"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-75</p>
+			<p>.shadow-bottom-grayscale-75</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-70 shadow-bottom-grayscale-70"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-70</p>
+			<p>.shadow-bottom-grayscale-70</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-65 shadow-bottom-grayscale-65"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-65</p>
+			<p>.shadow-bottom-grayscale-65</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-60 shadow-bottom-grayscale-60"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-60</p>
+			<p>.shadow-bottom-grayscale-60</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-55 shadow-bottom-grayscale-55"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-55</p>
+			<p>.shadow-bottom-grayscale-55</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-50 shadow-bottom-grayscale-50"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-50</p>
+			<p>.shadow-bottom-grayscale-50</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-45 shadow-bottom-grayscale-45"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-45</p>
+			<p>.shadow-bottom-grayscale-45</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-40 shadow-bottom-grayscale-40"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-40</p>
+			<p>.shadow-bottom-grayscale-40</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-35 shadow-bottom-grayscale-35"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-35</p>
+			<p>.shadow-bottom-grayscale-35</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-30 shadow-bottom-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-30</p>
+			<p>.shadow-bottom-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-25 shadow-bottom-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-30</p>
+			<p>.shadow-bottom-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-20 shadow-bottom-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-30</p>
+			<p>.shadow-bottom-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-15 shadow-bottom-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-30</p>
+			<p>.shadow-bottom-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-10 shadow-bottom-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-30</p>
+			<p>.shadow-bottom-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-grayscale-5 shadow-bottom-grayscale-30"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-grayscale-30</p>
+			<p>.shadow-bottom-grayscale-30</p>
 		</div>
 		
 	</div>
@@ -933,19 +985,19 @@
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Shadow position</h5>
+			<h5>Shadow position</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Shadow position</h5>
+			<h5>Shadow position</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		
@@ -953,28 +1005,28 @@
 			<div class="color bg-primary shadow-top-primary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-top-primary</p>
+			<p>.shadow-top-primary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-secondary shadow-bottom-secondary"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-secondary</p>
+			<p>.shadow-bottom-secondary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-danger shadow-left-danger"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-left-danger</p>
+			<p>.shadow-left-danger</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="color bg-success shadow-right-success"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-right-success</p>
+			<p>.shadow-right-success</p>
 		</div>
 		
 	</div>
@@ -984,19 +1036,19 @@
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		
@@ -1004,225 +1056,261 @@
 			<div class="text font-primary">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-primary</p>
+			<p>.font-primary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-secondary">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-secondary</p>
+			<p>.font-secondary</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-danger">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-danger</p>
+			<p>.font-danger</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-success">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-success</p>
+			<p>.font-success</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-warning">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-warning</p>
+			<p>.font-warning</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-black">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-black</p>
+			<p>.font-black</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-white">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-white</p>
+			<p>.font-white</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-dark-gray">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-dark-gray</p>
+			<p>.font-dark-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-gray">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-gray</p>
+			<p>.font-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-light-gray">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-light-gray</p>
+			<p>.font-light-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-lighter-gray">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-lighter-gray</p>
+			<p>.font-lighter-gray</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-95">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-95</p>
+			<p>.font-grayscale-95</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-90">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-90</p>
+			<p>.font-grayscale-90</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-85">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-85</p>
+			<p>.font-grayscale-85</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-80">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-80</p>
+			<p>.font-grayscale-80</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-75">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-75</p>
+			<p>.font-grayscale-75</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-70">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-70</p>
+			<p>.font-grayscale-70</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-65">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-65</p>
+			<p>.font-grayscale-65</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-60">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-60</p>
+			<p>.font-grayscale-60</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-55">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-55</p>
+			<p>.font-grayscale-55</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-50">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-50</p>
+			<p>.font-grayscale-50</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-45">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-45</p>
+			<p>.font-grayscale-45</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-40">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-40</p>
+			<p>.font-grayscale-40</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-35">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-35</p>
+			<p>.font-grayscale-35</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-30">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-30</p>
+			<p>.font-grayscale-30</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-25">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-25</p>
+			<p>.font-grayscale-25</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-20">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-20</p>
+			<p>.font-grayscale-20</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-15">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-15</p>
+			<p>.font-grayscale-15</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-10">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-10</p>
+			<p>.font-grayscale-10</p>
 		</div>
 		
 		<div class="col-3-12">
 			<div class="text font-grayscale-5">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-grayscale-5</p>
+			<p>.font-grayscale-5</p>
 		</div>
 		
 	</div>
 </div>
 
-               <footer>
+
+	<footer>
      <hr />
      <div class="footer-container">
           <div class="left">
                <p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     <div>V1.0</div>
+                    
+                    
                     <div>
-                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
-                          <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
-                          <a href="/fajny-css.zip" download=""><i class="icon icon-download-solid"></i></a>
+                         
+                         
+                         
+                         
+                         
+                         
+                         <a href="mailto:julien.sebag@me.com">
+                              <i class="icon icon-mail-bold"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         
+                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank">
+                              <i class="icon icon-github-brand"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         <a href="/fajny-css.zip">
+                              <i class="icon icon-download-solid"></i>
+                         </a>
                     </div>
                </p>
           </div>
@@ -1236,14 +1324,15 @@
           </div>
      </div>
 </footer>
-          </main>
+</main>
 
-          <script src="/assets/js/clipboard.min.js"></script>
+
+         <script src="/assets/js/clipboard.min.js"></script>
           <script>
                //Clipboard
                new ClipboardJS(".copy");
           </script>
           <script src="/assets/js/load-more.js"></script>
-          <script src="/assets/js/script.min.js"></script>
+          <script src="/assets/js/script.js"></script>
      </body>
 </html>

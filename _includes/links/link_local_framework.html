@@ -1,0 +1,7 @@
+{% for item in site.data.link_css %}
+{% if item.name == "link_local" %}
+<pre>
+<code class="html">{{ item.link_framework }}</code>
+</pre>
+{% endif %}
+{% endfor %}

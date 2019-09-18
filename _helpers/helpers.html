@@ -2,41 +2,235 @@
 layout: detail
 title: Helpers
 desc: Helpers classes for Fajny CSS
+intro: Helpers are classes created to override some CSS properties in your HTML. Just add them in the HTML class of your element.
+file_include: helpers
 additional-css: ".results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-last-child(-n+2){margin-bottom:0}.results .col-3-12:nth-child(4n+0){margin-right:0}.color,.border{width:50px;height:50px;float:left;margin-bottom:20px;margin-right:20px}.border{border-style:solid;border-width:1px}.text{width:auto;float:left;margin-bottom:20px;margin-right:20px}"
+
+helpers:
+    - name: text-left
+      effect: Align text on the left.
+    - name: text-center
+      effect: Align text in the center.
+    - name: text-right
+      effect: Align text on the right.
+    - name: clear-float
+      effect: Add a float none.
+    - name: hidden
+      effect: Add a display none.
+    - name: no-marg
+      effect: Set all the margins to 0.
+    - name: no-marg-top
+      effect: Set the margin-top to 0.
+    - name: no-marg-bottom
+      effect: Set the margin-bottom to 0.
+    - name: no-marg-left
+      effect: Set the margin-left to 0.
+    - name: no-marg-right
+      effect: Set the margin-right to 0.
+    - name: no-padd
+      effect: Set all the paddings to 0.
+    - name: no-padd-top
+      effect: Set the padding-top to 0.
+    - name: no-padd-bottom
+      effect: Set the padding-bottom to 0.
+    - name: no-padd-left
+      effect: Set the padding-left to 0.
+    - name: no-padd-right
+      effect: Set the padding-right to 0.
+    - name: no-select
+      effect: Prevent the user to select the element.
+    - name: clearfix
+      effect: Add a 5px height line and clears both sides between two elements.
+background_colors:
+    - name: primary
+    - name: secondary
+    - name: danger
+    - name: success
+    - name: warning
+    - name: black
+    - name: white
+    - name: dark-gray
+    - name: gray
+    - name: light-gray
+    - name: lighter-gray
+    - name: grayscale-95
+    - name: grayscale-90
+    - name: grayscale-85
+    - name: grayscale-80
+    - name: grayscale-75
+    - name: grayscale-70
+    - name: grayscale-65
+    - name: grayscale-60
+    - name: grayscale-55
+    - name: grayscale-50
+    - name: grayscale-45
+    - name: grayscale-40
+    - name: grayscale-35
+    - name: grayscale-30
+    - name: grayscale-25
+    - name: grayscale-20
+    - name: grayscale-15
+    - name: grayscale-10
+    - name: grayscale-5
+border_colors:
+    - name: primary
+    - name: secondary
+    - name: danger
+    - name: success
+    - name: warning
+    - name: black
+    - name: white
+    - name: dark-gray
+    - name: gray
+    - name: light-gray
+    - name: lighter-gray
+    - name: grayscale-95
+    - name: grayscale-90
+    - name: grayscale-85
+    - name: grayscale-80
+    - name: grayscale-75
+    - name: grayscale-70
+    - name: grayscale-65
+    - name: grayscale-60
+    - name: grayscale-55
+    - name: grayscale-50
+    - name: grayscale-45
+    - name: grayscale-40
+    - name: grayscale-35
+    - name: grayscale-30
+    - name: grayscale-25
+    - name: grayscale-20
+    - name: grayscale-15
+    - name: grayscale-10
+    - name: grayscale-5
+shadow_colors:
+    - name: primary
+      color: primary
+    - name: secondary
+      color: secondary
+    - name: danger
+      color: danger
+    - name: success
+      color: success
+    - name: warning
+      color: warning
+    - name: black
+      color: black
+    - name: white
+      color: gray
+    - name: dark-gray
+      color: dark-gray
+    - name: gray
+      color: gray
+    - name: light-gray
+      color: gray
+    - name: lighter-gray
+      color: gray
+    - name: grayscale-95
+      color: grayscale-95
+    - name: grayscale-90
+      color: grayscale-90
+    - name: grayscale-85
+      color: grayscale-85
+    - name: grayscale-80
+      color: grayscale-80
+    - name: grayscale-75
+      color: grayscale-75
+    - name: grayscale-70
+      color: grayscale-70
+    - name: grayscale-65
+      color: grayscale-65
+    - name: grayscale-60
+      color: grayscale-60
+    - name: grayscale-55
+      color: grayscale-55
+    - name: grayscale-50
+      color: grayscale-50
+    - name: grayscale-45
+      color: grayscale-45
+    - name: grayscale-40
+      color: grayscale-40
+    - name: grayscale-35
+      color: grayscale-35
+    - name: grayscale-30
+      color: grayscale-30
+    - name: grayscale-25
+      color: grayscale-30
+    - name: grayscale-20
+      color: grayscale-30
+    - name: grayscale-15
+      color: grayscale-30
+    - name: grayscale-10
+      color: grayscale-30
+    - name: grayscale-5
+      color: grayscale-30
+shadow_positions:
+    - position: top
+      color: primary
+    - position: bottom
+      color: secondary
+    - position: left
+      color: danger
+    - position: right
+      color: success
+font_colors:
+    - name: primary
+    - name: secondary
+    - name: danger
+    - name: success
+    - name: warning
+    - name: black
+    - name: white
+    - name: dark-gray
+    - name: gray
+    - name: light-gray
+    - name: lighter-gray
+    - name: grayscale-95
+    - name: grayscale-90
+    - name: grayscale-85
+    - name: grayscale-80
+    - name: grayscale-75
+    - name: grayscale-70
+    - name: grayscale-65
+    - name: grayscale-60
+    - name: grayscale-55
+    - name: grayscale-50
+    - name: grayscale-45
+    - name: grayscale-40
+    - name: grayscale-35
+    - name: grayscale-30
+    - name: grayscale-25
+    - name: grayscale-20
+    - name: grayscale-15
+    - name: grayscale-10
+    - name: grayscale-5
 ---
 
-<p>Helpers are classes created to override some CSS properties in your HTML. Just add them in the HTML class of your element.</p>
-
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "helpers";</code>
-</pre>
-
-<h2 >How to use them</h2>
+<h2>How to use them</h2>
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Effect</h5>
+			<h5>Effect</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Effect</h5>
+			<h5>Effect</h5>
 		</div>
 
-		{% for item in site.data.helpers %}
+		{% for helper in page.helpers %}
 		<div class="col-3-12">
-			<p >.{{ item.name }}</p>
+			<p>.{{ helper.name }}</p>
 		</div>
 		<div class="col-3-12">
-			<p >{{ item.effect }}</p>
+			<p>{{ helper.effect }}</p>
 		</div>
 		{% endfor %}
 	</div>
@@ -46,27 +240,27 @@ additional-css: ".results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
-		{% for item in site.data.background-colors %}
+		{% for background_color in page.background_colors %}
 		<div class="col-3-12">
-			<div class="color bg-{{ item.name }}"></div>
+			<div class="color bg-{{ background_color.name }}"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.bg-{{ item.name }}</p>
+			<p>.bg-{{ background_color.name }}</p>
 		</div>
 		{% endfor %}
 	</div>
@@ -76,27 +270,27 @@ additional-css: ".results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
-		{% for item in site.data.border-colors %}
+		{% for border_color in page.border_colors %}
 		<div class="col-3-12">
-			<div class="border border-{{ item.name }}"></div>
+			<div class="border border-{{ border_color.name }}"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.border-{{ item.name }}</p>
+			<p>.border-{{ border_color.name }}</p>
 		</div>
 		{% endfor %}
 	</div>
@@ -110,27 +304,27 @@ additional-css: ".results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Shadow color</h5>
+			<h5>Shadow color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Shadow color</h5>
+			<h5>Shadow color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
-		{% for item in site.data.shadow-colors %}
+		{% for shadow_color in page.shadow_colors %}
 		<div class="col-3-12">
-			<div class="color bg-{{ item.name }} shadow-bottom-{{ item.color }}"></div>
+			<div class="color bg-{{ shadow_color.name }} shadow-bottom-{{ shadow_color.color }}"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-bottom-{{ item.color }}</p>
+			<p>.shadow-bottom-{{ shadow_color.color }}</p>
 		</div>
 		{% endfor %}
 	</div>
@@ -140,27 +334,27 @@ additional-css: ".results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Shadow position</h5>
+			<h5>Shadow position</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Shadow position</h5>
+			<h5>Shadow position</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
-		{% for item in site.data.shadow-position %}
+		{% for shadow_position in page.shadow_positions %}
 		<div class="col-3-12">
-			<div class="color bg-{{ item.color }} shadow-{{ item.position }}-{{ item.color }}"></div>
+			<div class="color bg-{{ shadow_position.color }} shadow-{{ shadow_position.position }}-{{ shadow_position.color }}"></div>
 		</div>
 		<div class="col-3-12">
-			<p >.shadow-{{ item.position }}-{{ item.color }}</p>
+			<p>.shadow-{{ shadow_position.position }}-{{ shadow_position.color }}</p>
 		</div>
 		{% endfor %}
 	</div>
@@ -170,27 +364,27 @@ additional-css: ".results .col-3-12{margin-bottom:10px}.results .col-3-12:nth-la
 <div class="results">
 	<div class="list-results">
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >Color</h5>
+			<h5>Color</h5>
 		</div>
 
 		<div class="col-3-12">
-			<h5 >CSS Class</h5>
+			<h5>CSS Class</h5>
 		</div>
 
-		{% for item in site.data.font-colors %}
+		{% for font_color in page.font_colors %}
 		<div class="col-3-12">
-			<div class="text font-{{ item.name }}">Text</div>
+			<div class="text font-{{ font_color.name }}">Text</div>
 		</div>
 		<div class="col-3-12">
-			<p >.font-{{ item.name }}</p>
+			<p>.font-{{ font_color.name }}</p>
 		</div>
 		{% endfor %}
 	</div>

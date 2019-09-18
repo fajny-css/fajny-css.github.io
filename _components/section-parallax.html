@@ -2,49 +2,44 @@
 layout: detail
 title: Section Parallax
 desc: Section Parallax for Fajny CSS
+intro: A nice parallax effect working on mobile, but only one is possible on a page.
+file_include: components/parallax
+additional-css:
 ---
-<p>A nice parallax effect working on mobile, but only one is possible on a page.</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/parallax";</code>
-</pre>
-
-<h2 >Code</h2>
+<h2>Code</h2>
 <div class="results">
-     <div class="list-results">
-          <a href="/assets/demo/section-parallax.html" target="_blank">See the demo here.</a>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="container-parallax container-section-parallax"&gt;
-     &lt;main class="container"&gt;
-          &lt;section&gt;
-               &lt;h3&gt;Title container&lt;/h3&gt;
-               &lt;p&gt;
+	<div class="list-results">
+		<a href="/assets/demo/section-parallax.html" target="_blank">See the demo here.</a>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;container-parallax container-section-parallax&quot;&gt;
+    &lt;main class=&quot;container&quot;&gt;
+            &lt;section&gt;
+                &lt;h3&gt;Title container&lt;/h3&gt;
+                &lt;p&gt;
                     Content container.
-               &lt;/p&gt;
-          &lt;/section&gt;
-     &lt;/main&gt;
+                &lt;/p&gt;
+            &lt;/section&gt;
+    &lt;/main&gt;
 &lt;/div&gt;
 
-&lt;section class="wrapper-section-parallax"&gt;
-     &lt;div class="section-parallax-img" style="background: url(/assets/images/cover-parallax.jpg)"&gt;&lt;/div&gt;
-     &lt;div class="title-section-parallax"&gt;
-          &lt;h1 class="display"&gt;Title&lt;/h1&gt;
-     &lt;/div&gt;
+&lt;section class=&quot;wrapper-section-parallax&quot;&gt;
+    &lt;div class=&quot;section-parallax-img&quot; style=&quot;background: url(/assets/images/cover-parallax.jpg)&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;title-section-parallax&quot;&gt;
+            &lt;h1 class=&quot;display&quot;&gt;Title&lt;/h1&gt;
+    &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;div class="container-parallax container-section-parallax"&gt;
-     &lt;main class="container"&gt;
-          &lt;section&gt;
-               &lt;h3&gt;Title container&lt;/h3&gt;
-               &lt;p&gt;
+&lt;div class=&quot;container-parallax container-section-parallax&quot;&gt;
+    &lt;main class=&quot;container&quot;&gt;
+            &lt;section&gt;
+                &lt;h3&gt;Title container&lt;/h3&gt;
+                &lt;p&gt;
                     Content container.
-               &lt;/p&gt;
-          &lt;/section&gt;
-     &lt;/main&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+                &lt;/p&gt;
+            &lt;/section&gt;
+    &lt;/main&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>

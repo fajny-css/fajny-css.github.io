@@ -1,0 +1,15 @@
+- name: logo
+  image: logo-fajny-css.svg
+- name: logo_white
+  image: logo-fajny-css-white.svg
+- name: email
+  link: julien.sebag@me.com
+  icon: mail-bold
+- name: download
+  link: fajny-css.zip
+  icon: download-solid
+- name: github
+  link: https://github.com/JulSeb42/fajny-css
+  icon: github-brand
+- name: version_number
+  content: 1.0

@@ -1,0 +1,8 @@
+{% for item in site.data.link_css %}
+{% if item.name == "link_cdn" %}
+<pre>
+<code class="html">{{ item.link_framework }}
+{{ item.link_icons }}</code>
+</pre>
+{% endif %}
+{% endfor %}

@@ -5,24 +5,30 @@
           <title>Accordion | Fajny CSS</title>
           <meta content="IE=edge" http-equiv="X-UA-Compatible">
           <meta content="width=device-width, initial-scale=1" name="viewport">
-          <meta content="Accordion for Fajny CSS" name="description">
-          <meta content="Julien Sebag" name="author">
+          <meta name="description" content="Accordion for Fajny CSS">
+          <meta name="author" content="Julien Sebag">
+          <meta property="og:title" content="Accordion" />
+          <meta property="og:type" content="framework.documentation" />
+          <meta property="og:url" content="/components/accordion.html" />
+          <meta property="og:image" content="/assets/images/og_cover.png" />
+          <meta property="og:site_name" content="Fajny CSS" />
+          <meta property="og:locale" content="en_GB" />
           <link href="/assets/images/favicon.png" rel="shortcut icon">
 
-          <!-- Styles -->
-          <link href="/assets/css/fajny.min.css" rel="stylesheet" />
-          <link href="/assets/css/fajny-icons.min.css" rel="stylesheet" />
-          <link rel="stylesheet" href="/assets/css/template.css" />
-
+          <!-- CSS -->
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css/css/fajny.min.css" />
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css-icons/css/fajny-icons.min.css" />
+          <link rel="stylesheet" href="/assets/css/template.css">
+          
           <!-- JS -->
           <script src="/assets/js/highlight.pack.js"></script>
-          <script src="/assets/js/includes.js"></script>
 
+          <!-- Additional CSS -->
           <style></style>
      </head>
 
      <body>
-          <header class="nav-template">
+         <header class="nav-template">
      <nav>
           <div class="burger" onclick="openNav(this)">
                <span></span>
@@ -60,151 +66,226 @@
                     <a href="/helpers.html" >Helpers</a>
                </li>
                
+
                <li class="social-links">
+                    
+                    
+                    
+                    
+                    
+                    
                     <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                    
+                    
+                    
+                    
+                    
                     <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+                    
+                    
+                    
+                    
                </li>
                <li class="download">
-                    <a href="fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="/fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
                </li>
           </ul>
 
           <div class="logo">
+               
+               
+               
+               
                <a href="/"><img src="/assets/images/logo-fajny-css-white.svg" alt="Logo Fajny CSS"></a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
           </div>
      </nav>
 </header>
-          <main class="container no-padd-bottom">
-               <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
-               <h1 class="no-marg-top">Accordion</h1>
-               <p>Since we do not use any JS, the trigger to open the accordion is an input radio. If you want to be able to open several tabs in the same time you can change it with a checkbox.</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/accordion";</code>
-</pre>
+         <main class="container no-padd-bottom">
+    <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
+    <h1 class="no-marg-top">Accordion</h1>
 
-<h2 >Without background</h2>
+    <p><p>Since we do not use any JS, the trigger to open the accordion is an input radio. If you want to be able to open several tabs in the same time you can change it with a checkbox.</p>
+</p>
+
+    <h2>File to include</h2>
+
+<pre><code class="scss">@include "components/accordion";</code></pre>
+    
+    <h2>Without background</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="accordion accordion-no-bg">
-               <div class="accordion-content">
-                    <input type="radio" name="accordion-no-bg" id="accordion-1-no-bg" checked />
-                    <label for="accordion-1-no-bg" class="font-primary">Title</label>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-                         finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-                         suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-                         Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-                    </p>
-               </div>
+	<div class="list-results">
+		<div class="accordion accordion-no-bg">
+			<div class="accordion-content">
+				<input type="radio" name="accordion-no-bg" id="accordion-1-no-bg" checked />
+				<label for="accordion-1-no-bg" class="font-primary">Title</label>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut. Morbi
+					tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+				</p>
+			</div>
 
-               <div class="accordion-content">
-                    <input type="radio" name="accordion-no-bg" id="accordion-2-no-bg" />
-                    <label for="accordion-2-no-bg" class="font-primary">Title</label>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-                         finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-                         suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-                         Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-                    </p>
-               </div>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="accordion accordion-no-bg"&gt;
-     &lt;div class="accordion-content"&gt;
-          &lt;input type="radio" name="accordion-no-bg" id="accordion-1-no-bg" checked /&gt;
-          &lt;label for="accordion-1-no-bg" class="font-primary"&gt;Title&lt;/label&gt;
-          &lt;p&gt;
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-               finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-               suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-               Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-          &lt;/p&gt;
-     &lt;/div&gt;
+			<div class="accordion-content">
+				<input type="radio" name="accordion-no-bg" id="accordion-2-no-bg" />
+				<label for="accordion-2-no-bg" class="font-primary">Title</label>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut. Morbi
+					tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="code-result">
+		<pre>
+<code class="html">&lt;div class=&quot;accordion accordion-no-bg&quot;&gt;
+    &lt;div class=&quot;accordion-content&quot;&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;accordion-no-bg&quot; id=&quot;accordion-1-no-bg&quot; checked /&gt;
+            &lt;label for=&quot;accordion-1-no-bg&quot; class=&quot;font-primary&quot;&gt;Title&lt;/label&gt;
+            &lt;p&gt;
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
+                finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
+                suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
+                Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+            &lt;/p&gt;
+    &lt;/div&gt;
 
-     &lt;div class="accordion-content"&gt;
-          &lt;input type="radio" name="accordion-no-bg" id="accordion-2-no-bg" /&gt;
-          &lt;label for="accordion-2-no-bg" class="font-primary"&gt;Title&lt;/label&gt;
-          &lt;p&gt;
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-               finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-               suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-               Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-          &lt;/p&gt;
-     &lt;/div&gt;
+    &lt;div class=&quot;accordion-content&quot;&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;accordion-no-bg&quot; id=&quot;accordion-2-no-bg&quot; /&gt;
+            &lt;label for=&quot;accordion-2-no-bg&quot; class=&quot;font-primary&quot;&gt;Title&lt;/label&gt;
+            &lt;p&gt;
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
+                finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
+                suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
+                Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+            &lt;/p&gt;
+    &lt;/div&gt;
 &lt;/div&gt;</code>
-          </pre>
-     </div>
+</pre>
+	</div>
 </div>
 
 <h2>With background</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="accordion accordion-bg bg-white">
-               <div class="accordion-content">
-                    <input type="radio" name="accordion-bg" id="accordion-1-bg" checked />
-                    <label for="accordion-1-bg" class="bg-primary">Title</label>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-                         finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-                         suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-                         Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-                    </p>
-               </div>
+	<div class="list-results">
+		<div class="accordion accordion-bg bg-white">
+			<div class="accordion-content">
+				<input type="radio" name="accordion-bg" id="accordion-1-bg" checked />
+				<label for="accordion-1-bg" class="bg-primary">Title</label>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut. Morbi
+					tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+				</p>
+			</div>
 
-               <div class="accordion-content">
-                    <input type="radio" name="accordion-bg" id="accordion-2-bg" />
-                    <label for="accordion-2-bg" class="bg-primary">Title</label>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-                         finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-                         suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-                         Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-                    </p>
-               </div>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="accordion accordion-bg bg-white"&gt;
-     &lt;div class="accordion-content"&gt;
-          &lt;input type="radio" name="accordion-bg" id="accordion-1-bg" checked /&gt;
-          &lt;label for="accordion-1-bg" class="bg-primary"&gt;Title&lt;/label&gt;
-          &lt;p&gt;
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-               finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-               suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-               Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-          &lt;/p&gt;
-     &lt;/div&gt;
+			<div class="accordion-content">
+				<input type="radio" name="accordion-bg" id="accordion-2-bg" />
+				<label for="accordion-2-bg" class="bg-primary">Title</label>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut. Morbi
+					tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="code-result">
+		<pre>
+<code class="html">&lt;div class=&quot;accordion accordion-bg bg-white&quot;&gt;
+    &lt;div class=&quot;accordion-content&quot;&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;accordion-bg&quot; id=&quot;accordion-1-bg&quot; checked /&gt;
+            &lt;label for=&quot;accordion-1-bg&quot; class=&quot;bg-primary&quot;&gt;Title&lt;/label&gt;
+            &lt;p&gt;
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
+                finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
+                suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
+                Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+            &lt;/p&gt;
+    &lt;/div&gt;
 
-     &lt;div class="accordion-content"&gt;
-          &lt;input type="radio" name="accordion-bg" id="accordion-2-bg" /&gt;
-          &lt;label for="accordion-2-bg" class="bg-primary"&gt;Title&lt;/label&gt;
-          &lt;p&gt;
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
-               finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
-               suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
-               Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
-          &lt;/p&gt;
-     &lt;/div&gt;
+    &lt;div class=&quot;accordion-content&quot;&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;accordion-bg&quot; id=&quot;accordion-2-bg&quot; /&gt;
+            &lt;label for=&quot;accordion-2-bg&quot; class=&quot;bg-primary&quot;&gt;Title&lt;/label&gt;
+            &lt;p&gt;
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ligula et ante bibendum, et hendrerit eros laoreet. Nam sit amet tortor vitae libero
+                finibus placerat. Etiam ultricies volutpat dapibus. Nunc non placerat libero, a aliquam lorem. Nulla et erat egestas, aliquet lectus sit amet, gravida dui. Nunc
+                suscipit libero eu risus viverra scelerisque. Donec in sem quis odio semper auctor. Suspendisse efficitur velit orci, in varius urna porta ut.
+                Morbi tincidunt justo id augue malesuada rhoncus. Aliquam nec eros et velit rhoncus luctus. Nunc condimentum mollis risus, in posuere lacus pharetra et.
+            &lt;/p&gt;
+    &lt;/div&gt;
 &lt;/div&gt;</code>
-          </pre>
-     </div>
+</pre>
+	</div>
 </div>
-               <footer>
+
+
+	<footer>
      <hr />
      <div class="footer-container">
           <div class="left">
                <p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     <div>V1.0</div>
+                    
+                    
                     <div>
-                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
-                          <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
-                          <a href="/fajny-css.zip" download=""><i class="icon icon-download-solid"></i></a>
+                         
+                         
+                         
+                         
+                         
+                         
+                         <a href="mailto:julien.sebag@me.com">
+                              <i class="icon icon-mail-bold"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         
+                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank">
+                              <i class="icon icon-github-brand"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         <a href="/fajny-css.zip">
+                              <i class="icon icon-download-solid"></i>
+                         </a>
                     </div>
                </p>
           </div>
@@ -218,14 +299,15 @@
           </div>
      </div>
 </footer>
-          </main>
+</main>
 
-          <script src="/assets/js/clipboard.min.js"></script>
+
+         <script src="/assets/js/clipboard.min.js"></script>
           <script>
                //Clipboard
                new ClipboardJS(".copy");
           </script>
           <script src="/assets/js/load-more.js"></script>
-          <script src="/assets/js/script.min.js"></script>
+          <script src="/assets/js/script.js"></script>
      </body>
 </html>

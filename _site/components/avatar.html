@@ -5,24 +5,30 @@
           <title>Avatar | Fajny CSS</title>
           <meta content="IE=edge" http-equiv="X-UA-Compatible">
           <meta content="width=device-width, initial-scale=1" name="viewport">
-          <meta content="Avatar for Fajny CSS" name="description">
-          <meta content="Julien Sebag" name="author">
+          <meta name="description" content="Avatar for Fajny CSS">
+          <meta name="author" content="Julien Sebag">
+          <meta property="og:title" content="Avatar" />
+          <meta property="og:type" content="framework.documentation" />
+          <meta property="og:url" content="/components/avatar.html" />
+          <meta property="og:image" content="/assets/images/og_cover.png" />
+          <meta property="og:site_name" content="Fajny CSS" />
+          <meta property="og:locale" content="en_GB" />
           <link href="/assets/images/favicon.png" rel="shortcut icon">
 
-          <!-- Styles -->
-          <link href="/assets/css/fajny.min.css" rel="stylesheet" />
-          <link href="/assets/css/fajny-icons.min.css" rel="stylesheet" />
-          <link rel="stylesheet" href="/assets/css/template.css" />
-
+          <!-- CSS -->
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css/css/fajny.min.css" />
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css-icons/css/fajny-icons.min.css" />
+          <link rel="stylesheet" href="/assets/css/template.css">
+          
           <!-- JS -->
           <script src="/assets/js/highlight.pack.js"></script>
-          <script src="/assets/js/includes.js"></script>
 
+          <!-- Additional CSS -->
           <style>.avatar{margin-right:20px}</style>
      </head>
 
      <body>
-          <header class="nav-template">
+         <header class="nav-template">
      <nav>
           <div class="burger" onclick="openNav(this)">
                <span></span>
@@ -60,31 +66,77 @@
                     <a href="/helpers.html" >Helpers</a>
                </li>
                
+
                <li class="social-links">
+                    
+                    
+                    
+                    
+                    
+                    
                     <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                    
+                    
+                    
+                    
+                    
                     <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+                    
+                    
+                    
+                    
                </li>
                <li class="download">
-                    <a href="fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="/fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
                </li>
           </ul>
 
           <div class="logo">
+               
+               
+               
+               
                <a href="/"><img src="/assets/images/logo-fajny-css-white.svg" alt="Logo Fajny CSS"></a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
           </div>
      </nav>
 </header>
-          <main class="container no-padd-bottom">
-               <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
-               <h1 class="no-marg-top">Avatar</h1>
-               <p>Avatar are created with two states, with and without a picture</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/avatars";</code>
-</pre>
+         <main class="container no-padd-bottom">
+    <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
+    <h1 class="no-marg-top">Avatar</h1>
 
-<h2 >Without picture</h2>
+    <p><p>Avatar are created with two states, with and without a picture.</p>
+</p>
+
+    <h2>File to include</h2>
+
+<pre><code class="scss">@include "components/avatars";</code></pre>
+    
+    <h2>Without picture</h2>
 <div class="results">
      <div class="list-results">
           <div class="avatar avatar-empty avatar-80"></div>
@@ -98,16 +150,17 @@
           <div class="avatar avatar-empty avatar-16"></div>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="avatar avatar-empty avatar-80"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-72"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-64"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-56"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-48"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-40"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-32"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-24"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-empty avatar-16"&gt;&lt;/div&gt;</code>
+<pre>
+<code class="html">&lt;div class=&quot;avatar avatar-empty avatar-80&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-72&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-64&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-56&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-48&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-40&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-32&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-24&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-empty avatar-16&quot;&gt;&lt;/div&gt;</code>
+</pre>
           </pre>
      </div>
 </div>
@@ -126,29 +179,66 @@
           <div class="avatar avatar-16" style="background: url(/assets/images/pic-avatar.jpg)"></div>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="avatar avatar-80" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-72" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-64" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-56" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-48" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-40" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-32" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-24" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;
-&lt;div class="avatar avatar-16" style="background: url(/assets/images/pic-avatar.jpg)"&gt;&lt;/div&gt;</code>
+<pre>
+<code class="html">&lt;div class=&quot;avatar avatar-80&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-72&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-64&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-56&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-48&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-40&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-32&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-24&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;avatar avatar-16&quot; style=&quot;background: url(/assets/images/pic-avatar.jpg)&quot;&gt;&lt;/div&gt;</code>
+</pre>
           </pre>
      </div>
 </div>
-               <footer>
+
+	<footer>
      <hr />
      <div class="footer-container">
           <div class="left">
                <p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     <div>V1.0</div>
+                    
+                    
                     <div>
-                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
-                          <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
-                          <a href="/fajny-css.zip" download=""><i class="icon icon-download-solid"></i></a>
+                         
+                         
+                         
+                         
+                         
+                         
+                         <a href="mailto:julien.sebag@me.com">
+                              <i class="icon icon-mail-bold"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         
+                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank">
+                              <i class="icon icon-github-brand"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         <a href="/fajny-css.zip">
+                              <i class="icon icon-download-solid"></i>
+                         </a>
                     </div>
                </p>
           </div>
@@ -162,14 +252,15 @@
           </div>
      </div>
 </footer>
-          </main>
+</main>
 
-          <script src="/assets/js/clipboard.min.js"></script>
+
+         <script src="/assets/js/clipboard.min.js"></script>
           <script>
                //Clipboard
                new ClipboardJS(".copy");
           </script>
           <script src="/assets/js/load-more.js"></script>
-          <script src="/assets/js/script.min.js"></script>
+          <script src="/assets/js/script.js"></script>
      </body>
 </html>

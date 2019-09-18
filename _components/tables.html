@@ -2,16 +2,12 @@
 layout: detail
 title: Tables
 desc: Tables for Fajny CSS
+intro: Tables can be a good way to display informations to the user.
+file_include: components/tables
+additional-css:
 ---
 
-<p>Tables can be a good way to display informations to the user.</p>
-
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/tables";</code>
-</pre>
-
-<h2 >Stripped tables</h2>
+<h2>Stripped tables</h2>
 <div class="results">
 	<div class="list-results">
 		<table class="table-stripped">
@@ -64,56 +60,54 @@ desc: Tables for Fajny CSS
 		</table>
 	</div>
 	<div class="code-result">
-		<pre>
-<code class="html">&lt;table class="table-stripped"&gt;
-     &lt;thead&gt;
-          &lt;tr&gt;
-               &lt;td&gt;#&lt;/td&gt;
-               &lt;td&gt;First Name&lt;/td&gt;
-               &lt;td&gt;Last Name&lt;/td&gt;
-               &lt;td&gt;Facebook&lt;/td&gt;
-               &lt;td&gt;Twitter&lt;/td&gt;
-          &lt;/tr&gt;
-     &lt;/thead&gt;
-     &lt;tbody&gt;
-          &lt;tr&gt;
-               &lt;td&gt;1&lt;/td&gt;
-               &lt;td&gt;Anna&lt;/td&gt;
-               &lt;td&gt;Fali&lt;/td&gt;
-               &lt;td&gt;Anna Fali&lt;/td&gt;
-               &lt;td&gt;@anna.fali&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;2&lt;/td&gt;
-               &lt;td&gt;Niek&lt;/td&gt;
-               &lt;td&gt;Bove&lt;/td&gt;
-               &lt;td&gt;Niek Bove&lt;/td&gt;
-               &lt;td&gt;@niek.bove&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;3&lt;/td&gt;
-               &lt;td&gt;Lacara&lt;/td&gt;
-               &lt;td&gt;Jones&lt;/td&gt;
-               &lt;td&gt;Lacara Jones&lt;/td&gt;
-               &lt;td&gt;@lacara.jones&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;4&lt;/td&gt;
-               &lt;td&gt;Pablo&lt;/td&gt;
-               &lt;td&gt;Cambeiro&lt;/td&gt;
-               &lt;td&gt;Pablo Cambeiro&lt;/td&gt;
-               &lt;td&gt;@pablo.cambeiro&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;5&lt;/td&gt;
-               &lt;td&gt;Irene&lt;/td&gt;
-               &lt;td&gt;Sotelo&lt;/td&gt;
-               &lt;td&gt;Irene Sotelo&lt;/td&gt;
-               &lt;td&gt;@irene.sotelo&lt;/td&gt;
-          &lt;/tr&gt;
-     &lt;/tbody&gt;
-&lt;/table&gt;</code>
-          </pre>
+		{% include code_html.html content="&lt;table class=&quot;table-stripped&quot;&gt;
+    &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;td&gt;#&lt;/td&gt;
+                &lt;td&gt;First Name&lt;/td&gt;
+                &lt;td&gt;Last Name&lt;/td&gt;
+                &lt;td&gt;Facebook&lt;/td&gt;
+                &lt;td&gt;Twitter&lt;/td&gt;
+            &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;Anna&lt;/td&gt;
+                &lt;td&gt;Fali&lt;/td&gt;
+                &lt;td&gt;Anna Fali&lt;/td&gt;
+                &lt;td&gt;@anna.fali&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;2&lt;/td&gt;
+                &lt;td&gt;Niek&lt;/td&gt;
+                &lt;td&gt;Bove&lt;/td&gt;
+                &lt;td&gt;Niek Bove&lt;/td&gt;
+                &lt;td&gt;@niek.bove&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;3&lt;/td&gt;
+                &lt;td&gt;Lacara&lt;/td&gt;
+                &lt;td&gt;Jones&lt;/td&gt;
+                &lt;td&gt;Lacara Jones&lt;/td&gt;
+                &lt;td&gt;@lacara.jones&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;4&lt;/td&gt;
+                &lt;td&gt;Pablo&lt;/td&gt;
+                &lt;td&gt;Cambeiro&lt;/td&gt;
+                &lt;td&gt;Pablo Cambeiro&lt;/td&gt;
+                &lt;td&gt;@pablo.cambeiro&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;5&lt;/td&gt;
+                &lt;td&gt;Irene&lt;/td&gt;
+                &lt;td&gt;Sotelo&lt;/td&gt;
+                &lt;td&gt;Irene Sotelo&lt;/td&gt;
+                &lt;td&gt;@irene.sotelo&lt;/td&gt;
+            &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;" %}
 	</div>
 </div>
 
@@ -170,55 +164,53 @@ desc: Tables for Fajny CSS
 		</table>
 	</div>
 	<div class="code-result">
-		<pre>
-<code class="html">&lt;table class="table-bordered"&gt;
-     &lt;thead&gt;
-          &lt;tr&gt;
-               &lt;td&gt;#&lt;/td&gt;
-               &lt;td&gt;First Name&lt;/td&gt;
-               &lt;td&gt;Last Name&lt;/td&gt;
-               &lt;td&gt;Facebook&lt;/td&gt;
-               &lt;td&gt;Twitter&lt;/td&gt;
-          &lt;/tr&gt;
-     &lt;/thead&gt;
-     &lt;tbody&gt;
-          &lt;tr&gt;
-               &lt;td&gt;1&lt;/td&gt;
-               &lt;td&gt;Anna&lt;/td&gt;
-               &lt;td&gt;Fali&lt;/td&gt;
-               &lt;td&gt;Anna Fali&lt;/td&gt;
-               &lt;td&gt;@anna.fali&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;2&lt;/td&gt;
-               &lt;td&gt;Niek&lt;/td&gt;
-               &lt;td&gt;Bove&lt;/td&gt;
-               &lt;td&gt;Niek Bove&lt;/td&gt;
-               &lt;td&gt;@niek.bove&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;3&lt;/td&gt;
-               &lt;td&gt;Lacara&lt;/td&gt;
-               &lt;td&gt;Jones&lt;/td&gt;
-               &lt;td&gt;Lacara Jones&lt;/td&gt;
-               &lt;td&gt;@lacara.jones&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;4&lt;/td&gt;
-               &lt;td&gt;Pablo&lt;/td&gt;
-               &lt;td&gt;Cambeiro&lt;/td&gt;
-               &lt;td&gt;Pablo Cambeiro&lt;/td&gt;
-               &lt;td&gt;@pablo.cambeiro&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-               &lt;td&gt;5&lt;/td&gt;
-               &lt;td&gt;Irene&lt;/td&gt;
-               &lt;td&gt;Sotelo&lt;/td&gt;
-               &lt;td&gt;Irene Sotelo&lt;/td&gt;
-               &lt;td&gt;@irene.sotelo&lt;/td&gt;
-          &lt;/tr&gt;
-     &lt;/tbody&gt;
-&lt;/table&gt;</code>
-          </pre>
+		{% include code_html.html content="&lt;table class=&quot;table-bordered&quot;&gt;
+    &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;td&gt;#&lt;/td&gt;
+                &lt;td&gt;First Name&lt;/td&gt;
+                &lt;td&gt;Last Name&lt;/td&gt;
+                &lt;td&gt;Facebook&lt;/td&gt;
+                &lt;td&gt;Twitter&lt;/td&gt;
+            &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;Anna&lt;/td&gt;
+                &lt;td&gt;Fali&lt;/td&gt;
+                &lt;td&gt;Anna Fali&lt;/td&gt;
+                &lt;td&gt;@anna.fali&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;2&lt;/td&gt;
+                &lt;td&gt;Niek&lt;/td&gt;
+                &lt;td&gt;Bove&lt;/td&gt;
+                &lt;td&gt;Niek Bove&lt;/td&gt;
+                &lt;td&gt;@niek.bove&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;3&lt;/td&gt;
+                &lt;td&gt;Lacara&lt;/td&gt;
+                &lt;td&gt;Jones&lt;/td&gt;
+                &lt;td&gt;Lacara Jones&lt;/td&gt;
+                &lt;td&gt;@lacara.jones&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;4&lt;/td&gt;
+                &lt;td&gt;Pablo&lt;/td&gt;
+                &lt;td&gt;Cambeiro&lt;/td&gt;
+                &lt;td&gt;Pablo Cambeiro&lt;/td&gt;
+                &lt;td&gt;@pablo.cambeiro&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;5&lt;/td&gt;
+                &lt;td&gt;Irene&lt;/td&gt;
+                &lt;td&gt;Sotelo&lt;/td&gt;
+                &lt;td&gt;Irene Sotelo&lt;/td&gt;
+                &lt;td&gt;@irene.sotelo&lt;/td&gt;
+            &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;" %}
 	</div>
 </div>

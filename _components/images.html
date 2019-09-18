@@ -2,40 +2,33 @@
 layout: detail
 title: Images
 desc: Images for Fajny CSS
+intro: Container for images.
+file_include: components/images
+additional-css:
 ---
-<p>Container for images.</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/images";</code>
-</pre>
-
-<h2 >Container</h2>
+<h2>Container</h2>
 <div class="results">
-     <div class="list-results">
-          <img src="/assets/images/pic-img.jpg" alt="" />
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;img src="/assets/images/pic-img.jpg" alt="" /&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<img src="/assets/images/pic-img.jpg" alt="" />
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;img src=&quot;/assets/images/pic-img.jpg&quot; alt=&quot;&quot; /&gt;" %}
+	</div>
 </div>
 
 <h2>Images with caption</h2>
 <div class="results">
-     <div class="list-results">
-          <div class="image-container">
-               <img src="/assets/images/pic-img.jpg" alt="" />
-               <p class="caption">Caption</p>
-          </div>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;div class="image-container"&gt;
-     &lt;img src="/assets/images/pic-img.jpg" alt="" /&gt;
-     &lt;p class="caption"&gt;Caption&lt;/p&gt;
-&lt;/div&gt;</code>
-          </pre>
-     </div>
+	<div class="list-results">
+		<div class="image-container">
+			<img src="/assets/images/pic-img.jpg" alt="" />
+			<p class="caption">Caption</p>
+		</div>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img src=&quot;/assets/images/pic-img.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;p class=&quot;caption&quot;&gt;Caption&lt;/p&gt;
+&lt;/div&gt;" %}
+	</div>
 </div>

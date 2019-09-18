@@ -5,24 +5,30 @@
           <title>Mixins | Fajny CSS</title>
           <meta content="IE=edge" http-equiv="X-UA-Compatible">
           <meta content="width=device-width, initial-scale=1" name="viewport">
-          <meta content="" name="description">
-          <meta content="Julien Sebag" name="author">
+          <meta name="description" content="Mixins for Fajny CSS">
+          <meta name="author" content="Julien Sebag">
+          <meta property="og:title" content="Mixins" />
+          <meta property="og:type" content="framework.documentation" />
+          <meta property="og:url" content="/helpers/mixins.html" />
+          <meta property="og:image" content="/assets/images/og_cover.png" />
+          <meta property="og:site_name" content="Fajny CSS" />
+          <meta property="og:locale" content="en_GB" />
           <link href="/assets/images/favicon.png" rel="shortcut icon">
 
-          <!-- Styles -->
-          <link href="/assets/css/fajny.min.css" rel="stylesheet" />
-          <link href="/assets/css/fajny-icons.min.css" rel="stylesheet" />
-          <link rel="stylesheet" href="/assets/css/template.css" />
-
+          <!-- CSS -->
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css/css/fajny.min.css" />
+          <link rel="stylesheet" href="https://unpkg.com/fajny-css-icons/css/fajny-icons.min.css" />
+          <link rel="stylesheet" href="/assets/css/template.css">
+          
           <!-- JS -->
           <script src="/assets/js/highlight.pack.js"></script>
-          <script src="/assets/js/includes.js"></script>
 
+          <!-- Additional CSS -->
           <style>.row{display:flex;align-items:center;flex-wrap:wrap;}</style>
      </head>
 
      <body>
-          <header class="nav-template">
+         <header class="nav-template">
      <nav>
           <div class="burger" onclick="openNav(this)">
                <span></span>
@@ -60,66 +66,112 @@
                     <a href="/helpers.html" >Helpers</a>
                </li>
                
+
                <li class="social-links">
+                    
+                    
+                    
+                    
+                    
+                    
                     <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
+                    
+                    
+                    
+                    
+                    
                     <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
+                    
+                    
+                    
+                    
                </li>
                <li class="download">
-                    <a href="fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="/fajny-css.zip" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-download-solid"></i></a>
+                    
+                    
+                    
+                    
+                    
+                    
                </li>
           </ul>
 
           <div class="logo">
+               
+               
+               
+               
                <a href="/"><img src="/assets/images/logo-fajny-css-white.svg" alt="Logo Fajny CSS"></a>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
           </div>
      </nav>
 </header>
-          <main class="container no-padd-bottom">
-               <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
-               <h1 class="no-marg-top">Mixins</h1>
-               <p>To speed up your development process in SCSS you can use mixins. These are really useful shortcodes to add in your SCSS elements.</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "mixins";</code>
-</pre>
+         <main class="container no-padd-bottom">
+    <a href="javascript:history.back()" class="link-back"><i class="icon icon-long-arrow-left-solid"></i> Back to the list</a>
+    <h1 class="no-marg-top">Mixins</h1>
 
-<h2 >How to use them</h2>
+    <p><p>To speed up your development process in SCSS you can use mixins. These are really useful shortcodes to add in your SCSS elements.</p>
+</p>
+
+    <h2>File to include</h2>
+
+<pre><code class="scss">@include "mixins";</code></pre>
+    
+    <h2>How to use them</h2>
 <div class="results">
 	<div class="list-results">
 		<div class="row">
 			<div class="col-3-12">
-				<h5 >Name</h5>
-			</div>
-		
-			<div class="col-3-12">
-				<h5 >Effect</h5>
-			</div>
-            
-            <div class="col-3-12">
-				<h5 >Variables</h5>
+				<h5>Name</h5>
 			</div>
 
-            <div class="col-3-12">
-				<h5 >Example</h5>
+			<div class="col-3-12">
+				<h5>Effect</h5>
+			</div>
+
+			<div class="col-3-12">
+				<h5>Variables</h5>
+			</div>
+
+			<div class="col-3-12">
+				<h5>Example</h5>
 			</div>
 		</div>
 
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >flexbox</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add a flexbox.</p>
+				<p>flexbox</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$align, $justify, $wrap</p>
+			<div class="col-3-12">
+				<p>Add a flexbox.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$align, $justify, $wrap</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include flexbox(center, center, nowrap);</code>
                 </pre>
@@ -128,18 +180,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >shadow</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add a shadow.</p>
+				<p>shadow</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$color</p>
+			<div class="col-3-12">
+				<p>Add a shadow.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$color</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include shadow($primary);</code>
                 </pre>
@@ -148,18 +200,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >shadow-invert</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add a shadow on the top.</p>
+				<p>shadow-invert</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$color</p>
+			<div class="col-3-12">
+				<p>Add a shadow on the top.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$color</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include shadow-invert($primary);</code>
                 </pre>
@@ -168,18 +220,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >outline</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add an outline.</p>
+				<p>outline</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$size-border, $color</p>
+			<div class="col-3-12">
+				<p>Add an outline.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$size-border, $color</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include outline(.5px, $gray);</code>
                 </pre>
@@ -188,18 +240,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >transition</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add transitions.</p>
+				<p>transition</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$property, $duration, $function</p>
+			<div class="col-3-12">
+				<p>Add transitions.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$property, $duration, $function</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include transition(max-height, .5s, ease-out);</code>
                 </pre>
@@ -208,18 +260,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >transform</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add a transform property.</p>
+				<p>transform</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$method</p>
+			<div class="col-3-12">
+				<p>Add a transform property.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$method</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include transform(rotate(90deg));</code>
                 </pre>
@@ -228,18 +280,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >transform origin</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add a transform origin property.</p>
+				<p>transform origin</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$method</p>
+			<div class="col-3-12">
+				<p>Add a transform origin property.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$method</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include transform-origin(center);</code>
                 </pre>
@@ -248,18 +300,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >appearance</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add an appearance property.</p>
+				<p>appearance</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$value</p>
+			<div class="col-3-12">
+				<p>Add an appearance property.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$value</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include appearance(none);</code>
                 </pre>
@@ -268,18 +320,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >border-radius</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add a border-radius.</p>
+				<p>border-radius</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$value</p>
+			<div class="col-3-12">
+				<p>Add a border-radius.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$value</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include border-radius(5px);</code>
                 </pre>
@@ -288,18 +340,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >box-sizing</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add a box-sizing property.</p>
+				<p>box-sizing</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$property</p>
+			<div class="col-3-12">
+				<p>Add a box-sizing property.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$property</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include box-sizing(border-box);</code>
                 </pre>
@@ -308,18 +360,18 @@
 		
 		<div class="row">
 			<div class="col-3-12">
-				<p >icon</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >Add an icon from Fajny CSS icon font.</p>
+				<p>icon</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >$unicode</p>
+			<div class="col-3-12">
+				<p>Add an icon from Fajny CSS icon font.</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>$unicode</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">@include icon("\eab9");</code>
                 </pre>
@@ -328,16 +380,53 @@
 		
 	</div>
 </div>
-               <footer>
+
+
+	<footer>
      <hr />
      <div class="footer-container">
           <div class="left">
                <p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     <div>V1.0</div>
+                    
+                    
                     <div>
-                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank"><i class="icon icon-github-brand"></i></a>
-                          <a href="mailto:julien.sebag@me.com"><i class="icon icon-mail-bold"></i></a>
-                          <a href="/fajny-css.zip" download=""><i class="icon icon-download-solid"></i></a>
+                         
+                         
+                         
+                         
+                         
+                         
+                         <a href="mailto:julien.sebag@me.com">
+                              <i class="icon icon-mail-bold"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         
+                         <a href="https://github.com/JulSeb42/fajny-css" target="_blank">
+                              <i class="icon icon-github-brand"></i>
+                         </a>
+                         
+                         
+                         
+                         
+                         <a href="/fajny-css.zip">
+                              <i class="icon icon-download-solid"></i>
+                         </a>
                     </div>
                </p>
           </div>
@@ -351,14 +440,15 @@
           </div>
      </div>
 </footer>
-          </main>
+</main>
 
-          <script src="/assets/js/clipboard.min.js"></script>
+
+         <script src="/assets/js/clipboard.min.js"></script>
           <script>
                //Clipboard
                new ClipboardJS(".copy");
           </script>
           <script src="/assets/js/load-more.js"></script>
-          <script src="/assets/js/script.min.js"></script>
+          <script src="/assets/js/script.js"></script>
      </body>
 </html>

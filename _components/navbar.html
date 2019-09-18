@@ -2,118 +2,112 @@
 layout: detail
 title: Navbar
 desc: Navbar for Fajny CSS
+intro: The navbar has to be placed outside the container.
+file_include: components/navbar
 additional-css: .navbar{position:relative}.header-full .hamburger{position:relative;left:0;right:auto}
 ---
-<p>The navbar has to be placed outside the container</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/navbar";</code>
-</pre>
-
-<h2 >Normal navbar</h2>
+<h2>Normal navbar</h2>
 <div class="results">
-     <div class="list-results">
-               <header class="navbar">
-                         <nav>
-                              <div class="logo"><a href="#"><img src="/assets/images/logo-fajny-css-white.svg" alt=""></a></div>
-                              <input type="checkbox" name="burger" id="burger" class="input-burger">
-                              <label for="burger" class="hamburger">
-                                   <span></span>
-                                   <span></span>
-                                   <span></span>
-                              </label>
+	<div class="list-results">
+		<header class="navbar">
+			<nav>
+				<div class="logo">
+					<a href="#"><img src="/assets/images/logo-fajny-css-white.svg" alt=""/></a>
+				</div>
+				<input type="checkbox" name="burger" id="burger" class="input-burger" />
+				<label for="burger" class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
 
-                              <ul class="ul-nav">
-                                   <li><a href="#">Link</a></li>
-                                   <li><a href="#">Link</a></li>
-                                   <li><a href="#">Link</a></li>
-                                   <li><a href="#">Link</a></li>
-                                   <li class="dropdown">
-                                        <a href="#" class="btn-dropdown">Dropdown</a>
-                                        <ul class="dropdown-content">
-                                             <li><a href="#">Item</a></li>
-                                             <li><a href="#">Item</a></li>
-                                             <li><a href="#">Item</a></li>
-                                             <li><a href="#">Item</a></li>
-                                             <li><a href="#">Item</a></li>
-                                        </ul>
-                                   </li>
-                              </ul>
-                         </nav>
-                    </header>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;header class="navbar"&gt;
-     &lt;nav&gt;
-          &lt;div class="logo"&gt;&lt;a href="#"&gt;&lt;img src="/assets/images/logo-fajny-css-white.svg" alt=""&gt;&lt;/a&gt;&lt;/div&gt;
-          &lt;input type="checkbox" name="burger" id="burger" class="input-burger"&gt;
-          &lt;label for="burger" class="hamburger"&gt;
-               &lt;span&gt;&lt;/span&gt;
-               &lt;span&gt;&lt;/span&gt;
-               &lt;span&gt;&lt;/span&gt;
-          &lt;/label&gt;
+				<ul class="ul-nav">
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li class="dropdown">
+						<a href="#" class="btn-dropdown">Dropdown</a>
+						<ul class="dropdown-content">
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+							<li><a href="#">Item</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;header class=&quot;navbar&quot;&gt;
+    &lt;nav&gt;
+            &lt;div class=&quot;logo&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/images/logo-fajny-css-white.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+            &lt;input type=&quot;checkbox&quot; name=&quot;burger&quot; id=&quot;burger&quot; class=&quot;input-burger&quot;&gt;
+            &lt;label for=&quot;burger&quot; class=&quot;hamburger&quot;&gt;
+                &lt;span&gt;&lt;/span&gt;
+                &lt;span&gt;&lt;/span&gt;
+                &lt;span&gt;&lt;/span&gt;
+            &lt;/label&gt;
 
-          &lt;ul class="ul-nav"&gt;
-               &lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
-               &lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
-               &lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
-               &lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
-               &lt;li class="dropdown"&gt;
-                    &lt;a href="#" class="btn-dropdown"&gt;Dropdown&lt;/a&gt;
-                    &lt;ul class="dropdown-content"&gt;
-                         &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-                         &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-                         &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-                         &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
-                         &lt;li&gt;&lt;a href="#"&gt;Item&lt;/a&gt;&lt;/li&gt;
+            &lt;ul class=&quot;ul-nav&quot;&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+                &lt;li class=&quot;dropdown&quot;&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;btn-dropdown&quot;&gt;Dropdown&lt;/a&gt;
+                    &lt;ul class=&quot;dropdown-content&quot;&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
                     &lt;/ul&gt;
-               &lt;/li&gt;
-          &lt;/ul&gt;
-     &lt;/nav&gt;
-&lt;/header&gt;</code>
-          </pre>
-     </div>
+                &lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;" %}
+	</div>
 </div>
 
 <h2>Full page nav</h2>
 <div class="results">
-     <div class="list-results">
-          <a href="/assets/demo/nav-full.html" target="_blank">See the demo here.</a>
-     </div>
-     <div class="code-result">
-          <pre>
-<code class="html">&lt;header class="header-full"&gt;
-     &lt;input type="checkbox" name="burger" id="burger2" class="input-burger"&gt;
-     &lt;label for="burger2" class="hamburger"&gt;
-          &lt;span&gt;&lt;/span&gt;
-          &lt;span&gt;&lt;/span&gt;
-          &lt;span&gt;&lt;/span&gt;
-     &lt;/label&gt;
+	<div class="list-results">
+		<a href="/assets/demo/nav-full.html" target="_blank">See the demo here.</a>
+	</div>
+	<div class="code-result">
+		{% include code_html.html content="&lt;header class=&quot;header-full&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; name=&quot;burger&quot; id=&quot;burger2&quot; class=&quot;input-burger&quot;&gt;
+    &lt;label for=&quot;burger2&quot; class=&quot;hamburger&quot;&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;span&gt;&lt;/span&gt;
+    &lt;/label&gt;
 
-     &lt;nav&gt;
-          &lt;ul class="ul-nav"&gt;
-               &lt;li&gt;
-                    &lt;a href="#"&gt;Link&lt;/a&gt;
+    &lt;nav&gt;
+            &lt;ul class=&quot;ul-nav&quot;&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
                     &lt;span&gt;&lt;/span&gt;
-               &lt;/li&gt;
-               &lt;li&gt;
-                    &lt;a href="#"&gt;Link&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
                     &lt;span&gt;&lt;/span&gt;
-               &lt;/li&gt;
-               &lt;li&gt;
-                    &lt;a href="#"&gt;Link&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
                     &lt;span&gt;&lt;/span&gt;
-               &lt;/li&gt;
-               &lt;li&gt;
-                    &lt;a href="#"&gt;Link&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
                     &lt;span&gt;&lt;/span&gt;
-               &lt;/li&gt;
-          &lt;/ul&gt;
-          &lt;div class="logo"&gt;&lt;img src="/assets/images/logo-fajny-css-white.svg" alt=""&gt;&lt;/div&gt;
-     &lt;/nav&gt;
-&lt;/header&gt;</code>
-          </pre>
-     </div>
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;div class=&quot;logo&quot;&gt;&lt;img src=&quot;/assets/images/logo-fajny-css-white.svg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;" %}
+	</div>
 </div>

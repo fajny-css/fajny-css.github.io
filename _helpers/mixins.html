@@ -1,51 +1,48 @@
 ---
 layout: detail
 title: Mixins
+desc: Mixins for Fajny CSS
+intro: To speed up your development process in SCSS you can use mixins. These are really useful shortcodes to add in your SCSS elements.
+file_include: mixins
 additional-css: .row{display:flex;align-items:center;flex-wrap:wrap;}
 ---
-<p>To speed up your development process in SCSS you can use mixins. These are really useful shortcodes to add in your SCSS elements.</p>
 
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "mixins";</code>
-</pre>
-
-<h2 >How to use them</h2>
+<h2>How to use them</h2>
 <div class="results">
 	<div class="list-results">
 		<div class="row">
 			<div class="col-3-12">
-				<h5 >Name</h5>
-			</div>
-		
-			<div class="col-3-12">
-				<h5 >Effect</h5>
-			</div>
-            
-            <div class="col-3-12">
-				<h5 >Variables</h5>
+				<h5>Name</h5>
 			</div>
 
-            <div class="col-3-12">
-				<h5 >Example</h5>
+			<div class="col-3-12">
+				<h5>Effect</h5>
+			</div>
+
+			<div class="col-3-12">
+				<h5>Variables</h5>
+			</div>
+
+			<div class="col-3-12">
+				<h5>Example</h5>
 			</div>
 		</div>
 
 		{% for item in site.data.mixins %}
 		<div class="row">
 			<div class="col-3-12">
-				<p >{{ item.name }}</p>
-			</div>
-            
-            <div class="col-3-12">
-				<p >{{ item.effect }}</p>
+				<p>{{ item.name }}</p>
 			</div>
 
-            <div class="col-3-12">
-                <p >{{ item.variables }}</p>
+			<div class="col-3-12">
+				<p>{{ item.effect }}</p>
 			</div>
-            
-            <div class="col-3-12">
+
+			<div class="col-3-12">
+				<p>{{ item.variables }}</p>
+			</div>
+
+			<div class="col-3-12">
 				<pre class="results">
 <code class="scss">{{ item.example }}</code>
                 </pre>

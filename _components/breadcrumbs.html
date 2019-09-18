@@ -2,15 +2,11 @@
 layout: detail
 title: Breadcrumbs
 desc: Breadcrumbs for Fajny CSS
+intro: Help users locate the page they're in.
+file_include: components/breadcrumbs
+additional-css: 
 ---
-<p>Help users locate the page they're in.</p>
-
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/breadcrumbs";</code>
-</pre>
-
-<h2 >Code</h2>
+<h2>Code</h2>
 <div class="results">
      <div class="list-results">
           <ul class="breadcrumbs">
@@ -21,13 +17,11 @@ desc: Breadcrumbs for Fajny CSS
           </ul>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;ul class="breadcrumbs"&gt;
-     &lt;li class="breadcrumbs-links"&gt;&lt;a href="#"&gt;Breadcrumbs Links&lt;/a&gt;&lt;/li&gt;
-     &lt;li class="breadcrumbs-links"&gt;&lt;a href="#"&gt;Breadcrumbs Links&lt;/a&gt;&lt;/li&gt;
-     &lt;li class="breadcrumbs-links"&gt;&lt;a href="#"&gt;Breadcrumbs Links&lt;/a&gt;&lt;/li&gt;
-     &lt;li class="breadcrumbs-active"&gt;Breadcrumbs active&lt;/li&gt;
-&lt;/ul&gt;</code>
-          </pre>
+{% include code_html.html content="&lt;ul class=&quot;breadcrumbs&quot;&gt;
+    &lt;li class=&quot;breadcrumbs-links&quot;&gt;&lt;a href=&quot;#&quot;&gt;Breadcrumbs Links&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;breadcrumbs-links&quot;&gt;&lt;a href=&quot;#&quot;&gt;Breadcrumbs Links&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;breadcrumbs-links&quot;&gt;&lt;a href=&quot;#&quot;&gt;Breadcrumbs Links&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;breadcrumbs-active&quot;&gt;Breadcrumbs active&lt;/li&gt;
+&lt;/ul&gt;" %}
      </div>
 </div>

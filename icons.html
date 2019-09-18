@@ -3,165 +3,145 @@ layout: default
 title: Icons
 desc: Icon font for Fajny CSS
 ---
-<section>
-     <p>Fanjy CSS uses its own icon font. If you want to use it add this in the <code>head</code> of your HTML:</p>
-     
-     <pre class="results results-marg">
-<code class="html">&lt;link href="css/fajny-icons.min.css" rel="stylesheet" /&gt;</code>
-     </pre>
 
-     <p>or via CDN</p>
-     
-     <pre class="results results-marg">
-<code class="html">&lt;link rel="stylesheet" href="https://unpkg.com/fajny-css-icons@1.0.0/css/fajny-icons.min.css" /&gt;</code>
-     </pre>
+<main class="container no-padd-bottom">
+    <h1 class="no-marg-top">{{page.title}}</h1>
+	<section>
+		<p>Fanjy CSS uses its own icon font. If you want to use it add this in the <code>head</code> of your HTML:</p>
+        {% include links/link_local_icons.html %}
 
-     <h2>How to use</h2>
-     <h4>In the HTML</h4>
-     <p>Copy the code and insert it in your HTML page.</p>
-     <h5 >Example</h5>
-     <pre>
-<code class="html">&lt;i class="icon icon-user-regular"&gt;&lt;/i&gt;</code>
-     </pre>
+        <p>or via CDN</p>
+        {% include links/link_cdn_icons.html %}
 
-     <h4 >In the SCSS</h4>
-     <p>You can use mixins to include your icon.</p>
-     <h5 >Example</h5>
-     <pre>
-<code class="scss">@include icon("\unicode")</code>
-     </pre>
+		<h2>How to use</h2>
+		<h4>In the HTML</h4>
+		<p>Copy the code and insert it in your HTML page.</p>
+        <h5>Example</h5>
+        {% include code_html.html content="&lt;i class=&quot;icon icon-user-regular&quot;&gt;&lt;/i&gt;" %}
+        
+        <h4>In the SCSS</h4>
+		<p>You can use mixins to include your icon.</p>
+        <h5>Example</h5>
+        {% include code_scss.html content="@include icon(&quot;\unicode&quot;)" %}
 
-     <h4 >In the CSS</h4>
-     <p >Copy this in your CSS page:</p>
-     <pre>
-<code class="css">font-family: "fajny-css-icons";
-content: "\unicode";</code>
-     </pre>
-</section>
+		<h4>In the CSS</h4>
+		<p>Copy this in your CSS page:</p>
+		{% include code_css.html content="font-family: &quot;fajny-css-icons&quot;;
+content: &quot;\unicode&quot;;" %}
+	</section>
 
-<section>
-     <div class="input-container input-icon-container">
-          <input type="text" id="search" name="input" onkeyup="search()" required />
-          <span class="bar"></span>
-          <label for="search">Search</label>
-     </div>
-</section>
+	<section>
+		<div class="input-container input-icon-container">
+			<input type="text" id="search" name="input" onkeyup="search()" required />
+			<span class="bar"></span>
+			<label for="search">Search</label>
+		</div>
+	</section>
 
-<section>
-     <div class="row">
-          <div class="col-1 filters">
-               <h4>Filters</h4>
-               <div class="radio-container">
-                    <input type="radio" id="all" name="filters" onclick="filterSelection('all')" checked />
-                    <label for="all" class="radio-label"></label>
-                    <label for="all" class="text-label">All</label>
-               </div>
+	<section>
+		<div class="row">
+			<div class="col-1 filters">
+				<h4>Filters</h4>
+				<div class="radio-container">
+					<input type="radio" id="all" name="filters" onclick="filterSelection('all')" checked />
+					<label for="all" class="radio-label"></label>
+					<label for="all" class="text-label">All</label>
+				</div>
 
-               <div class="radio-container">
-                    <input type="radio" id="regular" name="filters" onclick="filterSelection('regular')" />
-                    <label for="regular" class="radio-label"></label>
-                    <label for="regular" class="text-label">Regular</label>
-               </div>
+				<div class="radio-container">
+					<input type="radio" id="regular" name="filters" onclick="filterSelection('regular')" />
+					<label for="regular" class="radio-label"></label>
+					<label for="regular" class="text-label">Regular</label>
+				</div>
 
-               <div class="radio-container">
-                    <input type="radio" id="bold" name="filters" onclick="filterSelection('bold')" />
-                    <label for="bold" class="radio-label"></label>
-                    <label for="bold" class="text-label">Bold</label>
-               </div>
+				<div class="radio-container">
+					<input type="radio" id="bold" name="filters" onclick="filterSelection('bold')" />
+					<label for="bold" class="radio-label"></label>
+					<label for="bold" class="text-label">Bold</label>
+				</div>
 
-               <div class="radio-container">
-                    <input type="radio" id="solid" name="filters" onclick="filterSelection('solid')" />
-                    <label for="solid" class="radio-label"></label>
-                    <label for="solid" class="text-label">Solid</label>
-               </div>
+				<div class="radio-container">
+					<input type="radio" id="solid" name="filters" onclick="filterSelection('solid')" />
+					<label for="solid" class="radio-label"></label>
+					<label for="solid" class="text-label">Solid</label>
+				</div>
 
-               <div class="radio-container">
-                    <input type="radio" id="brand" name="filters" onclick="filterSelection('brand')" />
-                    <label for="brand" class="radio-label"></label>
-                    <label for="brand" class="text-label">Brand</label>
-               </div>
-          </div>
-     </div>
+				<div class="radio-container">
+					<input type="radio" id="brand" name="filters" onclick="filterSelection('brand')" />
+					<label for="brand" class="radio-label"></label>
+					<label for="brand" class="text-label">Brand</label>
+				</div>
+			</div>
+		</div>
 
-     <div class="row">
-          <div class="col-1">
-               <ul class="list-icons" id="list-icons">
-                    {% for icon in site.icons %}
-                    {% if icon.unicode_regular %}
-                    <li class="filterDiv regular item">
-                         <i class="icon icon-{{ icon.title }}-regular"></i>
-                         <span>{{ icon.title }}</span>
-                         <span>regular</span>
-                         <p class="code no-marg-top">
-                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-regular'&gt;&lt;/i&gt;">Copy code</a>
-                              <br />
-                              <a class="copy" data-clipboard-text="{{ icon.unicode_regular }}">Copy unicode</a>
-                         </p>
-                         <div class="btn-container">
-                              <a href="assets/images/icons/{{ icon.title }}-regular.svg" class="btn btn-rectangle btn-primary" download>
-                                   Download SVG <i class="icon icon-download-solid"></i>
-                              </a>
-                         </div>
-                    </li>
+		<div class="row">
+			<div class="col-1">
+				<ul class="list-icons" id="list-icons">
+					{% for icon in site.icons %} {% if icon.unicode_regular %}
+					<li class="filterDiv regular item">
+						<i class="icon icon-{{ icon.title }}-regular"></i>
+						<span>{{ icon.title }}</span>
+						<span>regular</span>
+						<p class="code no-marg-top">
+							<a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-regular'&gt;&lt;/i&gt;">Copy code</a>
+							<br />
+							<a class="copy" data-clipboard-text="{{ icon.unicode_regular }}">Copy unicode</a>
+						</p>
+						<div class="btn-container">
+							<a href="assets/images/icons/{{ icon.title }}-regular.svg" class="btn btn-rectangle btn-primary" download> Download SVG <i class="icon icon-download-solid"></i> </a>
+						</div>
+					</li>
 
-                    <li class="filterDiv bold item">
-                         <i class="icon icon-{{ icon.title }}-bold"></i>
-                         <span>{{ icon.title }}</span>
-                         <span>bold</span>
-                         <p class="code no-marg-top">
-                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-bold'&gt;&lt;/i&gt;">Copy code</a>
-                              <br />
-                              <a class="copy" data-clipboard-text="{{ icon.unicode_bold }}">Copy unicode</a>
-                         </p>
-                         <div class="btn-container">
-                              <a href="assets/images/icons/{{ icon.title }}-bold.svg" class="btn btn-rectangle btn-primary" download>
-                                   Download SVG <i class="icon icon-download-solid"></i>
-                              </a>
-                         </div>
-                    </li>
-                    {% endif %}
+					<li class="filterDiv bold item">
+						<i class="icon icon-{{ icon.title }}-bold"></i>
+						<span>{{ icon.title }}</span>
+						<span>bold</span>
+						<p class="code no-marg-top">
+							<a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-bold'&gt;&lt;/i&gt;">Copy code</a>
+							<br />
+							<a class="copy" data-clipboard-text="{{ icon.unicode_bold }}">Copy unicode</a>
+						</p>
+						<div class="btn-container">
+							<a href="assets/images/icons/{{ icon.title }}-bold.svg" class="btn btn-rectangle btn-primary" download> Download SVG <i class="icon icon-download-solid"></i> </a>
+						</div>
+					</li>
+					{% endif %} {% if icon.unicode_solid %}
+					<li class="filterDiv solid item">
+						<i class="icon icon-{{ icon.title }}-solid"></i>
+						<span>{{ icon.title }}</span>
+						<span>solid</span>
+						<p class="code no-marg-top">
+							<a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-solid'&gt;&lt;/i&gt;">Copy code</a>
+							<br />
+							<a class="copy" data-clipboard-text="{{ icon.unicode_solid }}">Copy unicode</a>
+						</p>
+						<div class="btn-container">
+							<a href="assets/images/icons/{{ icon.title }}-solid.svg" class="btn btn-rectangle btn-primary" download> Download SVG <i class="icon icon-download-solid"></i> </a>
+						</div>
+					</li>
+					{% endif %} {% if icon.unicode_brand %}
+					<li class="filterDiv brand item">
+						<i class="icon icon-{{ icon.title }}-brand"></i>
+						<span>{{ icon.title }}</span>
+						<span>brand</span>
+						<p class="code no-marg-top">
+							<a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-brand'&gt;&lt;/i&gt;">Copy code</a>
+							<br />
+							<a class="copy" data-clipboard-text="{{ icon.unicode_brand }}">Copy unicode</a>
+						</p>
+						<div class="btn-container">
+							<a href="assets/images/icons/{{ icon.title }}-brand.svg" class="btn btn-rectangle btn-primary" download> Download SVG <i class="icon icon-download-solid"></i> </a>
+						</div>
+					</li>
+					{% endif %} {% endfor %}
+				</ul>
 
-                    {% if icon.unicode_solid %}
-                    <li class="filterDiv solid item">
-                         <i class="icon icon-{{ icon.title }}-solid"></i>
-                         <span>{{ icon.title }}</span>
-                         <span>solid</span>
-                         <p class="code no-marg-top">
-                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-solid'&gt;&lt;/i&gt;">Copy code</a>
-                              <br />
-                              <a class="copy" data-clipboard-text="{{ icon.unicode_solid }}">Copy unicode</a>
-                         </p>
-                         <div class="btn-container">
-                              <a href="assets/images/icons/{{ icon.title }}-solid.svg" class="btn btn-rectangle btn-primary" download>
-                                   Download SVG <i class="icon icon-download-solid"></i>
-                              </a>
-                         </div>
-                    </li>
-                    {% endif %}
-
-                    {% if icon.unicode_brand %}
-                    <li class="filterDiv brand item">
-                         <i class="icon icon-{{ icon.title }}-brand"></i>
-                         <span>{{ icon.title }}</span>
-                         <span>brand</span>
-                         <p class="code no-marg-top">
-                              <a class="copy" data-clipboard-text="&lt;i class='icon icon-{{ icon.title }}-brand'&gt;&lt;/i&gt;">Copy code</a>
-                              <br />
-                              <a class="copy" data-clipboard-text="{{ icon.unicode_brand }}">Copy unicode</a>
-                         </p>
-                         <div class="btn-container">
-                              <a href="assets/images/icons/{{ icon.title }}-brand.svg" class="btn btn-rectangle btn-primary" download>
-                                   Download SVG <i class="icon icon-download-solid"></i>
-                              </a>
-                         </div>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-               </ul>
-
-               <div class="button-container">
-                    <button class="btn btn-rectangle btn-primary btn-large" id="load-more-comments">Load More</button>
-               </div>
-          </div>
-     </div>
-</section>
+				<div class="button-container">
+					<button class="btn btn-rectangle btn-primary btn-large" id="load-more-comments">Load More</button>
+				</div>
+			</div>
+		</div>
+    </section>
+    
+    {% include footer.html %}
+</main>

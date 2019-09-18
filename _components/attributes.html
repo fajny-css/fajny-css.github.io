@@ -2,16 +2,11 @@
 layout: detail
 title: Attributes
 desc: Attributes for Fajny CSS
+intro: Attributes are text appearing when you hover something.
+file_include: components/attributes
 additional-css: .attribute{padding-top:50px;}.attribute .attribute-text{top:0}
 ---
-<p>Attributes are text appearing when you hover something.</p>
-
-<h2>File to include</h2>
-<pre class="results">
-<code class="scss">@include "components/attributes";</code>
-</pre>
-
-<h2 >Code</h2>
+<h2>Code</h2>
 <div class="results">
      <div class="list-results">
           <p class="attribute">
@@ -20,11 +15,10 @@ additional-css: .attribute{padding-top:50px;}.attribute .attribute-text{top:0}
           </p>
      </div>
      <div class="code-result">
-          <pre>
-<code class="html">&lt;p class="attribute"&gt;
-     Hover me
-     &lt;span class="attribute-text bg-primary"&gt;Attribute&lt;/span&gt;
-&lt;/p&gt;</code>
+          {% include code_html.html content="&lt;p class=&quot;attribute&quot;&gt;
+    Hover me
+    &lt;span class=&quot;attribute-text bg-primary&quot;&gt;Attribute&lt;/span&gt;
+&lt;/p&gt;" %}
           </pre>
      </div>
 </div>

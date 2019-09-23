@@ -1,3 +1,16 @@
+title: Fajny CSS
+email: julien.sebag@me.com
+description: Documentation for Fajny CSS. Build responsive web projects with Fajny CSS, a simple and lightweight SCSS Framework with a lot of components.
+baseurl: "/"
+url: "http://fajny-css.github.io"
+github_username: JulSeb42
+
+markdown: kramdown
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
 collections:
   basics:
     output: true
@@ -9,5 +22,3 @@ collections:
     output: false
   styles:
     output: true
-sass:
-    style: compressed

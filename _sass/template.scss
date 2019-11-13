@@ -130,7 +130,7 @@
 
 .list-cards-home {
 	@extend %ulNone;
-	@include flexbox(flex-start, space-between, wrap);
+	@include flexbox(flex-start, space-between, nowrap);
 	width: 100%;
 	float: left;
 
@@ -139,7 +139,7 @@
 		@include flexbox(flex-start, flex-start, wrap);
 		align-content: flex-start;
 		margin-bottom: 20px;
-		width: 22.5%;
+		width: 19%;
 		
 		.cards-image {
 			height: 210px;

@@ -13,6 +13,12 @@ cards:
    link: https://sass-lang.com/
    external_link: true
    text_link: Learn More about SCSS
+ - title: Less version
+   image: less-logo.svg
+   text: If you prefer to use Less the code is included!
+   link: http://lesscss.org/
+   external_link: true
+   text_link: Learn More about Less
  - title: Compile with Grunt
    image: grunt.svg
    text: Don't bother to compile everytime SCSS, Grunt does it automatically!

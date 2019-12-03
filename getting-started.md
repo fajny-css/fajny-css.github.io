@@ -11,7 +11,7 @@ Just copy this in the `<head>` of your HTML:
 
 ## Via NPM
 Open the folder in your terminal and run this command:
-{% include code_shell.html content="$ npm i @julseb42/fajny-css" %}
+{% include code_shell.html content="$ npm i fajny-css" %}
 
 ## Locally
 This installation is for macOS only.

@@ -1,7 +1,6 @@
 ---
-title: pen
-unicode_regular: \ebf6
-unicode_bold: \ebf5
-unicode_solid: \ebf7
+unicode_regular: \ea7f
+unicode_solid: \ea80
 unicode_brand: 
+icon_category: ui
 ---

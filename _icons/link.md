@@ -1,7 +1,6 @@
 ---
-title: link
-unicode_regular: \eb98
-unicode_bold: \eb97
-unicode_solid: \eb99
+unicode_regular: \ea36
+unicode_solid: \ea37
 unicode_brand: 
+icon_category: ui
 ---

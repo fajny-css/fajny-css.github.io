@@ -1,7 +1,6 @@
 ---
-title: calendar-plus
-unicode_regular: \ea84
-unicode_bold: \ea83
-unicode_solid: \ea85
+unicode_regular: \e962
+unicode_solid: \e963
 unicode_brand: 
+icon_category: date
 ---

@@ -1,7 +1,6 @@
 ---
-title: python
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ec2a
+unicode_brand: \eaa8
+icon_category: brand
 ---

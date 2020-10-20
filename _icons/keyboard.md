@@ -1,7 +1,6 @@
 ---
-title: keyboard
-unicode_regular: \eb88
-unicode_bold: \eb87
-unicode_solid: \eb89
+unicode_regular: \ea2b
+unicode_solid: \ea2c
 unicode_brand: 
+icon_category: technology
 ---

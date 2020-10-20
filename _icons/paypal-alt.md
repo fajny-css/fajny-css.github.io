@@ -1,7 +1,6 @@
 ---
-title: paypal-alt
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ebf2
+unicode_brand: \ea7c
+icon_category: brand
 ---

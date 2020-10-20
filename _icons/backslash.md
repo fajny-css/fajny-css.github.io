@@ -1,7 +1,6 @@
 ---
-title: backslash
-unicode_regular: \ea0f
-unicode_bold: \ea0e
-unicode_solid: \ea10
+unicode_regular: \e911
+unicode_solid: \e912
 unicode_brand: 
+icon_category: ui
 ---

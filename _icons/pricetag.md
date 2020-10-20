@@ -1,7 +1,6 @@
 ---
-title: pricetag
-unicode_regular: \ec24
-unicode_bold: \ec23
-unicode_solid: \ec25
+unicode_regular: \eaa3
+unicode_solid: \eaa4
 unicode_brand: 
+icon_category: shops
 ---

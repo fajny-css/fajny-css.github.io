@@ -1,7 +1,6 @@
 ---
-title: microsoft-alt
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ebd6
+unicode_brand: \ea62
+icon_category: brand
 ---

@@ -1,7 +1,6 @@
 ---
-title: phone
-unicode_regular: \ec05
-unicode_bold: \ebfe
-unicode_solid: \ec09
+unicode_regular: \ea89
+unicode_solid: \ea8c
 unicode_brand: 
+icon_category: technology
 ---

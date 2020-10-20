@@ -1,7 +1,6 @@
 ---
-title: dropbox
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb17
+unicode_brand: \e9cf
+icon_category: brand
 ---

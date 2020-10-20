@@ -1,7 +1,6 @@
 ---
-title: heart-full
 unicode_regular: 
-unicode_bold: 
-unicode_solid: \eb67
+unicode_solid: \ea0f
 unicode_brand: 
+icon_category: ui
 ---

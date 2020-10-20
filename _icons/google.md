@@ -1,7 +1,6 @@
 ---
-title: google
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb5d
+unicode_brand: \ea08
+icon_category: brand
 ---

@@ -1,7 +1,6 @@
 ---
-title: volume-up
-unicode_regular: \ecc3
-unicode_bold: \ecc2
-unicode_solid: \ecc4
+unicode_regular: \eb18
+unicode_solid: \eb19
 unicode_brand: 
+icon_category: ui
 ---

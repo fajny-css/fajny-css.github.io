@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/bookmark-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M84,100 L49.48,77 L15,100 L15,10.46 C15.0055127,4.68538647 19.6853865,0.00551271127 25.46,-4.9999997e-08 L73.58,-4.9999997e-08 C79.3389864,0.0275000219 83.9945652,4.70095046 84,10.46 L84,100 Z M49.52,58.38 L68.49,71 L68.49,15.54 L30.54,15.54 L30.54,71 L49.52,58.38 Z" id="bookmark" fill="#000000"></path>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M84.0372 100L49.5186 77.0426L15 100V10.4537C15.0107 4.68472 19.6847 0.0106932 25.4537 0H73.5835C79.3525 0.0106932 84.0265 4.68472 84.0372 10.4537V100ZM30.5445 15.5445V70.99L49.5186 58.3601L68.4927 70.99V15.5445H30.5445Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
 </svg>

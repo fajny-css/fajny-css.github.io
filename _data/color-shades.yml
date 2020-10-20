@@ -1,0 +1,45 @@
+- name: primary
+  hex: 1B4568
+  rgb: 27, 69, 104
+- name: primary-75
+  hex: 5D7A93
+  rgb: 93, 122, 147
+- name: primary-5
+  hex: F4F6F7
+  rgb: 244, 246, 247
+- name: secondary
+  hex: 266DD3
+  rgb: 28, 109, 211
+- name: secondary-75
+  hex: 6596DE
+  rgb: 101, 150, 222
+- name: secondary-5
+  hex: F4F8FD
+  rgb: 244, 248, 253
+- name: success
+  hex: 97DB4F
+  rgb: 151, 219, 79
+- name: success-75
+  hex: B4E381
+  rgb: 180, 227, 129
+- name: success-5
+  hex: FAFDF6
+  rgb: 250, 253, 246
+- name: danger
+  hex: FF312E
+  rgb: 255, 49, 46
+- name: danger-75
+  hex: FD6C6A
+  rgb: 253, 108, 106
+- name: danger-5
+  hex: FFF5F5
+  rgb: 255, 245, 245
+- name: warning
+  hex: F46036
+  rgb: 244, 96, 54
+- name: warning-75
+  hex: F58D70
+  rgb: 245, 141, 112
+- name: warning-5
+  hex: FEF7F5
+  rgb: 254, 247, 245

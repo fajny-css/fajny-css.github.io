@@ -1,7 +1,6 @@
 ---
-title: cash
-unicode_regular: \eaa7
-unicode_bold: \eaa6
-unicode_solid: \eaa8
+unicode_regular: \e97a
+unicode_solid: \e97b
 unicode_brand: 
+icon_category: shops
 ---

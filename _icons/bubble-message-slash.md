@@ -1,7 +1,6 @@
 ---
-title: bubble-message-slash
-unicode_regular: \ea64
-unicode_bold: \ea63
-unicode_solid: \ea65
+unicode_regular: \e94d
+unicode_solid: \e94e
 unicode_brand: 
+icon_category: communication
 ---

@@ -1,7 +1,6 @@
 ---
-title: cogs
-unicode_regular: \eae4
-unicode_bold: \eae3
-unicode_solid: \eae5
+unicode_regular: \e9aa
+unicode_solid: \e9ab
 unicode_brand: 
+icon_category: ui
 ---

@@ -1,7 +1,6 @@
 ---
-title: browser-window-cross
-unicode_regular: \ea3f
-unicode_bold: \ea3e
-unicode_solid: \ea40
+unicode_regular: \e934
+unicode_solid: \e935
 unicode_brand: 
+icon_category: technology
 ---

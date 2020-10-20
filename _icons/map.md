@@ -1,7 +1,6 @@
 ---
-title: map
-unicode_regular: \ebcc
-unicode_bold: \ebc8
-unicode_solid: \ebcd
+unicode_regular: \ea59
+unicode_solid: \ea5a
 unicode_brand: 
+icon_category: date
 ---

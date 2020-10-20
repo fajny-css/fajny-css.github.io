@@ -1,7 +1,6 @@
 ---
-title: internet-explorer
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb84
+unicode_brand: \ea24
+icon_category: brand
 ---

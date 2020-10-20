@@ -1,7 +1,6 @@
 ---
-title: forward
-unicode_regular: \eb55
-unicode_bold: \eb54
-unicode_solid: \eb56
+unicode_regular: \ea01
+unicode_solid: \ea02
 unicode_brand: 
+icon_category: ui
 ---

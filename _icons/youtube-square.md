@@ -1,7 +1,6 @@
 ---
-title: youtube-square
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ecd7
+unicode_brand: \eb29
+icon_category: brand
 ---

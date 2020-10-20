@@ -1,7 +1,6 @@
 ---
-title: paypal-card
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ebf4
+unicode_brand: \ea7e
+icon_category: brand
 ---

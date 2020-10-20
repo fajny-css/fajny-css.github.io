@@ -1,7 +1,6 @@
 ---
-title: sass
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ec36
+unicode_brand: \eab1
+icon_category: brand
 ---

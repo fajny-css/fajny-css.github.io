@@ -1,7 +1,6 @@
 ---
-title: copy
-unicode_regular: \eaea
-unicode_bold: \eae9
-unicode_solid: \eaeb
+unicode_regular: \e9ae
+unicode_solid: \e9af
 unicode_brand: 
+icon_category: ui
 ---

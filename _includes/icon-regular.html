@@ -1,0 +1,19 @@
+<div class="tab-container">
+    <input type="radio" name="tabs" id="regular" aria-controls="regular" checked />
+    <label for="regular" class="first">Regular</label>
+
+    <input type="radio" name="tabs" id="solid" aria-controls="solid" />
+    <label for="solid">Solid</label>
+
+    <div class="line"></div>
+
+    <div class="tab-content">
+        <section id="regular" class="tab-panel">
+            {% include code-icon.html weight="regular" %}
+        </section>
+
+        <section id="solid" class="tab-panel">
+            {% include code-icon.html weight="solid" %}
+        </section>
+    </div>
+</div>

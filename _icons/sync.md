@@ -1,7 +1,6 @@
 ---
-title: sync
-unicode_regular: \ec74
-unicode_bold: \ec73
-unicode_solid: \ec75
+unicode_regular: \eae3
+unicode_solid: \eae4
 unicode_brand: 
+icon_category: ui
 ---

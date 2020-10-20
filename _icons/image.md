@@ -1,7 +1,6 @@
 ---
-title: image
-unicode_regular: \eb75
-unicode_bold: \eb74
-unicode_solid: \eb76
+unicode_regular: \ea19
+unicode_solid: \ea1a
 unicode_brand: 
+icon_category: ui
 ---

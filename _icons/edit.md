@@ -1,7 +1,6 @@
 ---
-title: edit
-unicode_regular: \eb1a
-unicode_bold: \eb19
-unicode_solid: \eb1b
+unicode_regular: \e9d1
+unicode_solid: \e9d2
 unicode_brand: 
+icon_category: ui
 ---

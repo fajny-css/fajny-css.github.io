@@ -1,7 +1,6 @@
 ---
-title: npm
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ebeb
+unicode_brand: \ea75
+icon_category: brand
 ---

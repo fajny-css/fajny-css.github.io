@@ -1,7 +1,6 @@
 ---
-title: video
-unicode_regular: \ecb5
-unicode_bold: \ecae
-unicode_solid: \ecb6
+unicode_regular: \eb0e
+unicode_solid: \eb0f
 unicode_brand: 
+icon_category: ui
 ---

@@ -1,7 +1,6 @@
 ---
-title: browser-window-minus
-unicode_regular: \ea42
-unicode_bold: \ea41
-unicode_solid: \ea43
+unicode_regular: \e936
+unicode_solid: \e937
 unicode_brand: 
+icon_category: technology
 ---

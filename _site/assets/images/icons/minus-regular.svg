@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>regular/minus-regular</title>
-    <desc>Created with Sketch.</desc>
-    <g id="regular/minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M97.62,47.5 L2.37999995,47.5 C1.06556225,47.5 -4.9999997e-08,48.5655623 -4.9999997e-08,49.88 C-4.9999997e-08,51.1944377 1.06556225,52.26 2.37999995,52.26 L97.62,52.26 C98.9344378,52.26 100,51.1944377 100,49.88 C100,48.5655623 98.9344378,47.5 97.62,47.5 Z" id="minus" fill="#000000"></path>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M97.0588 52.9409H2.94118C1.31681 52.9409 0 51.6241 0 49.9998C0 48.3754 1.31681 47.0586 2.94118 47.0586H97.0588C98.6832 47.0586 100 48.3754 100 49.9998C100 51.6241 98.6832 52.9409 97.0588 52.9409Z" fill="black"/>
 </svg>

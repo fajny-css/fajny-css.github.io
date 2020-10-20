@@ -1,7 +1,6 @@
 ---
-title: share
-unicode_regular: \ec41
-unicode_bold: \ec40
-unicode_solid: \ec42
+unicode_regular: \eab8
+unicode_solid: \eab9
 unicode_brand: 
+icon_category: ui
 ---

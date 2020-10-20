@@ -1,7 +1,6 @@
 ---
-title: not-equal
-unicode_regular: \ebe9
-unicode_bold: \ebe8
-unicode_solid: \ebea
+unicode_regular: \ea73
+unicode_solid: \ea74
 unicode_brand: 
+icon_category: maths
 ---

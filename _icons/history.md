@@ -1,7 +1,6 @@
 ---
-title: history
-unicode_regular: \eb6b
-unicode_bold: \eb6a
-unicode_solid: \eb6c
+unicode_regular: \ea12
+unicode_solid: \ea13
 unicode_brand: 
+icon_category: ui
 ---

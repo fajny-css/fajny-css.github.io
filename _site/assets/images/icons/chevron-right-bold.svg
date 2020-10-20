@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>bold/chevron-right-bold</title>
-    <desc>Created with Sketch.</desc>
-    <g id="bold/chevron-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M76.230005,50 C76.2324828,52.3615793 75.2973217,54.6275464 73.63,56.3 L31.26,98.67 C29.4661838,100.332056 26.6794322,100.278951 24.9502406,98.5497594 C23.221049,96.8205678 23.1679439,94.0338163 24.83,92.24 L67.07,50 L24.83,7.75999996 C23.1679439,5.96618373 23.221049,3.17943221 24.9502406,1.4502406 C26.6794322,-0.278951001 29.4661838,-0.332056168 31.26,1.32999995 L73.63,43.7 C75.2973217,45.3724536 76.2324828,47.6384207 76.230005,50 Z" id="chevron-right" fill="#000000"></path>
-    </g>
-</svg>

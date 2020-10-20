@@ -1,7 +1,6 @@
 ---
-title: xing
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ecd3
+unicode_brand: \eb25
+icon_category: brand
 ---

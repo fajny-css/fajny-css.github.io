@@ -1,7 +1,6 @@
 ---
-title: inferior
-unicode_regular: \eb7e
-unicode_bold: \eb7a
-unicode_solid: \eb7f
+unicode_regular: \ea1f
+unicode_solid: \ea20
 unicode_brand: 
+icon_category: maths
 ---

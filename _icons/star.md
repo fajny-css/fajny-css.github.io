@@ -1,7 +1,6 @@
 ---
-title: star
-unicode_regular: \ec5e
-unicode_bold: \ec5c
-unicode_solid: \ec5f
+unicode_regular: \ead4
+unicode_solid: \ead5
 unicode_brand: 
+icon_category: ui
 ---

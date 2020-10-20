@@ -1,7 +1,6 @@
 ---
-title: box-open
-unicode_regular: \ea36
-unicode_bold: \ea35
-unicode_solid: \ea37
+unicode_regular: \e92e
+unicode_solid: \e92f
 unicode_brand: 
+icon_category: office
 ---

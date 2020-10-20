@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/bookmark-full-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/bookmark-full" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M78.83,-4.9999997e-08 L21.05,-4.9999997e-08 C17.9832027,0.0055157813 15.5,2.49319775 15.5,5.55999996 L15.5,100 L49.94,77.1 L84.39,100 L84.39,5.55999996 C84.39,2.48929674 81.9007032,-4.9999997e-08 78.83,-4.9999997e-08 Z" id="bookmark-full" fill="#000000"></path>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M73.5835 0H25.4537C19.6847 0.0106932 15.0107 4.68472 15 10.4537V100L49.5186 77.0426L84.0372 100V10.4537C84.0265 4.68472 79.3525 0.0106932 73.5835 0Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
 </svg>

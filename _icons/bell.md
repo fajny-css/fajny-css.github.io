@@ -1,7 +1,6 @@
 ---
-title: bell
-unicode_regular: \ea23
-unicode_bold: \ea22
-unicode_solid: \ea27
+unicode_regular: \e91f
+unicode_solid: \e922
 unicode_brand: 
+icon_category: ui
 ---

@@ -1,7 +1,6 @@
 ---
-title: code
-unicode_regular: \eadb
-unicode_bold: \ead7
-unicode_solid: \eadc
+unicode_regular: \e9a3
+unicode_solid: \e9a4
 unicode_brand: 
+icon_category: technology
 ---

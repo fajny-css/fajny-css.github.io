@@ -1,7 +1,6 @@
 ---
-title: edge
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb18
+unicode_brand: \e9d0
+icon_category: brand
 ---

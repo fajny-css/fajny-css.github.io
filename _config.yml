@@ -2,23 +2,77 @@ title: Fajny CSS
 email: julien.sebag@me.com
 description: Documentation for Fajny CSS. Build responsive web projects with Fajny CSS, a simple and lightweight SCSS Framework with a lot of components.
 baseurl: "/"
-url: "http://fajny-css.github.io"
+url: "https://fajny-css.github.io/"
+author: Julien Sebag
+type: framework_documentation
+lang: en
+favicon: favicon.png
+cover_og: cover-og.png
 github_username: JulSeb42
+version: 2.0
+
+logo: logo-fajny-css.svg
+logo_white: logo-fajny-css-white.svg
+download: fajny-css.zip
+github: https://github.com/fajny-css
+css_local: "&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/css/fajny.min.css&quot; type=&quot;text/css&quot; /&gt;"
+icons_local: "&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/css/fajny-icons.min.css&quot; type=&quot;text/css&quot; /&gt;"
+js_local: "&lt;script src=&quot;/path/to/js/script.min.js&quot;&gt;&lt;/script&gt;"
+css_cdn: "&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/fajny-css/css/fajny.min.css&quot; type=&quot;text/css&quot; /&gt;"
+icons_cdn: "&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/fajny-css/css/fajny-icons.min.css&quot; type=&quot;text/css&quot; /&gt;"
+js_cdn: "&lt;script src=&quot;https://unpkg.com/fajny-css/js/script.min.js&quot;&gt;&lt;/script&gt;"
+
+text_footer: |-
+  Pictures from <a href="https://unsplash.com/" target="_blank">Unsplash</a>, videos from <a href="https://mixkit.co/" target="_blank">Mixkit</a>.<br />Made by <a href="http://www.julien-sebag.design/" target="_blank">Julien Sebag</a> | 2020
+
+keywords:
+  - css
+  - framework css
+  - ui design
+  - ux design
+  - scss
+  - sass
+  - components
+  - component library
+  - design system
+  - fajny css
+  - html
+  - responsive
+  - icon font
+  - icons
+
 
 markdown: kramdown
+
+collections:
+  categories:
+    output: true
+  icons:
+    output: true
+    # category: icons
+  icon_categories:
+    output: false
 
 sass:
     style: compressed
     sass_dir: _sass
 
-collections:
-  basics:
-    output: true
-  components:
-    output: true
-  helpers:
-    output: true
-  icons:
-    output: false
-  styles:
-    output: true
+permalink: /:categories/:title/
+
+defaults:
+  -
+    scope:
+      type: "icons"
+    values:
+      layout: "icons"
+      category: "icons"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "components"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

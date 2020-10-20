@@ -1,7 +1,6 @@
 ---
-title: dashboard
-unicode_regular: \eafd
-unicode_bold: \eafc
-unicode_solid: \eafe
+unicode_regular: \e9b9
+unicode_solid: \e9ba
 unicode_brand: 
+icon_category: ui
 ---

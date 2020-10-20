@@ -1,7 +1,6 @@
 ---
-title: superior-or-equal
-unicode_regular: \ec6f
-unicode_bold: \ec6e
-unicode_solid: \ec70
+unicode_regular: \eadf
+unicode_solid: \eae0
 unicode_brand: 
+icon_category: maths
 ---

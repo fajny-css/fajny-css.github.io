@@ -1,7 +1,6 @@
 ---
-title: google-alt
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb5c
+unicode_brand: \ea07
+icon_category: brand
 ---

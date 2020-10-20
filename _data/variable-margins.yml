@@ -1,0 +1,14 @@
+- name: xxl
+  content: 48
+- name: xl
+  content: 32 
+- name: l
+  content: 24
+- name: m
+  content: 16
+- name: s
+  content: 12
+- name: xs
+  content: 8
+- name: xxs
+  content: 4

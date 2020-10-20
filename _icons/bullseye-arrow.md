@@ -1,7 +1,6 @@
 ---
-title: bullseye-arrow
-unicode_regular: \ea6b
-unicode_bold: \ea6a
-unicode_solid: \ea6c
+unicode_regular: \e952
+unicode_solid: \e953
 unicode_brand: 
+icon_category: objects
 ---

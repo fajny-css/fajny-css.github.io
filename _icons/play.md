@@ -1,7 +1,6 @@
 ---
-title: play
-unicode_regular: \ec18
-unicode_bold: \ec14
-unicode_solid: \ec19
+unicode_regular: \ea9b
+unicode_solid: \ea9c
 unicode_brand: 
+icon_category: ui
 ---

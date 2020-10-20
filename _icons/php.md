@@ -1,7 +1,6 @@
 ---
-title: php
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ec0a
+unicode_brand: \ea8d
+icon_category: brand
 ---

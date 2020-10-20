@@ -1,14 +1,17 @@
-- name: Home
-  link: /
 - name: Getting Started
-  link: /getting-started.html
+  url: /getting-started/
+  category: getting-started
 - name: Layouts
-  link: /basics.html
+  url: /categories/layouts/
+  category: layouts
 - name: Icons
-  link: /icons.html
+  url: /categories/icons/
+  category: icons
 - name: Styles
-  link: /styles.html
+  url: /categories/styles/
+  category: styles
 - name: Components
-  link: /components.html
+  url: /categories/components/
+  category: components
 - name: Helpers
-  link: /helpers.html
+  url: /categories/helpers/

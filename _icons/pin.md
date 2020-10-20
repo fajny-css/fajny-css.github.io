@@ -1,7 +1,6 @@
 ---
-title: pin
-unicode_regular: \ec0f
-unicode_bold: \ec0e
-unicode_solid: \ec10
+unicode_regular: \ea90
+unicode_solid: \ea91
 unicode_brand: 
+icon_category: date
 ---

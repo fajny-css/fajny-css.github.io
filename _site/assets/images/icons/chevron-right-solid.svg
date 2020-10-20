@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/chevron-right-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/chevron-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M78.1700412,50 C78.1784716,53.2719318 76.8787178,56.4115032 74.56,58.72 L35.73,97.56 C32.4493822,100.663413 27.2946048,100.591885 24.1013601,97.3986399 C20.9081154,94.2053952 20.8365872,89.0506178 23.94,85.77 L59.71,50 L23.94,14.23 C20.8365872,10.9493822 20.9081154,5.79460483 24.1013601,2.60136008 C27.2946048,-0.591884668 32.4493822,-0.663412855 35.73,2.43999995 L74.56,41.28 C76.8787178,43.5884968 78.1784716,46.7280682 78.1700412,50 Z" id="chevron-right" fill="#000000"></path>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M30.2083 100C26.8357 100.003 23.7941 97.9723 22.5031 94.8566C21.2121 91.7409 21.9264 88.1543 24.3125 85.7708L60.0937 50L24.3125 14.2292C21.0563 10.973 21.0563 5.69367 24.3125 2.4375C27.5686 -0.818683 32.848 -0.818683 36.1041 2.4375L74.9375 41.2708C79.7407 46.0951 79.7407 53.8945 74.9375 58.7187L36.1041 97.5625C34.54 99.1249 32.4191 100.002 30.2083 100Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
 </svg>

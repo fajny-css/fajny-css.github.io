@@ -1,7 +1,6 @@
 ---
-title: stop
-unicode_regular: \ec65
-unicode_bold: \ec63
-unicode_solid: \ec66
+unicode_regular: \ead9
+unicode_solid: \ead9
 unicode_brand: 
+icon_category: ui
 ---

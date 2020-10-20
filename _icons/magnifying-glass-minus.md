@@ -1,7 +1,6 @@
 ---
-title: magnifying-glass-minus
-unicode_regular: \ebb8
-unicode_bold: \ebb7
-unicode_solid: \ebb9
+unicode_regular: \ea48
+unicode_solid: \ea49
 unicode_brand: 
+icon_category: ui
 ---

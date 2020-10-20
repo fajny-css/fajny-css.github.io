@@ -1,0 +1,33 @@
+---
+title: Margins
+category: layouts
+layout: components-alt
+intro: Fajny CSS have different margins.
+files:
+- variables
+<!-- show: false -->
+items:
+ - 48
+ - 32
+ - 24
+ - 16
+ - 12
+ - 8
+ - 4
+---
+
+<div class="col-12">
+    <div class="demo-components no-padd-top demo-margins">
+        <div class="grid">
+            {% for item in page.items %}
+            <div class="col-3">
+                <p class="no-marg">{{ item }}px</p>
+            </div>
+            
+            <div class="col-9">
+                <div class="margin margin-{{ item }}"></div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

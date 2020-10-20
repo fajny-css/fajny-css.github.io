@@ -1,7 +1,6 @@
 ---
-title: brackets
-unicode_regular: \ea3b
-unicode_bold: \ea3a
-unicode_solid: \ea3c
+unicode_regular: \e932
+unicode_solid: \e933
 unicode_brand: 
+icon_category: technology
 ---

@@ -1,6 +1,12 @@
 - name: email
-  link: julien.sebag@me.com
-  icon: mail-bold
+  link: mailto:julien.sebag@me.com
+  icon: mail-solid
 - name: github
-  link: https://github.com/JulSeb42/fajny-css
+  link: https://github.com/fajny-css
   icon: github-brand
+- name: figma
+  link: https://www.figma.com/file/mXSkQtWqgcexCNypVvJ9FG/Fajny-CSS-Components-library/duplicate
+  icon: figma-brand
+- name: download
+  link: /fajny-css.zip
+  icon: download-solid

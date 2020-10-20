@@ -1,7 +1,6 @@
 ---
-title: bookmark
-unicode_regular: \ea32
-unicode_bold: \ea30
-unicode_solid: \ea33
+unicode_regular: \e92c
+unicode_solid: \e92d
 unicode_brand: 
+icon_category: ui
 ---

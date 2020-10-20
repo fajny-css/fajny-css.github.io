@@ -1,7 +1,6 @@
 ---
-title: angular
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ea06
+unicode_brand: \e904
+icon_category: brand
 ---

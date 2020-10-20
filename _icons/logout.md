@@ -1,7 +1,6 @@
 ---
-title: logout
-unicode_regular: \eba8
-unicode_bold: \eba7
-unicode_solid: \eba9
+unicode_regular: \ea44
+unicode_solid: \ea45
 unicode_brand: 
+icon_category: ui
 ---

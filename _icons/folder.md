@@ -1,7 +1,6 @@
 ---
-title: folder
-unicode_regular: \eb4f
-unicode_bold: \eb42
-unicode_solid: \eb50
+unicode_regular: \e9fd
+unicode_solid: \e9fe
 unicode_brand: 
+icon_category: office
 ---

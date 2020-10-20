@@ -1,7 +1,6 @@
 ---
-title: lightbulb-exclamation
-unicode_regular: \eb8d
-unicode_bold: \eb8c
-unicode_solid: \eb8e
+unicode_regular: \ea2e
+unicode_solid: \ea2f
 unicode_brand: 
+icon_category: objects
 ---

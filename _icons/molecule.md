@@ -1,7 +1,6 @@
 ---
-title: molecule
-unicode_regular: \ebe2
-unicode_bold: \ebe1
-unicode_solid: \ebe3
+unicode_regular: \ea6b
+unicode_solid: \ea6c
 unicode_brand: 
+icon_category: misc
 ---

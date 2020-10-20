@@ -1,7 +1,6 @@
 ---
-title: calendar-check
-unicode_regular: \ea7b
-unicode_bold: \ea7a
-unicode_solid: \ea7c
+unicode_regular: \e95c
+unicode_solid: \e95d
 unicode_brand: 
+icon_category: date
 ---

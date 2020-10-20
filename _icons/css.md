@@ -1,7 +1,6 @@
 ---
-title: css
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eaf8
+unicode_brand: \e9b6
+icon_category: brand
 ---

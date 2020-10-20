@@ -1,7 +1,6 @@
 ---
-title: desktop
-unicode_regular: \eb00
-unicode_bold: \eaff
-unicode_solid: \eb01
+unicode_regular: \e9bb
+unicode_solid: \e9bc
 unicode_brand: 
+icon_category: technology
 ---

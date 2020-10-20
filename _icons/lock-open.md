@@ -1,7 +1,6 @@
 ---
-title: lock-open
-unicode_regular: \eba0
-unicode_bold: \eb9f
-unicode_solid: \eba1
+unicode_regular: \ea3e
+unicode_solid: \ea3f
 unicode_brand: 
+icon_category: ui
 ---

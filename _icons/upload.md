@@ -1,7 +1,6 @@
 ---
-title: upload
-unicode_regular: \ec8a
-unicode_bold: \ec89
-unicode_solid: \ec8b
+unicode_regular: \eaf1
+unicode_solid: \eaf2
 unicode_brand: 
+icon_category: ui
 ---

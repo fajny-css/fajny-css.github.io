@@ -1,7 +1,6 @@
 ---
-title: caret-up
-unicode_regular: \ea95
-unicode_bold: \ea94
-unicode_solid: \ea96
+unicode_regular: \e96e
+unicode_solid: \e96f
 unicode_brand: 
+icon_category: arrows
 ---

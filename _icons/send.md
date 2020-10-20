@@ -1,7 +1,6 @@
 ---
-title: send
-unicode_regular: \ec3b
-unicode_bold: \ec3a
-unicode_solid: \ec3c
+unicode_regular: \eab4
+unicode_solid: \eab5
 unicode_brand: 
+icon_category: ui
 ---

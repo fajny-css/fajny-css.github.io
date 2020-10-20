@@ -1,7 +1,6 @@
 ---
-title: mail-open
-unicode_regular: \ebc4
-unicode_bold: \ebc0
-unicode_solid: \ebc5
+unicode_regular: \ea51
+unicode_solid: \ea52
 unicode_brand: 
+icon_category: communication
 ---

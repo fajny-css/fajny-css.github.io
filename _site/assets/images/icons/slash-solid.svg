@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/slash-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/slash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M20.6237623,100.000004 C17.5481643,100.000004 14.7284931,98.2872075 13.3090988,95.5587237 C11.8897045,92.8302399 12.1064179,89.5386393 13.8712871,87.019802 L71.6435644,4.50495045 C74.2573477,0.77292726 79.4016402,-0.133585302 83.1336634,2.48019797 C86.8656866,5.09398125 87.7721992,10.2382738 85.1584159,13.970297 L27.3861386,96.4851486 C25.8409586,98.6904463 23.3165142,100.002566 20.6237623,100.000004 Z" id="slash" fill="#000000"></path>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M20.3125 100C17.2051 100 14.3563 98.2695 12.9221 95.5129C11.4879 92.7562 11.7067 89.4306 13.4895 86.8856L71.8229 3.55222C74.4635 -0.21885 79.6612 -1.13527 83.4323 1.50534C87.2033 4.14596 88.1197 9.34365 85.4791 13.1147L27.1458 96.4481C25.5846 98.6767 23.0336 100.003 20.3125 100Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
 </svg>

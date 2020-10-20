@@ -1,0 +1,38 @@
+<div class="tab-container">
+    <input type="radio" name="tabs{{ include.number }}" id="html{{ include.number }}" aria-controls="html" checked />
+    <label for="html{{ include.number }}" class="first">HTML</label>
+
+    <input type="radio" name="tabs{{ include.number }}" id="scss{{ include.number }}" aria-controls="scss" />
+    <label for="scss{{ include.number }}">SCSS</label>
+
+    <input type="radio" name="tabs{{ include.number }}" id="less{{ include.number }}" aria-controls="less" />
+    <label for="less{{ include.number }}">Less</label>
+
+    <input type="radio" name="tabs{{ include.number }}" id="css{{ include.number }}" aria-controls="css" />
+    <label for="css{{ include.number }}" class="no-marg">CSS</label>
+
+    <div class="line"></div>
+
+    <div class="tab-content">
+        <section id="html{{ include.number }}" class="tab-panel">
+            <pre>
+                <code class="html{{ include.number }}">{{ include.html }}</code>
+            </pre>
+        </section>
+        <section id="scss{{ include.number }}" class="tab-panel">
+            <pre>
+                <code class="scss{{ include.number }}">{{ include.scss }}</code>
+            </pre>
+        </section>
+        <section id="less{{ include.number }}" class="tab-panel">
+            <pre>
+                <code class="less">{{ include.less }}</code>
+            </pre>
+        </section>
+        <section id="css{{ include.number }}" class="tab-panel">
+            <pre>
+                <code class="css">{{ include.css }}</code>
+            </pre>
+        </section>
+    </div>
+</div>

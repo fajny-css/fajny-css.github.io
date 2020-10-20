@@ -1,7 +1,6 @@
 ---
-title: curly-brackets
-unicode_regular: \eafa
-unicode_bold: \eaf9
-unicode_solid: \eafb
+unicode_regular: \e9b7
+unicode_solid: \e9b8
 unicode_brand: 
+icon_category: technology
 ---

@@ -1,7 +1,6 @@
 ---
-title: sourcetree
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ec5b
+unicode_brand: \ead2
+icon_category: brand
 ---

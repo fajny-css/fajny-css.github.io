@@ -1,7 +1,6 @@
 ---
-title: xing-alt
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ecd2
+unicode_brand: \eb24
+icon_category: brand
 ---

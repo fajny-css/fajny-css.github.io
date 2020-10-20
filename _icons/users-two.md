@@ -1,7 +1,6 @@
 ---
-title: users-two
-unicode_regular: \ecac
-unicode_bold: \ecab
-unicode_solid: \ecad
+unicode_regular: \eb08
+unicode_solid: \eb09
 unicode_brand: 
+icon_category: people
 ---

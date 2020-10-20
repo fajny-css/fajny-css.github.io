@@ -1,7 +1,6 @@
 ---
-title: files
-unicode_regular: \eb3d
-unicode_bold: \eb3c
-unicode_solid: \eb3e
+unicode_regular: \e9ed
+unicode_solid: \e9ee
 unicode_brand: 
+icon_category: office
 ---

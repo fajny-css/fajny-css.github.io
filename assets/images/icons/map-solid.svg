@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/map-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M31.88,1.04999995 L31.88,93.03 L0.49999995,100 L0.49999995,8.00999996 L31.88,1.04999995 Z M36.59,1.04999995 L63.26,6.96999996 L63.26,98.95 L36.59,93.03 L36.59,1.04999995 Z M99.34,-4.9999997e-08 L99.34,91.99 L67.96,98.95 L67.96,6.96999996 L99.34,-4.9999997e-08 Z" id="Shape" fill="#000000"></path>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M68.6235 6.86539V98.7132L100 91.8478V0L68.6235 6.86539Z" fill="black"/>
+<path d="M62.7413 6.86492L37.2589 1.28679V93.1346L62.7413 98.7127V6.86492Z" fill="black"/>
+<path d="M0 8.15218L31.3765 1.28679V93.1346L0 100V8.15218Z" fill="black"/>
 </svg>

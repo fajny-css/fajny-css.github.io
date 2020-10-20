@@ -1,0 +1,10 @@
+- name: xl
+  content: 16px
+- name: l
+  content: 12px
+- name: m
+  content: 8px
+- name: s
+  content: 4px
+- name: round
+  content: 99em

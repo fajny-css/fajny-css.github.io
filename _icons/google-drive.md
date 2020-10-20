@@ -1,7 +1,6 @@
 ---
-title: google-drive
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb5f
+unicode_brand: \ea0a
+icon_category: brand
 ---

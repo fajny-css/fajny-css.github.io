@@ -1,7 +1,6 @@
 ---
-title: github
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb57
+unicode_brand: \ea03
+icon_category: brand
 ---

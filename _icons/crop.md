@@ -1,7 +1,6 @@
 ---
-title: crop
-unicode_regular: \eaf0
-unicode_bold: \eaef
-unicode_solid: \eaf1
+unicode_regular: \e9b2
+unicode_solid: \e9b3
 unicode_brand: 
+icon_category: ui
 ---

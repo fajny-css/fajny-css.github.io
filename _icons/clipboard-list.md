@@ -1,7 +1,6 @@
 ---
-title: clipboard-list
-unicode_regular: \eac9
-unicode_bold: \eac8
-unicode_solid: \eaca
+unicode_regular: \e991
+unicode_solid: \e992
 unicode_brand: 
+icon_category: office
 ---

@@ -1,7 +1,6 @@
 ---
-title: fast-forward
-unicode_regular: \eb35
-unicode_bold: \eb34
-unicode_solid: \eb36
+unicode_regular: \e9e4
+unicode_solid: \e9e5
 unicode_brand: 
+icon_category: ui
 ---

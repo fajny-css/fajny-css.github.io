@@ -1,7 +1,6 @@
 ---
-title: folder-minus
-unicode_regular: \eb47
-unicode_bold: \eb46
-unicode_solid: \eb48
+unicode_regular: \e9f7
+unicode_solid: \e9f8
 unicode_brand: 
+icon_category: office
 ---

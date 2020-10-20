@@ -1,7 +1,6 @@
 ---
-title: phone-plus
-unicode_regular: \ec03
-unicode_bold: \ec02
-unicode_solid: \ec04
+unicode_regular: \ea87
+unicode_solid: \ea88
 unicode_brand: 
+icon_category: technology
 ---

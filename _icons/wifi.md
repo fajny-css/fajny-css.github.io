@@ -1,7 +1,6 @@
 ---
-title: wifi
-unicode_regular: \eccf
-unicode_bold: \ecce
-unicode_solid: \ecd0
+unicode_regular: \eb21
+unicode_solid: \eb22
 unicode_brand: 
+icon_category: technology
 ---

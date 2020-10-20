@@ -1,7 +1,6 @@
 ---
-title: bubble-message-exclamation
-unicode_regular: \ea57
-unicode_bold: \ea56
-unicode_solid: \ea58
+unicode_regular: \e944
+unicode_solid: \e945
 unicode_brand: 
+icon_category: communication
 ---

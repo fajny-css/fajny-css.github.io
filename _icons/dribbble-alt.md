@@ -1,7 +1,6 @@
 ---
-title: dribbble-alt
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb13
+unicode_brand: \e9cb
+icon_category: brand
 ---

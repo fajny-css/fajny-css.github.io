@@ -1,7 +1,6 @@
 ---
-title: ellipsis-vertical
 unicode_regular: 
-unicode_bold: 
-unicode_solid: \eb1d
+unicode_solid: \e9d4
 unicode_brand: 
+icon_category: ui
 ---

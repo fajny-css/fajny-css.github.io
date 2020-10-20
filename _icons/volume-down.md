@@ -1,7 +1,6 @@
 ---
-title: volume-down
-unicode_regular: \ecbb
-unicode_bold: \ecba
-unicode_solid: \ecbc
+unicode_regular: \eb12
+unicode_solid: \eb13
 unicode_brand: 
+icon_category: ui
 ---

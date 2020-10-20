@@ -1,7 +1,6 @@
 ---
-title: previous
-unicode_regular: \ec21
-unicode_bold: \ec20
-unicode_solid: \ec22
+unicode_regular: \eaa1
+unicode_solid: \eaa2
 unicode_brand: 
+icon_category: ui
 ---

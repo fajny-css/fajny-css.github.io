@@ -1,7 +1,6 @@
 ---
-title: slash
-unicode_regular: \ec56
-unicode_bold: \ec55
-unicode_solid: \ec57
+unicode_regular: \eacb
+unicode_solid: \eacc
 unicode_brand: 
+icon_category: maths
 ---

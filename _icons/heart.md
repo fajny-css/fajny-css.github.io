@@ -1,7 +1,6 @@
 ---
-title: heart
-unicode_regular: \eb68
-unicode_bold: \eb66
-unicode_solid: \eb69
+unicode_regular: \ea10
+unicode_solid: \ea11
 unicode_brand: 
+icon_category: ui
 ---

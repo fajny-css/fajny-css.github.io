@@ -1,7 +1,6 @@
 ---
-title: terminal
-unicode_regular: \ec77
-unicode_bold: \ec76
-unicode_solid: \ec78
+unicode_regular: \eae5
+unicode_solid: \eae6
 unicode_brand: 
+icon_category: technology
 ---

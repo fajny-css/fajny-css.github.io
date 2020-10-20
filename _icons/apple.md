@@ -1,7 +1,6 @@
 ---
-title: apple
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ea07
+unicode_brand: \e905
+icon_category: brand
 ---

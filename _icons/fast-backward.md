@@ -1,7 +1,6 @@
 ---
-title: fast-backward
-unicode_regular: \eb31
-unicode_bold: \eb30
-unicode_solid: \eb32
+unicode_regular: \e9e2
+unicode_solid: \e9e3
 unicode_brand: 
+icon_category: ui
 ---

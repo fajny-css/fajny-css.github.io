@@ -1,7 +1,6 @@
 ---
-title: lock
-unicode_regular: \eba2
-unicode_bold: \eb9e
-unicode_solid: \eba3
+unicode_regular: \ea40
+unicode_solid: \ea41
 unicode_brand: 
+icon_category: ui
 ---

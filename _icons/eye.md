@@ -1,7 +1,6 @@
 ---
-title: eye
-unicode_regular: \eb28
-unicode_bold: \eb27
-unicode_solid: \eb2c
-unicode_brand: 
+unicode_regular: \e9db
+unicode_solid: \e9de
+unicode_brand:
+icon_category: ui
 ---

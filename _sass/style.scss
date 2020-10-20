@@ -1,0 +1,743 @@
+@charset "UTF-8";
+/* SASS Document */
+
+/*=============================================== Imports ===============================================*/
+
+@import "mixins";
+@import "variables";
+@import "colors";
+@import "code-container";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: auto;
+}
+
+/*=============================================== Demo styles ===============================================*/
+
+// Home
+
+.cover-home .content {
+    width: 100%;
+    height: 100%;
+    @include flexbox(center, center, nowrap);
+    @include flex-direction(column);
+    z-index: 999;
+    position: relative;
+
+    img {
+        max-width: 400px;
+        margin-bottom: $margin-l;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: $margin-l;
+        height: auto;
+
+        @media(max-width: $breakpoint-mobile) {
+            @include font-size(48px);
+        }
+    }
+
+    .buttons {
+        @include flexbox(center, center, nowrap);
+
+        .btn:first-child {
+            margin-right: $margin-l;
+        }
+
+        @media(max-width: $breakpoint-mobile) {
+            @include flex-direction(column);
+
+            .btn:first-child {
+                margin-right: 0;
+                margin-bottom: $margin-l;
+            }
+        }
+    }
+
+    h5 {
+        text-align: center;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            @include transition(all, 0.2s, ease);
+
+            &:hover {
+                color: $primary-75;
+            }
+        }
+    }
+}
+
+.grid-home h2.display {
+    margin: 0;
+
+    @media(max-width: $breakpoint-mobile) {
+        @include font-size(32px);       
+    }
+}
+
+.card-home {
+    height: 100%;
+    @include flexbox(flex-start, flex-start, nowrap);
+    @include flex-direction(column);
+
+    img {
+        width: 100%;
+        height: 150px;
+        @include flexbox(center, center, nowrap);
+        object-fit: contain;
+        padding: $margin-s;
+    }
+
+    p {
+        min-height: calc(16px * 1.4 * 4);
+    }
+
+    .buttons {
+        align-self: flex-end;
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        @include grid-column-span(6 !important);
+        max-width: inherit;
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+        @include grid-column-span(12 !important);
+        max-width: inherit;
+    }
+}
+
+// Nav
+
+.nav-demo {
+    width: 300px;
+    height: 100vh;
+    @include flexbox(flex-start, flex-start, nowrap);
+    @include flex-direction(column);
+    padding: $margin-xl;
+    z-index: 999;
+    min-height: 100vh;
+
+    .logo {
+        width: 100%;
+    }
+
+    nav {
+        @include flexbox(flex-start, space-between, nowrap);
+        @include flex-direction(column);
+        flex-grow: 1;
+        padding-top: 50%;
+
+        ul {
+            @include ulNone();
+
+            &.nav {
+                @include flexbox(flex-start, flex-start, nowrap);
+                @include flex-direction(column);
+
+                li {
+                    &:not(:last-child) {
+                        margin-bottom: $margin-s;
+                    }
+
+                    a {
+                        color: $white;
+                        text-decoration: none;
+                        position: relative;
+                        display: inline-block;
+                        width: auto;
+
+                        &:hover,
+                        &.active {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            &.social {
+                color: $white;
+                @include flexbox(center, flex-start, nowrap);
+
+                li {
+                    &:not(:last-child) {
+                        margin-right: $margin-s;
+                    }
+
+                    a {
+                        color: $white;
+                        @include transition(all, 0.2s, ease);
+
+                        &:hover {
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        display: none;
+    }
+}
+
+.nav-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $primary;
+    width: 100%;
+    padding: $margin-m 5%;
+    z-index: 998;
+    display: none;
+
+    .logo {
+        position: relative;
+        z-index: 999;
+        width: 150px;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        justify-self: flex-end;
+        display: none;
+        z-index: 999;
+
+        span {
+            width: 100%;
+            height: 2px;
+            background-color: $white;
+            display: block;
+            position: absolute;
+            left: 0;
+            @include transition(all, 0.2s, ease);
+
+            &:first-child {
+                top: 0;
+            }
+
+            &:nth-child(2) {
+                top: calc(50% - 1px);
+            }
+
+            &:last-child {
+                bottom: 0;
+            }
+        }
+
+        @media (max-width: $breakpoint-tablet) {
+            display: inherit;
+        }
+    }
+
+    .nav-mobile-container {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: $primary;
+        width: 100%;
+        height: 100vh;
+        z-index: 998;
+        padding: $margin-xxl 5%;
+        padding-top: 60%;
+        @include transition(all, .5s, ease);
+        @include flexbox(flex-start, space-between, nowrap);
+        @include flex-direction(column);
+
+        ul {
+            @include ulNone();
+
+            &.nav {
+                @include flexbox(flex-start, space-between, nowrap);
+                @include flex-direction(column);
+
+                li {
+                    &:not(:last-child) {
+                        margin-bottom: $margin-s;
+                    }
+
+                    a {
+                        color: $white;
+                        text-decoration: none;
+                        @include font-body-bold(32px);
+
+                        &:hover,
+                        &.active {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            &.social {
+                @include flexbox(center, flex-start, nowrap);
+
+                li {
+                    color: $white;
+                    @include font-size(18px);
+
+                    &:not(:last-child) {
+                        margin-right: $margin-xs;
+                    }
+
+                    a {
+                        @include links($white, $secondary, 18px);
+                    }
+                }
+            }
+        }
+    }
+
+    &.nav-open {
+        .hamburger span {
+            &:first-child {
+                @include transform(rotate(45deg));
+                top: 9px;
+            }
+
+            &:nth-child(2) {
+                width: 0;
+            }
+
+            &:last-child {
+                @include transform(rotate(-45deg));
+                bottom: 9px;
+            }
+        }
+        .nav-mobile-container {
+            left: 0;
+        }
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        @include flexbox(center, space-between, nowrap);
+    }
+}
+
+.footer-demo {
+    margin-top: $margin-l;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+
+    &:before {
+        width: 100%;
+        left: 0;
+    }
+
+    ul li:not(:last-child) {
+        margin-right: $margin-s;
+
+        &:after {
+            content: normal;
+        }
+    }
+
+    p {
+        display: block;
+        width: auto;
+        text-align: right;
+
+        @media (max-width: $breakpoint-mobile) {
+            text-align: center;
+        }
+    }
+}
+
+// Wrapper
+
+.wrapper-demo {
+    margin-left: 300px;
+    width: calc(100% - 300px);
+
+    @media (max-width: $breakpoint-tablet) {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 65px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    code,
+    pre {
+        margin: 0;
+    }
+
+    .doc-container {
+        min-height: calc(100vh - 120px);
+    }
+
+    p code {
+        float: none;
+        padding: inherit;
+        padding: $margin-xxs;
+    }
+}
+
+p {
+    float: left;
+}
+
+.container-demo,
+.section-demo,
+.col-demo {
+    background-color: $primary;
+    color: $white;
+    @include flexbox(center, center, nowrap);
+    @include border-radius($radius-s);
+}
+
+// Lists
+
+.list-posts {
+    @include ulNone();
+    @include grid(1fr 1fr 1fr 1fr, $margin-l, $margin-l);
+
+    li {
+        width: 100%;
+        @include grid-column-span(1);
+
+        .btn {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    @media(max-width: $breakpoint-tablet) {
+        @include grid(1fr 1fr, $margin-l, $margin-l);
+    }
+
+    @media(max-width: $breakpoint-mobile) {
+        @include grid(1fr, $margin-l, $margin-l);
+    }
+}
+
+// Component page
+
+.link-back {
+    @include links($primary, $primary-75, 16px);
+
+    i {
+        font-size: 14px;
+    }
+}
+
+.demo-components {
+    width: 100%;
+    // @include shadow-cards();
+    // @include border-radius($radius-xl);
+    border: 1px solid $lighter-gray;
+    overflow: hidden;
+    display: block;
+    // padding-top: $margin-m;
+
+    &.demo-show-table {
+        padding: $margin-xs;
+    }
+
+    .content-demo {
+        padding: $margin-m;
+        // padding-top: 0;
+        float: left;
+        width: 100%;
+
+        .accordion-open p.accordion-text {
+            margin: $margin-s 0 !important
+        }
+
+        #accordion-1-no-bg:checked ~ p.accordion-text {
+            margin: $margin-s 0 !important
+        }
+
+        .dropdown {
+            top: calc(14px * 1.4 + #{$margin-xs} * 2 + #{$margin-xxs});
+        }
+    }
+
+    .tab-container {
+        label.first {
+            margin-left: $margin-m !important;
+        }
+
+        .line {
+            width: calc(100% - #{$margin-m} * 2);
+            left: $margin-m;
+        }
+
+        .tab-content {
+            margin-top: 0;
+        }
+    }
+
+    .tab-demo {
+        .line {
+            left: 0 !important;
+        }
+
+        p {
+            margin: $margin-s 0 !important;
+        }
+    }
+
+    pre, code {
+        margin: 0;
+        float: left;
+    }
+
+    pre {
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    code {
+        padding: $margin-m;
+        margin: 0 !important;
+    }
+}
+
+.demo-icons {
+    padding-top: $margin-l;
+}
+
+.fonts-demo {
+    h1, h1.display, h2, h2.display, h3, h3.display, h4.display, h5.display {
+        margin: $margin-l 0;
+    }
+
+    h4, h5 {
+        margin: $margin-m 0;
+    }
+
+    h6 {
+        margin: $margin-s 0;
+    }
+
+    p {
+        width: 100%;
+        float: none;
+
+        code {
+            float: none;
+            padding: var(--margin-xxs);
+        }
+    }
+
+    .footer-demo {
+        @include font-body(14px);
+
+        a {
+            @include font-body-bold(14px);
+        }
+    }
+}
+
+// Icons list
+
+
+
+.icon-list {
+    background-color: $white;
+    // @include border-radius($radius-xl);
+    // @include shadow-cards();
+    border: 1px solid $lighter-gray;
+    display: block;
+
+    @include transition(all, .2s, ease);
+
+    &:hover {
+        @include transform(scale(1.05));
+    }
+    
+    a {
+        @include flexbox(center, center, nowrap);
+        @include flex-direction(column);
+        text-align: center;
+        color: $black;
+        text-decoration: none;
+        padding: $margin-s;
+
+        i {
+            @include font-size(32px);
+            margin-bottom: $margin-s;
+        }
+    }
+}
+
+.filterDiv {
+	display: none;
+
+	&.show {
+		display: block;
+	}
+}
+
+// Icon demo
+
+.show-icon-container {
+    padding: $margin-m;
+
+    .show-icon {
+        @include flexbox(center, center, nowrap);
+
+        i {
+            @include font-size(64px);
+        }
+    }
+}
+
+// Colors demo
+
+.list-colors {
+    @include ulNone();
+    @include flexbox(flex-start, flex-start, nowrap);
+    @include flex-direction(column);
+
+    li {
+        width: 100%;
+        background-color: $white;
+        @include flexbox(center, flex-start, nowrap);
+        // @include border-radius($radius-xl);
+        // @include shadow-cards();
+        border: 1px solid $lighter-gray;
+        height: 170px;
+        overflow: hidden;
+
+        &:not(:last-child) {
+            margin-bottom: $margin-l;
+        }
+
+        .color {
+            width: 150px;
+            height: 100%;
+        }
+
+        .content-color {
+            width: calc(100% - 150px - #{$margin-m});
+            margin-left: $margin-m;
+
+            p:first-child {
+                @include font-body-bold(16px);
+            }
+        }
+    }
+}
+
+// Demo avatars
+
+.demo-avatars {
+    @include flexbox(flex-start, flex-start, wrap);
+
+    .avatar:not(:last-child) {
+        margin-right: $margin-m;
+    }
+}
+
+// Demo buttons
+
+.demo-buttons .btn-half {
+    width: 100%;
+}
+
+.fab-demo {
+    position: inherit;
+}
+
+.shadow-demo {
+    width: 100px;
+    height: 100px;
+    background-color: $white;
+}
+
+// Helpers demo
+
+.color-square {
+    $width: 70px;
+    width: $width;
+    height: $width;
+
+    &.border-square {
+        border: 1px solid transparent;
+    }
+}
+
+.demo-font-color.font-white {
+    color: $white !important;
+}
+
+.demo-margins {
+    .col-3, .col-9 {
+        padding: $margin-s;
+        align-self: center;
+    }
+
+    .margin {
+        background-color: rgba(var(--color-danger), .1);
+        width: 100%;
+
+        &.margin-48 {
+            height: 48px;
+        }
+
+        &.margin-32 {
+            height: 32px;
+        }
+
+        &.margin-24 {
+            height: 24px;
+        }
+
+        &.margin-16 {
+            height: 16px;
+        }
+
+        &.margin-12 {
+            height: 12px;
+        }
+
+        &.margin-8 {
+            height: 8px;
+        }
+
+        &.margin-4 {
+            height: 4px;
+        }
+    }
+}
+
+.filters {
+    @include ulNone();
+    @include flexbox(center, flex-start, wrap);
+
+    li {
+        display: block;
+        width: auto;
+        min-height: $margin-xl;
+        @include flexbox(center, center, nowrap);
+
+        &:not(:last-child) {
+            margin-right: $margin-m;
+        }
+    }
+}

@@ -1,7 +1,6 @@
 ---
-title: cart-plus
-unicode_regular: \eaa2
-unicode_bold: \eaa1
-unicode_solid: \eaa3
+unicode_regular: \e976
+unicode_solid: \e977
 unicode_brand: 
+icon_category: shops
 ---

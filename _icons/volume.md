@@ -1,7 +1,6 @@
 ---
-title: volume
-unicode_regular: \ecbd
-unicode_bold: \ecb9
-unicode_solid: \ecc1
+unicode_regular: \eb14
+unicode_solid: \eb17
 unicode_brand: 
+icon_category: ui
 ---

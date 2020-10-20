@@ -1,7 +1,6 @@
 ---
-title: codepen-circle
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eadf
+unicode_brand: \e9a7
+icon_category: brand
 ---

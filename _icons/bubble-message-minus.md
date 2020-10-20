@@ -1,7 +1,6 @@
 ---
-title: bubble-message-minus
-unicode_regular: \ea5d
-unicode_bold: \ea5c
-unicode_solid: \ea5e
+unicode_regular: \e948
+unicode_solid: \e949
 unicode_brand: 
+icon_category: communication
 ---

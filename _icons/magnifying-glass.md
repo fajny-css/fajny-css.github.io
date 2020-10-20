@@ -1,7 +1,6 @@
 ---
-title: magnifying-glass
-unicode_regular: \ebbd
-unicode_bold: \ebb6
-unicode_solid: \ebbe
+unicode_regular: \ea4d
+unicode_solid: \ea4e
 unicode_brand: 
+icon_category: ui
 ---

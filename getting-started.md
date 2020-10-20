@@ -1,90 +1,99 @@
 ---
-layout: getting-started
-title: Getting Started
+title: Getting started
 desc: Getting started with Fajny CSS
+layout: all
+category: getting-started
+keywords: 
+    - grunt
+    - getting started
 ---
 
-
+{:.col-12}
 ## Via CDN
+
+{:.col-12}
 Just copy this in the `<head>` of your HTML:
-{% include links/link_cdn_all.html %}
 
+<pre class="col-12">
+<code class="html">{{ site.css_cdn }}
+{{ site.icons_cdn }}</code>
+</pre>
+
+{:.col-12}
+And this at the end of the `<body>`:
+
+<pre class="col-12">
+<code class="html">{{ site.js_cdn }}</code>
+</pre>
+
+{:.col-12}
 ## Via NPM
+
+{:.col-12}
 Open the folder in your terminal and run this command:
-{% include code_shell.html content="$ npm i fajny-css" %}
 
+{:.col-12}
+{% include code.html language="shell" content="$ npm i fajny-css" %}
+
+{:.col-12}
 ## Locally
-This installation is for macOS only.
 
-### Download the project
-Download or clone the project on your computer.
+{:.col-12}
+Just copy this in the `<head>` of your HTML, and change `/path/to/css` by the real path to the file:
 
-### Open your terminal
-Open your terminal to run the following commands.
+{:.col-12}
+{%
+    include code.html
+    language="html"
+    content="&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/css/fajny.min.css&quot; type=&quot;text/css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/css/fajny-icons.min.css&quot; type=&quot;text/css&quot; /&gt;"
+%}
 
-### Install Ruby
-It's already installed on macOS, but you can check with this command
-{% include code_shell.html content="$ ruby -v" %}
-If it's not installed, just follow the [official documentation](https://www.ruby-lang.org/en/documentation/installation/#homebrew){:target="_blank"}.
+{:.col-12}
+And this at the end of the `<body>`:
 
-### Install Sass
-To check if already installed on your computer run this command.
-{% include code_shell.html content="$ sass -v" %}
+<pre class="col-12">
+<code class="html">{{ site.js_local }}</code>
+</pre>
 
-If it's not installed yet on your machine, run
-{% include code_shell.html content="$ sudo gem install sass" %}
-or
-{% include code_shell.html content="$ sudo npm install -g sass" %}
+{:.col-12}
+You can find a nice tutorial to compile your code automatically with Grunt [here](https://www.taniarascia.com/getting-started-with-grunt-and-sass/){:target="_blank"}.
 
-If you need help to code in SCSS go here: [Sass website](https://sass-lang.com/){:target="_blank"}.
-
-### Install XCode 
-You can find it directly in the Mac App Store.
-
-### Install Node.js
-
-Go to [Node.js website](https://nodejs.org/){:target="_blank"} to get the installer, open the .pkg downloaded and run the installer.
-
-### Install Grunt CLI
-{% include code_shell.html content="$ npm install -g grunt-cli" %}
-or
-{% include code_shell.html content="$ sudo npm install -g grunt-cli" %}
-
-
-
-## Use SCSS in your project
-
-Open the Fajny CSS folder in your terminal and run the command
-{% include code_shell.html content="$ npm install" %}
-
-This will install all the node modules needed to compile automatically the SCSS into CSS, and minify the JS.
-
-Now run
-{% include code_shell.html content="$ grunt" %}
+{:.col-12}
 All set, you can start to code!
 
+{:.col-12}
+## How to use Fajny CSS
 
-### How to use Fajny CSS
-#### Include the CSS
-By default all the components are included in the minified CSS. You just have to add this in the `<head>` of your HTML file:
-
-{% include links/link_local_all.html %}
-
+{:.col-12}
 ### Customise Fajny CSS
+
+{:.col-12}
 #### Set your variables
-You can change your fonts and colors directly in the variables.
 
-##### Fonts
-For the fonts import the CSS from [Google Fonts](https://fonts.google.com/){:target="_blank"} in the file `scss/_fonts.scss`.
+{:.col-12}
+You can change your fonts and colors directly in the variables in the file `/scss/_variables.scss`.
 
+{:.col-12}
+#### Fonts
 
-##### Colors
-You can edit the file `scss/_colors.scss` and change the corresponding Hex values. You can find a nice color palette generator here: [https://coolors.co/](https://coolors.co/){:target="_blank"}.
+{:.col-12}
+By default Fajny CSS uses Nunito Sans Black for the titles and Mulish for the body. You can change this by changing the [Google Fonts](https://fonts.google.com/){:target="_blank"} link in the `head` of your HTML file, and in the variables file.
 
-##### Choose your components
+{:.col-12}
+#### Colors
 
-If you do not want to use some components and save some space you can just comment them in the file `scss/fajny.scss`:
-{% include code_scss.html content="//@import &quot;components/buttons&quot;;
+{:.col-12}
+You can edit the file `/scss/_variables.scss` and change the corresponding Hex values. You can find a nice color palette generator here: [https://coolors.co/](https://coolors.co/){:target="_blank"}.
+
+{:.col-12}
+### Choose your components
+
+{:.col-12}
+If you do not want to use some components and save some space you can just comment them in the file `/scss/fajny.scss`:
+
+{:.col-12}
+{% include code.html language="scss" content="//@import &quot;components/buttons&quot;;
 //@import &quot;components/avatar&quot;;
 @import &quot;components/breadcrumbs&quot;;
 @import &quot;components/badges&quot;;

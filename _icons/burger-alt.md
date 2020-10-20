@@ -1,7 +1,6 @@
 ---
-title: burger-alt
-unicode_regular: \ea71
-unicode_bold: \ea70
-unicode_solid: \ea72
+unicode_regular: \e956
+unicode_solid: \e957
 unicode_brand: 
+icon_category: ui
 ---

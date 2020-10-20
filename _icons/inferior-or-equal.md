@@ -1,7 +1,6 @@
 ---
-title: inferior-or-equal
-unicode_regular: \eb7c
-unicode_bold: \eb7b
-unicode_solid: \eb7d
+unicode_regular: \ea1d
+unicode_solid: \ea1e
 unicode_brand: 
+icon_category: maths
 ---

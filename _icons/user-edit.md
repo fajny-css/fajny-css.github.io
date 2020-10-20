@@ -1,7 +1,6 @@
 ---
-title: user-edit
-unicode_regular: \ec9b
-unicode_bold: \ec9a
-unicode_solid: \ec9c
+unicode_regular: \eafc
+unicode_solid: \eafd
 unicode_brand: 
+icon_category: people
 ---

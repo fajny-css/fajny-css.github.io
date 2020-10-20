@@ -1,7 +1,6 @@
 ---
-title: eye-slash
-unicode_regular: \eb2a
-unicode_bold: \eb29
-unicode_solid: \eb2b
+unicode_regular: \e9dc
+unicode_solid: \e9dd
 unicode_brand: 
+icon_category: ui
 ---

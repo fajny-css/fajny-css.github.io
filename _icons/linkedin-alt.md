@@ -1,7 +1,6 @@
 ---
-title: linkedin-alt
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb9a
+unicode_brand: \ea38
+icon_category: brand
 ---

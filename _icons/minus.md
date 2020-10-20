@@ -1,7 +1,6 @@
 ---
-title: minus
-unicode_regular: \ebd9
-unicode_bold: \ebd8
-unicode_solid: \ebda
+unicode_regular: \ea64
+unicode_solid: \ea65
 unicode_brand: 
+icon_category: maths
 ---

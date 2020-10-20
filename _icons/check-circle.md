@@ -1,7 +1,6 @@
 ---
-title: check-circle
-unicode_regular: \eaaf
-unicode_bold: \eaad
-unicode_solid: \eab0
+unicode_regular: \e97f
+unicode_solid: \e980
 unicode_brand: 
+icon_category: ui
 ---

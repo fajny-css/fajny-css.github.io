@@ -1,7 +1,6 @@
 ---
-title: warning
-unicode_regular: \eccc
-unicode_bold: \eccb
-unicode_solid: \eccd
+unicode_regular: \eb1f
+unicode_solid: \eb20
 unicode_brand: 
+icon_category: misc
 ---

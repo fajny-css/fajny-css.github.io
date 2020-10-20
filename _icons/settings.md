@@ -1,7 +1,6 @@
 ---
-title: settings
-unicode_regular: \ec3e
-unicode_bold: \ec3d
-unicode_solid: \ec3f
+unicode_regular: \eab6
+unicode_solid: \eab7
 unicode_brand: 
+icon_category: ui
 ---

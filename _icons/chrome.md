@@ -1,7 +1,6 @@
 ---
-title: chrome
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eabf
+unicode_brand: \e98b
+icon_category: brand
 ---

@@ -1,7 +1,6 @@
 ---
-title: play-pause
-unicode_regular: \ec16
-unicode_bold: \ec15
-unicode_solid: \ec17
+unicode_regular: \ea99
+unicode_solid: \ea9a
 unicode_brand: 
+icon_category: ui
 ---

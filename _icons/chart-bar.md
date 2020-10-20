@@ -1,7 +1,6 @@
 ---
-title: chart-bar
-unicode_regular: \eaaa
-unicode_bold: \eaa9
-unicode_solid: \eaab
+unicode_regular: \e97c
+unicode_solid: \e97d
 unicode_brand: 
+icon_category: maths
 ---

@@ -1,7 +1,6 @@
 ---
-title: mastercard
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ebce
+unicode_brand: \ea5b
+icon_category: brand
 ---

@@ -1,7 +1,6 @@
 ---
-title: user
-unicode_regular: \eca6
-unicode_bold: \ec8d
-unicode_solid: \eca7
+unicode_regular: \eb04
+unicode_solid: \eb05
 unicode_brand: 
+icon_category: people
 ---

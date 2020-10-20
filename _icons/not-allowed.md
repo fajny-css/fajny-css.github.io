@@ -1,7 +1,6 @@
 ---
-title: not-allowed
-unicode_regular: \ebe6
-unicode_bold: \ebe5
-unicode_solid: \ebe7
+unicode_regular: \ea71
+unicode_solid: \ea72
 unicode_brand: 
+icon_category: ui
 ---

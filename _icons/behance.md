@@ -1,7 +1,6 @@
 ---
-title: behance
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ea20
+unicode_brand: \e91d
+icon_category: brand
 ---

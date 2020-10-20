@@ -1,38 +1,21 @@
-<footer>
-     <hr />
-     <div class="footer-container">
-          <div class="left">
-               <p>
-                    {% for item in site.data.globals %}
-                    {% if item.name == "version_number" %}
-                    <div>V{{item.content}}</div>
-                    {% endif %}
-                    {% endfor %}
-                    <div>
-                         {% for item in site.data.globals %}
-                         {% if item.name == "github" %}
-                         <a href="{{item.link}}" target="_blank">
-                              <i class="icon icon-github-brand"></i>
-                         </a>
-                         {% elsif item.name == "email" %}
-                         <a href="mailto:{{item.link}}">
-                              <i class="icon icon-mail-bold"></i>
-                         </a>
-                         {% endif %}
-                         {% endfor %}
-                         <a href="/fajny-css.zip" download>
-                              <i class="icon icon-download-solid"></i>
-                         </a>
-                    </div>
-               </p>
-          </div>
+<footer class="footer-demo">
+    <ul class="links">
+        <li><p>V2.0</p></li>
+        {% for item in site.data.social %}
+        <li>
+            <a
+                href="{{ item.link }}"
+                {% if item.name == "download" %}
+                download
+                {% elsif item.name == "github" %}
+                target="_blank"
+                {% endif %}
+            >
+                <i class="icon icon-{{ item.icon }}"></i>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 
-          <div class="right">
-               <p>
-                    Pictures from <a href="https://unsplash.com/" target="_blank">Unsplash</a>, videos from <a href="https://mixkit.co/" target="_blank">Mixkit</a>
-                    <br />
-                    Made by <a href="https://www.julien-sebag.fr/" target="_blank">Julien Sebag</a> | 2019
-               </p>
-          </div>
-     </div>
+    <p>{{ site.text_footer }}</p>
 </footer>

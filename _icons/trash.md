@@ -1,7 +1,6 @@
 ---
-title: trash
-unicode_regular: \ec7a
-unicode_bold: \ec79
-unicode_solid: \ec7b
+unicode_regular: \eae7
+unicode_solid: \eae8
 unicode_brand: 
+icon_category: ui
 ---

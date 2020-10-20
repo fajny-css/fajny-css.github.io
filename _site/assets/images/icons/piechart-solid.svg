@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-    <title>solid/piechart-solid</title>
-    <desc>Created with Sketch.</desc>
-    <g id="solid/piechart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M48.1980198,9.31683164 L48.1980198,51.8118812 L90.6831684,51.8118812 L90.6831684,54.1683168 C90.6831684,78.9391081 70.6024744,99.019802 45.8316832,99.019802 C21.0608919,99.019802 0.980197971,78.9391081 0.980197971,54.1683168 C0.980197971,29.3975256 21.0608919,9.31683164 45.8316832,9.31683164 L48.1980198,9.31683164 Z M55.1584158,-5.00000077e-08 C79.9101707,0.0327259799 99.967274,20.0898293 100,44.8415842 L100,47.2079208 L52.7920792,47.2079208 L52.7920792,-5.00000077e-08 L55.1584158,-5.00000077e-08 Z" id="Shape" fill="#000000"></path>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M51.7706 0H54.6526C79.6865 0.0259074 99.9741 20.2917 100 45.2989V48.2365H51.7706V0Z" fill="black"/>
+<path d="M48.3012 9.40096V51.7034H90.6962V54.5823C90.7436 72.9157 79.7241 89.4701 62.7813 96.5178C45.8385 103.566 26.3136 99.7169 13.3208 86.7684C0.328045 73.8199 -3.57039 54.3249 3.44529 37.3838C10.461 20.4427 27.0073 9.39626 45.3604 9.40096H48.3012Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
 </svg>

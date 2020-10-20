@@ -1,7 +1,6 @@
 ---
-title: folder-open
-unicode_regular: \eb4a
-unicode_bold: \eb49
-unicode_solid: \eb4b
+unicode_regular: \e9f9
+unicode_solid: \e9fa
 unicode_brand: 
+icon_category: office
 ---

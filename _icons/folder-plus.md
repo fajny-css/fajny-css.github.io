@@ -1,7 +1,6 @@
 ---
-title: folder-plus
-unicode_regular: \eb4d
-unicode_bold: \eb4c
-unicode_solid: \eb4e
+unicode_regular: \e9fb
+unicode_solid: \e9fc
 unicode_brand: 
+icon_category: office
 ---

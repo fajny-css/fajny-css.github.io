@@ -1,7 +1,6 @@
 ---
-title: codepen-alt
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eadd
+unicode_brand: \e9a5
+icon_category: brand
 ---

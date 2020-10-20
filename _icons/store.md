@@ -1,7 +1,6 @@
 ---
-title: store
-unicode_regular: \ec6b
-unicode_bold: \ec6a
-unicode_solid: \ec6c
+unicode_regular: \eadd
+unicode_solid: \eade
 unicode_brand: 
+icon_category: shops
 ---

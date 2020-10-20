@@ -1,7 +1,6 @@
 ---
-title: java
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb85
+unicode_brand: \ea25
+icon_category: brand
 ---

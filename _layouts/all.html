@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="wrapper wrapper-demo">
+    <main class="container doc-container">
+            <div class="grid grid-content">
+                {% if page.layout == "components" or page.layout == "components-alt" or page.layout =="icons" %}
+                <div class="col-12">
+                    <a href="javascript:history.back()" class="link-back"><i class="icon icon-arrow-left-solid"></i> Back to the list</a>
+                </div>
+                {% endif %}
+                <div class="col-12">
+                    <h1 class="no-marg-top">
+                        {% if page.layout == "icons" %}
+                        {{ page.title | downcase | replace: ' ', '-' }}
+                        {% else %}
+                        {{ page.title }}
+                        {% endif %}
+                    </h1>
+                </div>
+                
+                {{ content }}
+            </div>
+        
+    </main>
+    {% include footer.html %}
+</div>

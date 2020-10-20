@@ -1,0 +1,16 @@
+---
+layout: all
+---
+
+<div class="col-12">
+    {{ content }}
+</div>
+
+<div class="col-12">
+    <ul class="list-posts">
+        {% assign filtered_posts = site.posts | where: 'category', page.name | sort: "date" | reverse %}
+        {% for post in filtered_posts  %}
+        <li><a href="{{ post.url }}" class="btn btn-background btn-primary">{{ post.title | capitalize }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

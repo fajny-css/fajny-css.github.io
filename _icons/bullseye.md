@@ -1,7 +1,6 @@
 ---
-title: bullseye
-unicode_regular: \ea6e
-unicode_bold: \ea6d
-unicode_solid: \ea6f
+unicode_regular: \e954
+unicode_solid: \e955
 unicode_brand: 
+icon_category: objects
 ---

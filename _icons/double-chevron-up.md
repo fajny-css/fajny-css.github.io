@@ -1,7 +1,6 @@
 ---
-title: double-chevron-up
-unicode_regular: \eb0e
-unicode_bold: \eb0d
-unicode_solid: \eb0f
+unicode_regular: \e9c7
+unicode_solid: \e9c8
 unicode_brand: 
+icon_category: arrows
 ---

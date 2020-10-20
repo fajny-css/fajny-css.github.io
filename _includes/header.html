@@ -1,42 +1,61 @@
-<header class="nav-template">
-     <nav>
-          <div class="burger" onclick="openNav(this)">
-               <span></span>
-               <span></span>
-               <span></span>
-          </div>
+<header class="nav-demo">
+    <a href="/" class="logo"><img src="/assets/images/{{ site.logo_white }}" alt="Logo Fajny CSS"></a>
 
-          <ul>
-               {% for item in site.data.nav %}
-               <li>
-                    <a href="{{ item.link }}" {% if page.url == item.link elseif page.url == "/" %}class="active" {% endif %}>{{ item.name }}</a>
-               </li>
-               {% endfor %}
-
-               <li class="social-links">
-                    {% for item in site.data.globals %}
-                    {% if item.name == "email" %}
-                    <a href="mailto:{{item.link}}"><i class="icon icon-{{item.icon}}"></i></a>
-                    {% elsif item.name == "github" %}
-                    <a href="{{item.link}}" target="_blank"><i class="icon icon-{{item.icon}}"></i></a>
-                    {% endif %}
-                    {% endfor %}
-               </li>
-               <li class="download">
-                    {% for item in site.data.globals %}
-                    {% if item.name == "download" %}
-                    <a href="/{{item.link}}" class="btn btn-pill btn-white btn-large" download>Download <i class="icon icon-{{item.icon}}"></i></a>
-                    {% endif %}
-                    {% endfor %}
-               </li>
-          </ul>
-
-          <div class="logo">
-               {% for item in site.data.globals %}
-               {% if item.name == "logo_white" %}
-               <a href="/"><img src="/assets/images/{{item.image}}" alt="Logo Fajny CSS"></a>
-               {% endif %}
-               {% endfor %}
-          </div>
-     </nav>
+    <nav>
+        <ul class="nav">
+            {% for item in site.data.nav %}
+            <li>
+                <a href="{{ item.url }}" {% if page.url == item.url or page.category == item.category %}class="active"{% endif %}>{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        
+        <ul class="social">
+            <li>
+                <p>V2.0</p>
+            </li>
+            {% for item in site.data.social %}
+            <li>
+                <a href="{{ item.link }}" {% if item.name == "download" %} download {% elsif item.name == "github" %}
+                    target="_blank" {% endif %}>
+                    <i class="icon icon-{{ item.icon }}"></i>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
 </header>
+
+<div class="nav-mobile">
+    <a href="/" class="logo"><img src="/assets/images/{{ site.logo_white }}" alt="Logo Fajny CSS"></a>
+    
+    <div class="hamburger" onclick="openNav(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="nav-mobile-container">
+        <ul class="nav">
+            {% for item in site.data.nav %}
+            <li>
+                <a href="{{ item.url }}" {% if page.url == item.url or page.category == item.category %}class="active" {% endif %}>{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        
+        <ul class="social">
+            <li>
+                <p>V2.0</p>
+            </li>
+            {% for item in site.data.social %}
+            <li>
+                <a href="{{ item.link }}" {% if item.name == "download" %} download {% elsif item.name == "github" %}
+                    target="_blank" {% endif %}>
+                    <i class="icon icon-{{ item.icon }}"></i>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

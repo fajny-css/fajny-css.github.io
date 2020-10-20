@@ -1,7 +1,6 @@
 ---
-title: clock
-unicode_regular: \eacf
-unicode_bold: \eacd
-unicode_solid: \ead0
+unicode_regular: \e996
+unicode_solid: \e997
 unicode_brand: 
+icon_category: date
 ---

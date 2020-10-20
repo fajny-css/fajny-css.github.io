@@ -1,7 +1,6 @@
 ---
-title: calendar-days
-unicode_regular: \ea7e
-unicode_bold: \ea7d
-unicode_solid: \ea7f
+unicode_regular: \e95e
+unicode_solid: \e95f
 unicode_brand: 
+icon_category: date
 ---

@@ -1,7 +1,6 @@
 ---
-title: circle
-unicode_regular: \eac2
-unicode_bold: \eac0
-unicode_solid: \eac3
+unicode_regular: \e98d
+unicode_solid: \e98e
 unicode_brand: 
+icon_category: misc
 ---

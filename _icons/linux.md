@@ -1,7 +1,6 @@
 ---
-title: linux
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb9d
+unicode_brand: \ea3b
+icon_category: brand
 ---

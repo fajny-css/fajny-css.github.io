@@ -1,7 +1,6 @@
 ---
-title: filter
-unicode_regular: \eb40
-unicode_bold: \eb3f
-unicode_solid: \eb41
+unicode_regular: \e9ef
+unicode_solid: \e9f0
 unicode_brand: 
+icon_category: ui
 ---

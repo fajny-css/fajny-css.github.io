@@ -1,7 +1,6 @@
 ---
-title: battery-charging
-unicode_regular: \ea15
-unicode_bold: \ea14
-unicode_solid: \ea16
+unicode_regular: \e915
+unicode_solid: \e916
 unicode_brand: 
+icon_category: technology
 ---

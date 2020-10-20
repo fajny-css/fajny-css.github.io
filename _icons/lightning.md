@@ -1,7 +1,6 @@
 ---
-title: lightning
-unicode_regular: \eb95
-unicode_bold: \eb94
-unicode_solid: \eb96
+unicode_regular: \ea34
+unicode_solid: \ea35
 unicode_brand: 
+icon_category: misc
 ---

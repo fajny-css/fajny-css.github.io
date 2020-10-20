@@ -1,7 +1,6 @@
 ---
-title: battery-empty
-unicode_regular: \ea18
-unicode_bold: \ea17
-unicode_solid: \ea19
+unicode_regular: \e917
+unicode_solid: \e918
 unicode_brand: 
+icon_category: technology
 ---

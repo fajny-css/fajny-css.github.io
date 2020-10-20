@@ -1,7 +1,6 @@
 ---
-title: wand
-unicode_regular: \ecc9
-unicode_bold: \ecc8
-unicode_solid: \ecca
+unicode_regular: \eb1c
+unicode_solid: \eb1d
 unicode_brand: 
+icon_category: misc
 ---

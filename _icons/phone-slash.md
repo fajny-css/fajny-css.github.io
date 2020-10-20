@@ -1,7 +1,6 @@
 ---
-title: phone-slash
-unicode_regular: \ec07
-unicode_bold: \ec06
-unicode_solid: \ec08
+unicode_regular: \ea8a
+unicode_solid: \ea8b
 unicode_brand: 
+icon_category: technology
 ---

@@ -1,7 +1,6 @@
 ---
-title: login
-unicode_regular: \eba5
-unicode_bold: \eba4
-unicode_solid: \eba6
+unicode_regular: \ea42
+unicode_solid: \ea43
 unicode_brand: 
+icon_category: ui
 ---

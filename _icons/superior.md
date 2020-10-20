@@ -1,7 +1,6 @@
 ---
-title: superior
-unicode_regular: \ec71
-unicode_bold: \ec6d
-unicode_solid: \ec72
+unicode_regular: \eae1
+unicode_solid: \eae2
 unicode_brand: 
+icon_category: maths
 ---

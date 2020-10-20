@@ -1,7 +1,6 @@
 ---
-title: phone-minus
-unicode_regular: \ec00
-unicode_bold: \ebff
-unicode_solid: \ec01
+unicode_regular: \ea85
+unicode_solid: \ea86
 unicode_brand: 
+icon_category: technology
 ---

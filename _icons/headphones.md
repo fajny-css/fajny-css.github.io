@@ -1,7 +1,6 @@
 ---
-title: headphones
-unicode_regular: \eb64
-unicode_bold: \eb63
-unicode_solid: \eb65
+unicode_regular: \ea0d
+unicode_solid: \ea0e
 unicode_brand: 
+icon_category: objects
 ---

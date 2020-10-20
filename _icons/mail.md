@@ -1,7 +1,6 @@
 ---
-title: mail
-unicode_regular: \ebc6
-unicode_bold: \ebbf
-unicode_solid: \ebc7
+unicode_regular: \ea53
+unicode_solid: \ea54
 unicode_brand: 
+icon_category: communication
 ---

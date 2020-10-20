@@ -1,7 +1,6 @@
 ---
-title: diners-club
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \eb02
+unicode_brand: \e9bd
+icon_category: brand
 ---

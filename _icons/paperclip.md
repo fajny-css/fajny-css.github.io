@@ -1,7 +1,6 @@
 ---
-title: paperclip
-unicode_regular: \ebed
-unicode_bold: \ebec
-unicode_solid: \ebee
+unicode_regular: \ea76
+unicode_solid: \ea77
 unicode_brand: 
+icon_category: ui
 ---

@@ -1,7 +1,6 @@
 ---
-title: user-clock
-unicode_regular: \ec92
-unicode_bold: \ec91
-unicode_solid: \ec93
+unicode_regular: \eaf6
+unicode_solid: \eaf7
 unicode_brand: 
+icon_category: people
 ---

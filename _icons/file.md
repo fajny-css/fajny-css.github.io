@@ -1,7 +1,6 @@
 ---
-title: file
-unicode_regular: \eb3a
-unicode_bold: \eb39
-unicode_solid: \eb3b
+unicode_regular: \e9eb
+unicode_solid: \e9ec
 unicode_brand: 
+icon_category: office
 ---

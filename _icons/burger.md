@@ -1,7 +1,6 @@
 ---
-title: burger
-unicode_regular: \ea74
-unicode_bold: \ea73
-unicode_solid: \ea75
+unicode_regular: \e958
+unicode_solid: \e959
 unicode_brand: 
+icon_category: ui
 ---

@@ -1,7 +1,6 @@
 ---
-title: unlink
-unicode_regular: \ec84
-unicode_bold: \ec83
-unicode_solid: \ec85
+unicode_regular: \eaef
+unicode_solid: \eaf0
 unicode_brand: 
+icon_category: ui
 ---

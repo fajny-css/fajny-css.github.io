@@ -1,7 +1,6 @@
 ---
-title: pencil
-unicode_regular: \ebf9
-unicode_bold: \ebf8
-unicode_solid: \ebfa
+unicode_regular: \ea81
+unicode_solid: \ea82
 unicode_brand: 
+icon_category: ui
 ---

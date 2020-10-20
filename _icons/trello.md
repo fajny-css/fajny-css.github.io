@@ -1,7 +1,6 @@
 ---
-title: trello
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ec7d
+unicode_brand: \eaea
+icon_category: brand
 ---

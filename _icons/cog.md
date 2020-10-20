@@ -1,7 +1,6 @@
 ---
-title: cog
-unicode_regular: \eae1
-unicode_bold: \eae0
-unicode_solid: \eae2
+unicode_regular: \e9a8
+unicode_solid: \e9a9
 unicode_brand: 
+icon_category: ui
 ---

@@ -1,7 +1,6 @@
 ---
-title: lightbulb-on
-unicode_regular: \eb90
-unicode_bold: \eb8f
-unicode_solid: \eb91
+unicode_regular: \ea30
+unicode_solid: \ea31
 unicode_brand: 
+icon_category: objects
 ---

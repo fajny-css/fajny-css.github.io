@@ -1,7 +1,6 @@
 ---
-title: user-minus
-unicode_regular: \eca1
-unicode_bold: \eca0
-unicode_solid: \eca2
+unicode_regular: \eb00
+unicode_solid: \eb01
 unicode_brand: 
+icon_category: people
 ---

@@ -1,7 +1,6 @@
 ---
-title: code-branch
-unicode_regular: \ead9
-unicode_bold: \ead8
-unicode_solid: \eada
+unicode_regular: \e9a1
+unicode_solid: \e9a2
 unicode_brand: 
+icon_category: technology
 ---

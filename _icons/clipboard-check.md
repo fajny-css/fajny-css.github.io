@@ -1,7 +1,6 @@
 ---
-title: clipboard-check
-unicode_regular: \eac6
-unicode_bold: \eac4
-unicode_solid: \eac7
+unicode_regular: \e98f
+unicode_solid: \e990
 unicode_brand: 
+icon_category: office
 ---

@@ -1,7 +1,6 @@
 ---
-title: book
-unicode_regular: \ea2e
-unicode_bold: \ea2a
-unicode_solid: \ea2f
+unicode_regular: \e929
+unicode_solid: \e92a
 unicode_brand: 
+icon_category: office
 ---

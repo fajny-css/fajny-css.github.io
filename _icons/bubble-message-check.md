@@ -1,7 +1,6 @@
 ---
-title: bubble-message-check
-unicode_regular: \ea4e
-unicode_bold: \ea4d
-unicode_solid: \ea4f
+unicode_regular: \e93e
+unicode_solid: \e93f
 unicode_brand: 
+icon_category: communication
 ---

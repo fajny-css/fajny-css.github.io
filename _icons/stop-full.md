@@ -1,7 +1,6 @@
 ---
-title: stop-full
 unicode_regular: 
-unicode_bold: 
-unicode_solid: \ec64
+unicode_solid: \ead8
 unicode_brand: 
+icon_category: ui
 ---

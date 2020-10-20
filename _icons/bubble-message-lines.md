@@ -1,7 +1,6 @@
 ---
-title: bubble-message-lines
-unicode_regular: \ea5a
-unicode_bold: \ea59
-unicode_solid: \ea5b
+unicode_regular: \e946
+unicode_solid: \e947
 unicode_brand: 
+icon_category: communication
 ---

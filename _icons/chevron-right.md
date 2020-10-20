@@ -1,7 +1,6 @@
 ---
-title: chevron-right
-unicode_regular: \eaba
-unicode_bold: \eab9
-unicode_solid: \eabb
+unicode_regular: \e987
+unicode_solid: \e988
 unicode_brand: 
+icon_category: arrows
 ---

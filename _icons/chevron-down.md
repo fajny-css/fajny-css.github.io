@@ -1,7 +1,6 @@
 ---
-title: chevron-down
-unicode_regular: \eab4
-unicode_bold: \eab3
-unicode_solid: \eab5
+unicode_regular: \e983
+unicode_solid: \e984
 unicode_brand: 
+icon_category: arrows
 ---

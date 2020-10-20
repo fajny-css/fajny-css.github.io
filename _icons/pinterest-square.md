@@ -1,7 +1,6 @@
 ---
-title: pinterest-square
 unicode_regular: 
-unicode_bold: 
 unicode_solid: 
-unicode_brand: \ec13
+unicode_brand: \ea94
+icon_category: brand
 ---

@@ -1,7 +1,6 @@
 ---
-title: pause
-unicode_regular: \ebf0
-unicode_bold: \ebef
-unicode_solid: \ebf1
+unicode_regular: \ea78
+unicode_solid: \ea79
 unicode_brand: 
+icon_category: ui
 ---

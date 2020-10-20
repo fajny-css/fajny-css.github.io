@@ -1,7 +1,6 @@
 ---
-title: mail-open-letter
-unicode_regular: \ebc2
-unicode_bold: \ebc1
-unicode_solid: \ebc3
+unicode_regular: \ea4f
+unicode_solid: \ea50
 unicode_brand: 
+icon_category: communication
 ---

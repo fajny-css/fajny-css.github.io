@@ -10,7 +10,7 @@ show: false
 items:
  - title: Code
    code: |-
-    &lt;div class=&quot;wrapper wrapper-demo&quot;&gt;
+    &lt;div class=&quot;wrapper&quot;&gt;
         &lt;main class=&quot;container&quot;&gt;
 
         &lt;/main&gt;

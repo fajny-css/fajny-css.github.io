@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+<div class="wrapper">
+    <main class="main" data-size="large">
+        <a href="/icons" class="btn" data-button-style="text" data-icon-left="arrow-left-solid" data-no-padding>
+            Back to the list
+        </a>
+
+        <h1>{{ page.name }}</h1>
+
+        <h3>{{ page.icon_category | capitalize | replace: "-", " " }}</h3>
+
+        <div class="demo-icon-container">
+            {% if page.regular & page.solid %}
+            <div class="tabs">
+                {% include demo-icon.html weight="regular" %}
+                {% include demo-icon.html weight="solid" %}
+            </div>
+            {% elsif page.brand %}
+            {% include demo-icon.html weight="brand" %}
+            {% elsif page.regular == false & page.solid %}
+            {% include demo-icon.html weight="solid" %}
+            {% endif %}
+        </div>
+    </main>
+</div>

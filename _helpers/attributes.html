@@ -1,0 +1,26 @@
+---
+title: attributes
+order: 2
+intro: <code>data-attributes</code> that you can use on any component.
+import: helpers
+---
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Effect</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for attribute in site.data.attributes %}
+        <tr>
+            <td>{{ attribute.name }}</td>
+            <td>{{ attribute.effect }}</td>
+            <td>{{ attribute.name }}="{{ attribute.example }}"</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

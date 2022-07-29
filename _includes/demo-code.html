@@ -1,0 +1,7 @@
+<div class="demo-code-container code-copy">
+    <pre><code class="language-{{ include.language }} demo-code" id="{{ include.id }}">{{ include.content }}</code></pre>
+
+    {% if include.id %}
+    <button class="copy" data-clipboard-target="#{{ include.id }}" aria-label="Copy code"></button>
+    {% endif %}
+</div>

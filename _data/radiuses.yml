@@ -1,0 +1,16 @@
+- name: XXL
+  value: 24
+- name: XL
+  value: 16
+- name: L
+  value: 12
+- name: M
+  value: 8
+- name: S
+  value: 4
+- name: XS
+  value: 2
+- name: Round
+  value: 99em
+- name: Circle
+  value: 50%

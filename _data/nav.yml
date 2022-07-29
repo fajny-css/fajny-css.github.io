@@ -1,0 +1,21 @@
+- text: Home
+  url: /
+  category: home
+- text: Getting started
+  url: /getting-started
+  category: getting-started
+- text: Styles
+  url: /styles
+  category: styles
+- text: Layouts
+  url: /layouts
+  category: layouts
+- text: Icons
+  url: /icons
+  category: icons
+- text: Components
+  url: /components
+  category: components
+- text: Helpers
+  url: /helpers
+  category: helpers

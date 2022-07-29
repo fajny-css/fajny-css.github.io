@@ -1,0 +1,11 @@
+---
+title: Components
+category: components
+desc: Components for Fajny CSS
+intro: All the components for Fajny CSS.
+---
+
+{% assign posts = site.components | sort: "order" %}
+{% for post in posts %}
+<a href="{{ post.url }}" class="btn">{{ post.title | capitalize | replace: "-", " " }}</a>
+{% endfor %}

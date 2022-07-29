@@ -1,0 +1,14 @@
+- name: XXL
+  value: 48
+- name: XL
+  value: 32
+- name: L
+  value: 24
+- name: M
+  value: 16
+- name: S
+  value: 12
+- name: XS
+  value: 8
+- name: XXS
+  value: 4

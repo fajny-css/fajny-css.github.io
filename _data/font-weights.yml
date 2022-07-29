@@ -1,0 +1,12 @@
+- name: Regular
+  scss: $font-weight-regular
+  css: var(--font-weight-regular)
+  value: 400
+- name: Bold
+  scss: $font-weight-bold
+  css: var(--font-weight-bold)
+  value: 700
+- name: Black
+  scss: $font-weight-black
+  css: var(--font-weight-black)
+  value: 900

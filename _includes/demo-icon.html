@@ -1,0 +1,35 @@
+<div class="demo-icon tab" data-title="{{ include.weight | capitalize }}">
+    <div class="icon-container">
+        <svg class="icon">
+            <use xlink:href="/assets/icons/icon-sprite.svg#{{ page.name }}-{{ include.weight }}"></use>
+        </svg>
+    </div>
+
+    <div class="content">
+        <div class="section" data-gap="small">
+            <h6>HTML</h6>
+
+            <div class="demo-code-container code-copy">
+                <pre><code class="language-html demo-code" id="{{ page.name }}-{{ include.weight }}-html">&lt;svg class="icon"&gt;
+    &lt;use xlink:href="/assets/icons/icon-sprite.svg#{{ page.name }}-{{ include.weight }}"&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+                
+                <button class="copy" data-clipboard-target="#{{ page.name }}-{{ include.weight }}-html" aria-label="Copy code"></button>
+            </div>
+        </div>
+
+        <div class="section" data-gap="small">
+            <h6>SCSS</h6>
+
+            <div class="demo-code-container code-copy">
+                <pre><code class="language-scss demo-code" id="{{ page.name }}-{{ include.weight }}-scss">@include icon({{ page.name }}-{{ include.weight }}, 48, $color-primary-500);</code></pre>
+
+                <button class="copy" data-clipboard-target="#{{ page.name }}-{{ include.weight }}-scss" aria-label="Copy code"></button>
+            </div>
+        </div>
+
+        <a href="/assets/icons/{{ page.name }}-{{ include.weight }}.svg" download class="btn" data-icon-left="download-solid">
+            Download
+        </a>
+    </div>
+</div>

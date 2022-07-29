@@ -1,0 +1,31 @@
+---
+title: Colors
+order: 0
+intro: |-
+    Fajny CSS has its own color palette. If you want to use your own colors, you can edit them in the file <code>scss/_variables.scss</code>. You can find a nice color palette generator here: <a href="https://coolors.co/" target="_blank" rel="noreferrer noopener">https://coolors.co/</a>.
+import: variables
+---
+
+<div class="grid" data-gap="s">
+    {% for color in site.data.colors %}
+    <div class="demo-card card-color">
+        <span class="square {{ color.bg }}"></span>
+
+        <div class="content">
+            <h6>{{ color.name }}</h6>
+            <p>
+                <strong>SCSS: </strong>{{ color.scss }}
+            </p>
+            <p>
+                <strong>CSS: </strong>{{ color.css }}
+            </p>
+            <p>
+                <strong>Hex: </strong>{{ color.hex }}
+            </p>
+            <p>
+                <strong>RGB: </strong>{{ color.rgb }}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<p>{{ page.intro }}</p>
+
+<div class="grid" data-col="3" data-gap="s">
+    <div class="input-content" data-icon="magnifying-glass-solid">
+        <input type="text" id="filter-components" placeholder="Search components">
+    </div>
+</div>
+
+<div class="grid" data-gap="s" data-col="3" id="list-components">
+    {{ content }}
+</div>

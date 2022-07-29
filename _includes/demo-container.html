@@ -1,0 +1,19 @@
+<div class="demo-container">
+    <div class="demo-content">
+        {{ include.demo }}
+    </div>
+
+    {% if include.title %}
+    {% assign title = include.title | slugify %}
+    {% else %}
+    {% assign title = "demo-code" %}
+    {% endif %}
+
+    {% if include.code %}
+    {% assign demo = include.code | replace: '<', '&lt;' | replace: '>' , '&gt;' | replace: '"' , '&quot;' %}
+    {% else %}
+    {% assign demo = include.demo | replace: '<', '&lt;' | replace: '>' , '&gt;' | replace: '"' , '&quot;' %}
+    {% endif %}
+
+    {% include demo-code.html language="html" id=title content=demo %}
+</div>

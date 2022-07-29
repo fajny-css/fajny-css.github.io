@@ -1,0 +1,32 @@
+---
+title: spacers
+order: 2
+intro: Fajny CSS have different spacers, based on an 8px grid.
+import: variables
+---
+
+<table class="table" data-table-style="stripped" data-vertical-align="middle">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>SCSS</th>
+            <th>CSS</th>
+            <th>Value</th>
+            <th>Demo</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for spacer in site.data.spacers %}
+        <tr>
+            <td>Spacer {{ spacer.name }}</td>
+            <td>$spacer-{{ spacer.name | downcase }}</td>
+            <td>var(--spacer-{{ spacer.name | downcase }})</td>
+            <td>{{ spacer.value }}px</td>
+            <td>
+                <span class="demo-spacer" data-height="{{ spacer.name | downcase }}"></span>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

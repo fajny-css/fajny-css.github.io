@@ -1,0 +1,13 @@
+<header class="header" {% if page.url == "/" or page.url == "/components/cover/demo-cover-center" or page.url == "/components/cover/demo-cover-center-overlay" or page.url == "/components/cover/demo-cover-bottom" or page.url == "/components/cover/demo-cover-bottom-overlay" %}data-position="absolute"{% endif %}>
+    <a href="/" class="logo">
+        <img src="{{ site.logo_white }}" alt="Logo Fajny CSS">
+    </a>
+
+    <button class="burger" data-color="white" aria-label="Open / close nav"></button>
+
+    <nav>
+        {% for item in site.data.nav %}
+        <a href="{{ item.url }}" {% if page.url == item.url or page.category == item.category %}class="active"{% endif %}>{{ item.text }}</a>
+        {% endfor %}
+    </nav>
+</header>

@@ -1,0 +1,8 @@
+- name: Font family body
+  scss: $font-family-body
+  css: var(--font-family-body)
+  value: '"Lato", sans-serif'
+- name: Font family code
+  scss: $font-family-code
+  css: var(--font-family-code)
+  value: monospace

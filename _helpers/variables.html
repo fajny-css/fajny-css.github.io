@@ -1,0 +1,295 @@
+---
+title: variables
+order: 0
+intro: To speed up the development process Fajny CSS uses a lot of variables.
+import: variables
+---
+
+<section class="section" data-gap="small">
+    <h4>Colors</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.colors %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.scss }}</td>
+                <td>{{ item.css }}</td>
+                <td>{{ item.rgb }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Overlays</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.overlays %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.scss }}</td>
+                <td>{{ item.css }}</td>
+                <td>{{ item.value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Font families</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.font-families %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.scss }}</td>
+                <td>{{ item.css }}</td>
+                <td>{{ item.value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Font sizes</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.font-sizes %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.scss }}</td>
+                <td>{{ item.css }}</td>
+                <td>{{ item.value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Font weights</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.font-weights %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.scss }}</td>
+                <td>{{ item.css }}</td>
+                <td>{{ item.value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Line heights</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.line-heights %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.scss }}</td>
+                <td>{{ item.css }}</td>
+                <td>{{ item.value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Shadows</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.shadows %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>${{ item.class }}</td>
+                <td>var(--{{ item.class }})</td>
+                <td>{{ item.value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Radiuses</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.radiuses %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>$radius-{{ item.name | downcase }}</td>
+                <td>var(--radius-{{ item.name | downcase }})</td>
+                <td>{{ item.value }}{% unless item.value contains "em" or item.value contains "%" %}px{% endunless %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Layouts</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+                <th>Value tablet</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.layouts %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.scss }}</td>
+                <td>{{ item.css }}</td>
+                <td>{{ item.value }}</td>
+                <td>{{ item.valueTablet }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Spacers</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.spacers %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>$spacer-{{ item.name | downcase }}</td>
+                <td>var(--spacer-{{ item.name | downcase }})</td>
+                <td>{{ item.value }}px</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="section" data-gap="small">
+    <h4>Transitions</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SCSS</th>
+                <th>CSS</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in site.data.transitions %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>$transition-{{ item.name | downcase }}</td>
+                <td>var(--transition-{{ item.name | downcase }})</td>
+                <td>{{ item.value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>

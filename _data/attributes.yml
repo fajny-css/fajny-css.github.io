@@ -1,0 +1,42 @@
+- name: data-padding
+  effect: Add a padding
+  example: xs
+- name: data-padding-top
+  effect: Add a padding top
+  example: s
+- name: data-padding-bottom
+  effect: Add a padding bottom
+  example: l
+- name: data-padding-left
+  effect: Add a padding left
+  example: xl
+- name: data-padding-right
+  effect: Add a padding right
+  example: xxs
+- name: data-padding-top-bottom
+  effect: Add a padding top and bottom
+  example: m
+- name: data-padding-left-right
+  effect: Add a padding left and right
+  example: xl
+- name: data-margin
+  effect: Add a margin
+  example: xs
+- name: data-margin-top
+  effect: Add a margin top
+  example: s
+- name: data-margin-bottom
+  effect: Add a margin bottom
+  example: l
+- name: data-margin-left
+  effect: Add a margin left
+  example: xl
+- name: data-margin-right
+  effect: Add a margin right
+  example: xxs
+- name: data-margin-top-bottom
+  effect: Add a margin top and bottom
+  example: m
+- name: data-margin-left-right
+  effect: Add a margin left and right
+  example: xl

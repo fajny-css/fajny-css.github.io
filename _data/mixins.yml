@@ -1,0 +1,40 @@
+- name: flexbox
+  effect: Add a flexbox
+  variables: $align, $justify, $gap (not required)
+  example: center, space-between, $spacer-l
+- name: inlineFlex
+  effect: Add an inline flexbox
+  variables: $align, $justify, $gap (not required)
+  example: flex-end, space-around, $spacer-s
+- name: grid
+  effect: Add a CSS grid
+  variables: $template, $gap (not required)
+  example: 1fr 2fr, $spacer-xs
+- name: inlineGrid
+  effect: Add an inline grid
+  variables: $template, $gap (not required)
+  example: 3fr 1fr, $spacer-xxl
+- name: gridCol
+  effect: Add a CSS grid with columns all the same size
+  variables: $col, $gap (not-required)
+  example: 4, $spacer-s
+- name: icon
+  effect: Add a way to add an icon in SCSS
+  variables: $icon, $size, $color (not required)
+  example: chevron-down-solid, 16, $color-primary-500
+- name: paMar
+  effect: Sets margins and paddings to 0
+  variables: None
+  example: 
+- name: ulNone
+  effect: Sets margins and paddings to 0, and list-style to none
+  variables: None
+  example: 
+- name: tablet
+  effect: Media queries for tablet viewports
+  variables: None
+  example: 
+- name: mobile
+  effect: Media queries for mobile viewports
+  variables: None
+  example: 

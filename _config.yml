@@ -1,0 +1,146 @@
+title: Fajny CSS
+email: julien.sebag@me.com
+description: Documentation for Fajny CSS. Build responsive web projects with Fajny CSS, a simple and lightweight SCSS Framework with a lot of components.
+baseurl: "/"
+url: "https://fajny-css.github.io/"
+author: Julien Sebag
+type: framework_documentation
+lang: en
+favicon: favicon.svg
+cover_og: cover-og.png
+github_username: JulSeb42
+version: 3.0
+
+logo: /assets/images/logo-fajny-css.svg
+logo_white: /assets/images/logo-fajny-css-white.svg
+download: /fajny-css.zip
+github: https://github.com/fajny-css/fajny-css
+figma: https://www.figma.com/file/PEVWTQAsJjUmuxnWwxFwQg/Fajny-CSS-V3/duplicate
+fajny_react: 
+
+css_local: '&lt;link rel="stylesheet" href="/path/to/fajny.min.css" /&gt;'
+js_local: '&lt;script src="/path/to/lib/fajny.min.js"&gt;&lt;/script&gt;'
+
+all_local: |-
+  &lt;!-- Head --&gt;
+  &lt;link rel="stylesheet" href="/path/to/fajny.min.css" /&gt;
+
+  &lt;!-- Body --&gt;
+  &lt;script src="/path/to/lib/fajny.min.js"&gt;&lt;/script&gt;
+
+css_cdn: '&lt;link rel="stylesheet" href="https://unpkg.com/fajny-css/css/fajny.min.css" /&gt;'
+js_cdn: '&lt;script src="https://unpkg.com/fajny-css/lib/fajny.min.js"&gt;&lt;/script&gt;'
+
+all_cdn: |-
+  &lt;!-- Head --&gt;
+  &lt;link rel="stylesheet" href="https://unpkg.com/fajny-css/css/fajny.min.css" /&gt;
+  
+  &lt;!-- Body --&gt;
+  &lt;script src="https://unpkg.com/fajny-css/lib/fajny.min.js"&gt;&lt;/script&gt;
+
+npm: $ npm i fajny-css
+
+text_footer: |-
+  Pictures from <a href="https://unsplash.com/" target="_blank" rel="noreferrer noopener">Unsplash</a>, videos from <a href="https://mixkit.co/" target="_blank" rel="noreferrer noopener">Mixkit</a>.<br />Made by <a href="http://www.julien-sebag.com/" target="_blank" rel="noreferrer noopener">Julien Sebag</a> | 2022
+
+keywords:
+  - css
+  - framework css
+  - ui design
+  - ux design
+  - scss
+  - sass
+  - components
+  - component library
+  - design system
+  - fajny css
+  - html
+  - responsive
+  - icon font
+  - icons
+  - js
+  - javascript
+
+markdown: kramdown
+
+collections:
+  categories:
+    output: true
+    permalink: /:title
+  styles:
+    output: true
+    permalink: /styles/:title
+  layouts-components:
+    output: true
+    permalink: /layouts/:title
+  icons:
+    output: true
+    permalink: /icons/:title
+  components:
+    output: true
+    permalink: /components/:title
+  helpers:
+    output: true
+    permalink: /helpers/:title
+  demos:
+    output: true
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+permalink: /:title/
+
+defaults:
+  # -
+  #   scope:
+  #     type: projects
+  #   values:
+  #     layout: projects
+  - 
+    scope:
+      path: "/"
+      type: components
+    values:
+      layout: default
+  - 
+    scope:
+      type: "categories"
+    values:
+      layout: "list"
+  - 
+    scope:
+      type: "styles"
+    values:
+      layout: "components"
+      category: "styles"
+  - 
+    scope:
+      type: "layouts-components"
+    values:
+      layout: "components"
+      category: "layouts"
+  - 
+    scope:
+      type: "icons"
+    values:
+      layout: "icon"
+      category: "icons"
+  - 
+    scope:
+      type: "components"
+    values:
+      layout: "components"
+      category: "components"
+  - 
+    scope:
+      type: "helpers"
+    values:
+      layout: "components"
+      category: "helpers"
+      layout: "helpers"
+  -
+    scope:
+      path: ""
+    values:
+      layout: page

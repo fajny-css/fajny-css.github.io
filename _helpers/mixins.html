@@ -1,0 +1,30 @@
+---
+title: mixins
+order: 1
+intro: To speed up your development process in SCSS you can use mixins. These are really useful shortcodes to add in your SCSS elements.
+import: mixins
+---
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Effect</th>
+            <th>Variables</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for mixin in site.data.mixins %}
+        <tr>
+            <td>{{ mixin.name }}</td>
+            <td>{{ mixin.effect }}</td>
+            <td>{{ mixin.variables }}</td>
+            <td class="code-container">
+                <pre><code class="language-scss demo-code">@include {{ mixin.name }}({{ mixin.example }})</code></pre>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

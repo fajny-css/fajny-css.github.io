@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<div class="wrapper">
+    <main class="main" data-size="large">
+        <a href="/helpers" class="btn" data-button-style="text" data-icon-left="arrow-left-solid" data-no-padding>
+            Back to the list
+        </a>
+
+        <h1>{{ page.title | capitalize | replace: "-", " " }}</h1>
+
+        {% if page.intro %}<p>{{ page.intro }}</p>{% endif %}
+
+        {% if page.import %}
+        <section class="section" data-gap="small">
+            <h3>File to include</h3>
+            {% include import-code.html import=page.import %}
+        </section>
+        {% endif %}
+
+        {{ content }}
+    </main>
+</div>
+
+
+

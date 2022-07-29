@@ -1,0 +1,25 @@
+{
+    "name": "doc-fajny-html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "minify-fajny": "uglifyjs assets/js/fajny.js > assets/js/fajny.min.js",
+        "minify-script": "uglifyjs assets/js/script.js > assets/js/script.min.js",
+        "minify-fajny-lib": "uglifyjs assets/lib/fajny.js > assets/lib/fajny.min.js",
+        "minify-script-lib": "uglifyjs assets/lib/script.js > assets/lib/script.min.js",
+        "build": "babel assets/js -d assets/lib && npm run minify-fajny-lib && npm run minify-script-lib"
+    },
+    "author": "Julien Sebag",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.17.10",
+        "@babel/core": "^7.18.0",
+        "@babel/preset-env": "^7.18.0",
+        "@types/node": "^17.0.31"
+    },
+    "dependencies": {
+        "uglify-js": "^3.16.2"
+    }
+}

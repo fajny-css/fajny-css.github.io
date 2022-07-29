@@ -1,0 +1,11 @@
+---
+title: Helpers
+category: helpers
+desc: Helpers for Fajny CSS
+intro: Helpers are CSS classes and SCSS mixins created to help you ease the development.
+---
+
+{% assign posts = site.helpers | sort: "order" %}
+{% for post in posts %}
+<a href="{{ post.url }}" class="btn">{{ post.title | capitalize | replace: "-", " " }}</a>
+{% endfor %}

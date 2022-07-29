@@ -1,0 +1,107 @@
+---
+title: Home
+layout: base
+category: home
+cards:
+    - title: Built with SCSS
+      img: sass-logo.svg
+      alt: Logo Sass
+      text: This Framework is entirely built in SCSS, to ease the development!
+      button: Learn more about SCSS
+      url: https://sass-lang.com/
+    - title: Copy Figma file
+      img: figma-logo.svg
+      alt: Logo Figma
+      text: You can also use Fajny CSS in your mockups, just download the Figma file and use it as library!
+      button: Download file
+      url: site.figma
+    - title: React version
+      img: logo-react.svg
+      alt: Logo React
+      text: If you want to use Fajny in a React project, use Fajny React!
+      button: Visit Fajny React
+      url: site.fajny_react
+    - title: Totally Free
+      img: logo-free-license.svg
+      alt: Logo Free license
+      text: You can use everything for free, without having to credit us!
+      button: Start using Fajny CSS
+      url: /getting-started
+---
+
+<div class="cover cover-home" data-overlay>
+    <picture>
+        <source media="(max-width: 600px)" srcset="/assets/images/s-cover-parallax.jpg">
+        <source media="(max-width: 1024px)" srcset="/assets/images/m-cover-parallax.jpg">
+        <img src="/assets/images/l-cover-parallax.jpg" alt="Cover Fajny CSS">
+    </picture>
+
+    <div class="content">
+        <img src="{{ site.logo_white }}" alt="Logo Fajny CSS" class="logo-home">
+
+        <h1 class="display">The last SCSS Framework you will ever need!</h1>
+
+        <div class="flexbox" data-align="center" data-justify="center" data-gap="s">
+            <a href="{{ site.download }}" download class="btn" data-icon-left="download-solid" data-color="white"
+                data-button-style="plain">
+                Download
+            </a>
+
+            <a href="{{ site.github }}" target="_blank" rel="noreferrer noopener" class="btn"
+                data-button-style="outline" data-color="white" data-icon-left="github-brand">
+                Check on GitHub
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+    <main class="main" data-size="large">
+        <section class="section">
+            <h2>Install Fajny in your project</h2>
+
+            <div class="section" data-gap="small">
+                <h3>Via CDN</h3>
+
+                {% include demo-code.html id="all_cdn" language="html" content=site.all_cdn %}
+            </div>
+
+            <div class="section" data-gap="small">
+                <h3>Locally</h3>
+
+                {% include demo-code.html id="all_local" language="html" content=site.all_local %}
+            </div>
+
+            <div class="section" data-gap="small">
+                <h3>Via npm</h3>
+
+                {% include demo-code.html id="npm" language="shell" content=site.npm %}
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Why choosing Fajny CSS</h2>
+
+            <div class="grid" data-col="2" data-gap="m">
+                {% for card in page.cards %}
+                <div class="card card-home">
+                    <img src="/assets/images/{{ card.img }}" alt="{{ card.alt }}" data-fit="contain">
+
+                    <div class="content">
+                        <h5>{{ card.title }}</h5>
+                        <p>{{ card.text }}</p>
+
+                        <div class="flexbox" data-justify="flex-end">
+                            <a href="{{ card.url }}" class="btn" data-button-style="text" data-color="primary" {% if
+                                card.url !="/getting-started" %}target="_blank" rel="noreferrer noopener" {% endif %}
+                                data-no-padding>
+                                {{ card.button }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+</div>

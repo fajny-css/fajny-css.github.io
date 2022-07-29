@@ -1,0 +1,285 @@
+@import "../assets/scss/variables";
+@import "../assets/scss/mixins";
+
+/*=============================================== Documentation ===============================================*/
+
+.footer-doc {
+    .footer-links {
+        @include flexbox(center, flex-start, $spacer-xs);
+
+        p,
+        a {
+            line-height: calc(1rem * 1.5);
+        }
+
+        .icon {
+            --icon-size: 16px;
+            position: relative;
+            top: 2px;
+        }
+    }
+}
+
+.cover-home .content {
+    .logo-home {
+        width: 40%;
+    }
+}
+
+.code-copy {
+    position: relative;
+
+    .copy {
+        position: absolute;
+        top: calc(51px / 2 - 32px / 2);
+        right: $spacer-m;
+        z-index: 10;
+        $size: 32px;
+        width: $size;
+        height: $size;
+        border-radius: $radius-circle;
+        border: none;
+        background-color: $color-white;
+        color: $color-primary-500;
+        @include inlineFlex(center, center);
+
+        &:hover {
+            background-color: $color-gray-300;
+        }
+
+        &:active {
+            background-color: $color-gray-100;
+        }
+
+        .icon {
+            --icon-size: 16px;
+        }
+
+        &.copied {
+            background-color: $color-success-500;
+            color: $color-white;
+        }
+    }
+
+    pre,
+    code {
+        padding-right: $spacer-l;
+    }
+}
+
+.card-home {
+    max-width: inherit;
+
+    img {
+        height: 100px;
+        object-fit: contain;
+        padding: $spacer-s;
+    }
+
+    .content {
+        padding: $spacer-s;
+        @include flexbox(stretch, flex-start, $spacer-xs);
+        flex-direction: column;
+        height: calc(100% - 100px);
+
+        &>p {
+            flex-grow: 1;
+        }
+    }
+}
+
+.demo-card {
+    width: 100%;
+    border: 1px solid $color-gray-200;
+    border-radius: $radius-m;
+    overflow: hidden;
+    @include flexbox(center, flex-start);
+
+    .square {
+        height: 100%;
+        width: 150px;
+    }
+
+    .content {
+        padding: $spacer-s;
+        @include gridCol(1, $spacer-xs)
+    }
+
+    &.demo-column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .square {
+            height: 150px;
+            margin-top: $spacer-s;
+
+            &.radius-round {
+                width: calc(100% - 24px);
+            }
+        }
+
+        .content {
+            width: 100%;
+        }
+    }
+}
+
+.demo-container {
+    border: 1px solid $color-gray-200;
+    border-radius: $radius-m;
+    width: 100%;
+    overflow: hidden;
+
+    .demo-content {
+        padding: $spacer-m;
+        @include gridCol(1, $spacer-s);
+
+        pre {
+            width: 100%;
+            display: block;
+            max-width: 800px;
+        }
+    }
+}
+
+.demo-spacer {
+    width: 100%;
+    background-color: $color-danger-100;
+    display: block;
+
+    &[data-height="xxl"] {
+        height: $spacer-xxl;
+    }
+
+    &[data-height="xl"] {
+        height: $spacer-xl;
+    }
+
+    &[data-height="l"] {
+        height: $spacer-l;
+    }
+
+    &[data-height="m"] {
+        height: $spacer-m;
+    }
+
+    &[data-height="s"] {
+        height: $spacer-s;
+    }
+
+    &[data-height="xs"] {
+        height: $spacer-xs;
+    }
+
+    &[data-height="xxs"] {
+        height: $spacer-xxs;
+    }
+}
+
+.demo-grid-item {
+    background-color: $color-primary-500;
+    color: $color-white;
+    padding: $spacer-xs;
+}
+
+.card-icon {
+    flex-direction: column;
+    color: $color-black;
+    text-decoration: none;
+    font-weight: $font-weight-regular;
+    border: 1px solid $color-gray-200;
+    border-radius: $radius-m;
+    padding: $spacer-s;
+    text-align: center;
+    transition: $transition-short;
+    display: none;
+
+    .icon {
+        --icon-size: 32px;
+        color: $color-primary-500;
+    }
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    &.show {
+        @include flexbox(center, flex-start, $spacer-xs);
+    }
+}
+
+.demo-icon-container {
+    border: 1px solid $color-gray-200;
+    border-radius: $radius-l;
+    padding: $spacer-s;
+}
+
+.demo-icon {
+    @include gridCol(2, $spacer-m);
+
+    @include mobile() {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    &>.icon-container {
+        @include flexbox(center, center);
+
+        .icon {
+            --icon-size: 64px;
+            color: $color-primary-500;
+        }
+    }
+
+    &>.content {
+        @include gridCol(1, $spacer-l);
+
+        &>.btn {
+            justify-self: start;
+        }
+    }
+}
+
+.demo-code-container {
+    width: 100%;
+    overflow-x: scroll;
+    background-color: $color-gray-900;
+    color: $color-white;
+    padding: $spacer-m;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    pre,
+    code {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    code {
+        font-family: $font-family-code;
+    }
+}
+
+.show-code {
+    color: $color-white  !important;
+
+    pre {
+        color: $color-white  !important;
+
+        code {
+            color: $color-white  !important;
+
+            &>* {
+                color: $color-white  !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+---
+layout: base
+---
+
+<div class="wrapper">
+    <main class="main" data-size="large">
+        <a href="/{{ page.category }}" class="btn" data-button-style="text" data-icon-left="arrow-left-solid"
+            data-no-padding>
+            Back to the list
+        </a>
+
+        <h1>{{ page.title | capitalize | replace: "-", " " }}</h1>
+
+        {% if page.intro %}<p>{{ page.intro }}</p>{% endif %}
+
+        {% if page.import %}
+        <section class="section" data-gap="small">
+            <h3>File to include</h3>
+            {% include import-code.html import=page.import id="import" %}
+        </section>
+        {% endif %}
+
+        {% if page.script %}
+        <section class="section" data-gap="small">
+            <h3>Script to include</h3>
+            {% include import-js.html script=page.script %}
+        </section>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.items %}
+        {% for item in page.items %}
+        {% if item.title or item.helper %}
+        <section class="section" data-gap="small">
+            {% if item.title %}
+            <h3>{{ item.title }}</h3>
+            {% endif %}
+
+            {% if item.helper %}
+            <p>{{ item.helper }}</p>
+            {% endif %}
+
+            {% include demo-container.html title=item.title demo=item.demo code=item.code %}
+        </section>
+        {% else %}
+        {% include demo-container.html title=item.title demo=item.demo code=item.code %}
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+        {% if page.attributes %}
+        <section class="section" data-gap="small">
+            <h2>Attributes</h2>
+
+            <table class="table" data-table-style="stripped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Example value</th>
+                        <th>Possible values</th>
+                        <th>Default</th>
+                        <th>Required</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for item in page.attributes %}
+                    <tr>
+                        <td>{{ item.name }}</td>
+                        <td>{{ item.example }}</td>
+                        {% assign common = site.data.common %}
+                        <td>
+                            {{
+                                item.possible
+                                    | replace: "all_colors", common.all_colors
+                                    | replace: "colors_short", common.colors_short
+                                    | replace: "colors_hover", common.colors_hover
+                                    | replace: "spacers", common.spacers
+                                    | replace: "text_align", common.text_align
+                                    | replace: "all_shadows", common.all_shadows
+                                    | replace: "grid_justify_items", common.grid_justify_items
+                                    | replace: "grid_align_items", common.grid_align_items
+                                    | replace: "grid_justify_content", common.grid_justify_content
+                                    | replace: "grid_align_content", common.grid_align_content
+                                    | replace: "flex_align", common.flex_align
+                                    | replace: "flex_justify", common.flex_justify
+                                    | replace: "object_fit", common.object_fit
+                            }}
+                        </td>
+                        <td>{{ item.default }}</td>
+                        <td>{{ item.required | stringify }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        {% endif %}
+    </main>
+</div>

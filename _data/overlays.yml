@@ -1,0 +1,30 @@
+- name: Plain Black 50
+  scss: $overlay-black-50
+  css: var(--overlay-black-50)
+  value: rgba(0, 0, 0, 0.5)
+  class: bg-overlay-black-50
+- name: Plain Black 80
+  scss: $overlay-black-80
+  css: var(--overlay-black-80)
+  value: rgba(0, 0, 0, 0.8)
+  class: bg-overlay-black-80
+- name: Plain White 50
+  scss: $overlay-white-50
+  css: var(--overlay-white-50)
+  value: rgba(255, 255, 255, 0.5)
+  class: bg-overlay-white-50
+- name: Overlay White 80
+  scss: $overlay-white-80
+  css: var(--overlay-white-80)
+  value: rgba(255, 255, 255, 0.8)
+  class: bg-overlay-white-80
+- name: Gradient Black
+  scss: $overlay-gradient-black
+  css: var(--overlay-gradient-black)
+  value: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.56) 100%)
+  class: bg-overlay-gradient-black
+- name: Gradient White
+  scss: $overlay-gradient-white
+  css: var(--overlay-gradient-white)
+  value: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.35) 100%)
+  class: bg-overlay-gradient-white

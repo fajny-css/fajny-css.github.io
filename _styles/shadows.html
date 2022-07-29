@@ -1,0 +1,28 @@
+---
+title: Shadows
+order: 2
+intro: |-
+    Fajny CSS uses different shadows for some components. You can change them by editing the file <code>scss/_variables.scss</code>.
+import: variables
+---
+
+<div class="grid" data-gap="s" data-col="2">
+    {% for shadow in site.data.shadows %}
+    <div class="demo-card demo-column">
+        <span class="square {{ shadow.class }}"></span>
+    
+        <div class="content">
+            <h6>{{ shadow.name }}</h6>
+            <p>
+                <strong>SCSS: </strong>${{ shadow.class}}
+            </p>
+            <p>
+                <strong>CSS: </strong>var(--{{ shadow.class }})
+            </p>
+            <p>
+                <strong>Class: </strong>.{{ shadow.class }}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

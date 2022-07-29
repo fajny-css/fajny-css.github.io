@@ -1,0 +1,372 @@
+- name: Black
+  scss: $color-black
+  css: var(--color-black)
+  hex: "#000000"
+  rgb:  rgb(0, 0, 0)
+  bg: bg-black
+- name: White
+  scss: $color-white
+  css: var(--color-white)
+  hex: "#FFFFFF"
+  rgb:  rgb(255, 255, 255)
+  bg: bg-white
+- name: Gray 50
+  scss: $color-gray-50
+  css: var(--color-gray-50)
+  hex: "#F8F8F8"
+  rgb:  rgb(248, 248, 248)
+  bg: bg-gray-50
+- name: Gray 100
+  scss: $color-gray-100
+  css: var(--color-gray-100)
+  hex: "#E4E4E4"
+  rgb:  rgb(228, 228, 228)
+  bg: bg-gray-100
+- name: Gray 200
+  scss: $color-gray-200
+  css: var(--color-gray-200)
+  hex: "#C8C8C8"
+  rgb:  rgb(200, 200, 200)
+  bg: bg-gray-200
+- name: Gray 300
+  scss: $color-gray-300
+  css: var(--color-gray-300)
+  hex: "#ADADAD"
+  rgb:  rgb(173, 173, 173)
+  bg: bg-gray-300
+- name: Gray 400
+  scss: $color-gray-400
+  css: var(--color-gray-400)
+  hex: "#919191"
+  rgb:  rgb(145, 145, 145)
+  bg: bg-gray-400
+- name: Gray 500
+  scss: $color-gray-500
+  css: var(--color-gray-500)
+  hex: "#767676"
+  rgb:  rgb(118, 118, 118)
+  bg: bg-gray-500
+- name: Gray 600
+  scss: $color-gray-600
+  css: var(--color-gray-600)
+  hex: "#5E5E5E"
+  rgb:  rgb(94, 94, 94)
+  bg: bg-gray-600
+- name: Gray 700
+  scss: $color-gray-700
+  css: var(--color-gray-700)
+  hex: "#474747"
+  rgb:  rgb(71, 71, 71)
+  bg: bg-gray-700
+- name: Gray 800
+  scss: $color-gray-800
+  css: var(--color-gray-800)
+  hex: "#2F2F2F"
+  rgb:  rgb(47, 47, 47)
+  bg: bg-gray-800
+- name: Gray 900
+  scss: $color-gray-900
+  css: var(--color-gray-900)
+  hex: "#181818"
+  rgb:  rgb(24, 24, 24)
+  bg: bg-gray-900
+- name: Primary 50
+  scss: $color-primary-50
+  css: var(--color-primary-50)
+  hex: "#F4F6F7"
+  rgb:  rgb(244, 246, 247)
+  bg: bg-primary-50
+- name: Primary 100
+  scss: $color-primary-100
+  css: var(--color-primary-100)
+  hex: "#D1DAE1"
+  rgb:  rgb(209, 218, 225)
+  bg: bg-primary-100
+- name: Primary 200
+  scss: $color-primary-200
+  css: var(--color-primary-200)
+  hex: "#A4B5C3"
+  rgb:  rgb(164, 181, 195)
+  bg: bg-primary-200
+- name: Primary 300
+  scss: $color-primary-300
+  css: var(--color-primary-300)
+  hex: "#768FA4"
+  rgb:  rgb(118, 143, 164)
+  bg: bg-primary-300
+- name: Primary 400
+  scss: $color-primary-400
+  css: var(--color-primary-400)
+  hex: "#496A86"
+  rgb:  rgb(73, 106, 134)
+  bg: bg-primary-400
+- name: Primary 500
+  scss: $color-primary-500
+  css: var(--color-primary-500)
+  hex: "#1B4568"
+  rgb:  rgb(27, 69, 104)
+  bg: bg-primary-500
+- name: Primary 600
+  scss: $color-primary-600
+  css: var(--color-primary-600)
+  hex: "#163753"
+  rgb:  rgb(22, 55, 83)
+  bg: bg-primary-600
+- name: Primary 700
+  scss: $color-primary-700
+  css: var(--color-primary-700)
+  hex: "#10293E"
+  rgb:  rgb(16, 41, 62)
+  bg: bg-primary-700
+- name: Primary 800
+  scss: $color-primary-800
+  css: var(--color-primary-800)
+  hex: "#0B1C2A"
+  rgb:  rgb(11, 28, 42)
+  bg: bg-primary-800
+- name: Primary 900
+  scss: $color-primary-900
+  css: var(--color-primary-900)
+  hex: "#050E15"
+  rgb:  rgb(5, 14, 21)
+  bg: bg-primary-900
+- name: Secondary 50
+  scss: $color-secondary-50
+  css: var(--color-secondary-50)
+  hex: "#F4F8FD"
+  rgb:  rgb(244, 248, 253)
+  bg: bg-secondary-50
+- name: Secondary 100
+  scss: $color-secondary-100
+  css: var(--color-secondary-100)
+  hex: "#D4E2F6"
+  rgb:  rgb(212, 226, 246)
+  bg: bg-secondary-100
+- name: Secondary 200
+  scss: $color-secondary-200
+  css: var(--color-secondary-200)
+  hex: "#A8C5ED"
+  rgb:  rgb(168, 197, 237)
+  bg: bg-secondary-200
+- name: Secondary 300
+  scss: $color-secondary-300
+  css: var(--color-secondary-300)
+  hex: "#7DA7E5"
+  rgb:  rgb(125, 167, 229)
+  bg: bg-secondary-300
+- name: Secondary 400
+  scss: $color-secondary-400
+  css: var(--color-secondary-400)
+  hex: "#518ADC"
+  rgb:  rgb(81, 138, 220)
+  bg: bg-secondary-400
+- name: Secondary 500
+  scss: $color-secondary-500
+  css: var(--color-secondary-500)
+  hex: "#266DD3"
+  rgb:  rgb(38, 109, 211)
+  bg: bg-secondary-500
+- name: Secondary 600
+  scss: $color-secondary-600
+  css: var(--color-secondary-600)
+  hex: "#1E57A9"
+  rgb:  rgb(30, 87, 169)
+  bg: bg-secondary-600
+- name: Secondary 700
+  scss: $color-secondary-700
+  css: var(--color-secondary-700)
+  hex: "#17417F"
+  rgb:  rgb(23, 65, 127)
+  bg: bg-secondary-700
+- name: Secondary 800
+  scss: $color-secondary-800
+  css: var(--color-secondary-800)
+  hex: "#0F2C54"
+  rgb:  rgb(15, 44, 84)
+  bg: bg-secondary-800
+- name: Secondary 900
+  scss: $color-secondary-900
+  css: var(--color-secondary-900)
+  hex: "#08162A"
+  rgb:  rgb(8, 22, 42)
+  bg: bg-secondary-900
+- name: Success 50
+  scss: $color-success-50
+  css: var(--color-success-50)
+  hex: "#F3F9F6"
+  rgb:  rgb(243, 249, 246)
+  bg: bg-success-50
+- name: Success 100
+  scss: $color-success-100
+  css: var(--color-success-100)
+  hex: "#CEE6DB"
+  rgb:  rgb(206, 230, 219)
+  bg: bg-success-100
+- name: Success 200
+  scss: $color-success-200
+  css: var(--color-success-200)
+  hex: "#9DCDB7"
+  rgb:  rgb(157, 205, 183)
+  bg: bg-success-200
+- name: Success 300
+  scss: $color-success-300
+  css: var(--color-success-300)
+  hex: "#6BB392"
+  rgb:  rgb(107, 179, 146)
+  bg: bg-success-300
+- name: Success 400
+  scss: $color-success-400
+  css: var(--color-success-400)
+  hex: "#3A9A6E"
+  rgb:  rgb(58, 154, 110)
+  bg: bg-success-400
+- name: Success 500
+  scss: $color-success-500
+  css: var(--color-success-500)
+  hex: "#09814A"
+  rgb:  rgb(9, 129, 74)
+  bg: bg-success-500
+- name: Success 600
+  scss: $color-success-600
+  css: var(--color-success-600)
+  hex: "#07673B"
+  rgb:  rgb(7, 103, 59)
+  bg: bg-success-600
+- name: Success 700
+  scss: $color-success-700
+  css: var(--color-success-700)
+  hex: "#054D2C"
+  rgb:  rgb(5, 77, 44)
+  bg: bg-success-700
+- name: Success 800
+  scss: $color-success-800
+  css: var(--color-success-800)
+  hex: "#04341E"
+  rgb:  rgb(4, 52, 30)
+  bg: bg-success-800
+- name: Success 900
+  scss: $color-success-900
+  css: var(--color-success-900)
+  hex: "#021A0F"
+  rgb:  rgb(2, 26, 15)
+  bg: bg-success-900
+- name: Danger 50
+  scss: $color-danger-50
+  css: var(--color-danger-50)
+  hex: "#FBF2F4"
+  rgb:  rgb(251, 242, 244)
+  bg: bg-danger-50
+- name: Danger 100
+  scss: $color-danger-100
+  css: var(--color-danger-100)
+  hex: "#F0CCD1"
+  rgb:  rgb(240, 204, 209)
+  bg: bg-danger-100
+- name: Danger 200
+  scss: $color-danger-200
+  css: var(--color-danger-200)
+  hex: "#E199A4"
+  rgb:  rgb(225, 153, 164)
+  bg: bg-danger-200
+- name: Danger 300
+  scss: $color-danger-300
+  css: var(--color-danger-300)
+  hex: "#D16676"
+  rgb:  rgb(209, 102, 118)
+  bg: bg-danger-300
+- name: Danger 400
+  scss: $color-danger-400
+  css: var(--color-danger-400)
+  hex: "#C23349"
+  rgb:  rgb(194, 51, 73)
+  bg: bg-danger-400
+- name: Danger 500
+  scss: $color-danger-500
+  css: var(--color-danger-500)
+  hex: "#B3001B"
+  rgb:  rgb(179, 0, 27)
+  bg: bg-danger-500
+- name: Danger 600
+  scss: $color-danger-600
+  css: var(--color-danger-600)
+  hex: "#8F0016"
+  rgb:  rgb(143, 0, 22)
+  bg: bg-danger-600
+- name: Danger 700
+  scss: $color-danger-700
+  css: var(--color-danger-700)
+  hex: "#6B0010"
+  rgb:  rgb(107, 0, 16)
+  bg: bg-danger-700
+- name: Danger 800
+  scss: $color-danger-800
+  css: var(--color-danger-800)
+  hex: "#48000B"
+  rgb:  rgb(72, 0, 11)
+  bg: bg-danger-800
+- name: Danger 900
+  scss: $color-danger-900
+  css: var(--color-danger-900)
+  hex: "#240005"
+  rgb:  rgb(36, 0, 5)
+  bg: bg-danger-900
+- name: Warning 50
+  scss: $color-warning-50
+  css: var(--color-warning-50)
+  hex: "#FCF6F2"
+  rgb:  rgb(252, 246, 242)
+  bg: bg-warning-50
+- name: Warning 100
+  scss: $color-warning-100
+  css: var(--color-warning-100)
+  hex: "#F3DBCC"
+  rgb:  rgb(243, 219, 204)
+  bg: bg-warning-100
+- name: Warning 200
+  scss: $color-warning-200
+  css: var(--color-warning-200)
+  hex: "#E7B699"
+  rgb:  rgb(231, 182, 153)
+  bg: bg-warning-200
+- name: Warning 300
+  scss: $color-warning-300
+  css: var(--color-warning-300)
+  hex: "#DC9266"
+  rgb:  rgb(220, 146, 102)
+  bg: bg-warning-300
+- name: Warning 400
+  scss: $color-warning-400
+  css: var(--color-warning-400)
+  hex: "#D06D33"
+  rgb:  rgb(208, 109, 51)
+  bg: bg-warning-400
+- name: Warning 500
+  scss: $color-warning-500
+  css: var(--color-warning-500)
+  hex: "#C44900"
+  rgb:  rgb(196, 73, 0)
+  bg: bg-warning-500
+- name: Warning 600
+  scss: $color-warning-600
+  css: var(--color-warning-600)
+  hex: "#9D3A00"
+  rgb:  rgb(157, 58, 0)
+  bg: bg-warning-600
+- name: Warning 700
+  scss: $color-warning-700
+  css: var(--color-warning-700)
+  hex: "#762C00"
+  rgb:  rgb(118, 44, 0)
+  bg: bg-warning-700
+- name: Warning 800
+  scss: $color-warning-800
+  css: var(--color-warning-800)
+  hex: "#4E1D00"
+  rgb:  rgb(78, 29, 0)
+  bg: bg-warning-800
+- name: Warning 900
+  scss: $color-warning-900
+  css: var(--color-warning-900)
+  hex: "#270F00"
+  rgb:  rgb(39, 15, 0)
+  bg: bg-warning-900

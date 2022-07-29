@@ -1,0 +1,16 @@
+<footer class="footer footer-doc" data-separator>
+    <div class="footer-links">
+        <p>V{{ site.version }}</p>
+
+        {% for item in site.data.social %}
+        <a href="{{ item.url }}" {% if item.icon !="mail-solid" %}target="_blank" rel="noreferrer noopener"{% endif %}
+            {% if item.icon=="download-solid" %}download{% endif %}>
+            <svg class="icon">
+                <use xlink:href="/assets/icons/icon-sprite.svg#{{ item.icon }}"></use>
+            </svg>
+        </a>
+        {% endfor %}
+    </div>
+
+    <p data-align="right">{{ site.text_footer }}</p>
+</footer>

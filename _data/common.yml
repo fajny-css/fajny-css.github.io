@@ -1,0 +1,13 @@
+all_colors: Any <a href="/styles/colors">color</a> from Fajny CSS
+colors_short: '"primary" | "secondary" | "success" | "danger" | "warning" | "gray" | "black" | "white"'
+colors_hover: '"primary" | "secondary" | "success" | "danger" | "warning" | "white"'
+spacers: '"xxl" | "xl" | "l" | "m" | "s" | "xs" | "xxs"'
+text_align: '"left" | "center" | "right" | "justify" | "inherit" | "initial" | "revert" | "revert-layer" | "unset"'
+all_shadows: '"xxl" | "xl" | "l" | "m" | "s" | "xs"'
+grid_justify_items: '"start" | "end" | "center" | "stretch"'
+grid_align_items: '"start" | "end" | "center" | "stretch"'
+grid_justify_content: '"start" | "end" | "center" | "stretch" | "space-around" | "space-between" | "space-evenly"'
+grid_align_content: '"start" | "end" | "center" | "stretch" | "space-around" | "space-between" | "space-evenly"'
+flex_align: '"stretch" | "flex-start" | "flex-end" | "center" | "baseline"'
+flex_justify: '"flex-start" | "flex-end" | "center" | "space-between" | "space-around" | "space-evenly"'
+object_fit: '"fill" | "contain" | "cover" | "none" | "scale-down" | "inherit" | "initial" | "revert" | "revert-layer" | "unset"'

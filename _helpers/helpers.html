@@ -1,0 +1,24 @@
+---
+title: helpers
+order: 3
+intro: Helpers are classes created to override some CSS properties in your HTML. Just add them in the HTML class of your element.
+import: helpers
+---
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Effect</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for helper in site.data.helpers %}
+        <tr>
+            <td>{{ helper.name }}</td>
+            <td>{{ helper.effect }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

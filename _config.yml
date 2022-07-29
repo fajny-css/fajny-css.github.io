@@ -16,7 +16,7 @@ logo_white: /assets/images/logo-fajny-css-white.svg
 download: /fajny-css.zip
 github: https://github.com/fajny-css/fajny-css
 figma: https://www.figma.com/file/PEVWTQAsJjUmuxnWwxFwQg/Fajny-CSS-V3/duplicate
-fajny_react: 
+fajny_react: https://fajny-react.vercel.app/
 
 css_local: '&lt;link rel="stylesheet" href="/path/to/fajny.min.css" /&gt;'
 js_local: '&lt;script src="/path/to/lib/fajny.min.js"&gt;&lt;/script&gt;'

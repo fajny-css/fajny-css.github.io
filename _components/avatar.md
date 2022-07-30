@@ -6,7 +6,7 @@ import: avatar
 items:
     - title: With picture
       demo: |-
-        <div class="flexbox" data-gap="xs">
+        <div class="flexbox" data-gap="xs" data-wrap="wrap">
             <span class="avatar" data-size="xxl">
                 <img src="/assets/images/s-pic-avatar.jpg" alt="Avatar">
             </span>
@@ -65,7 +65,7 @@ items:
         </span>
     - title: With a letter
       demo: |-
-        <div class="flexbox" data-gap="xs">
+        <div class="flexbox" data-gap="xs" data-wrap="wrap">
             <span class="avatar" data-size="xxl" data-color="primary">A</span>
             <span class="avatar" data-size="xl" data-color="secondary">A</span>
             <span class="avatar" data-size="l" data-color="success">A</span>
@@ -84,7 +84,7 @@ items:
         <span class="avatar" data-size="xxs" data-color="black">A</span>
     - title: With an icon
       demo: |-
-        <div class="flexbox" data-gap="xs">
+        <div class="flexbox" data-gap="xs" data-wrap="wrap">
             <span class="avatar" data-size="xxl" data-color="primary">
                 <svg class="icon">
                     <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>

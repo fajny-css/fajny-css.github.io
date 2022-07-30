@@ -5,7 +5,7 @@ intro: Notify your user that something is loading.
 import: loader
 items:
     - demo: |-
-        <div class="flexbox" data-gap="xs">
+        <div class="flexbox" data-gap="xs" data-wrap="wrap">
             <span class="loader" data-size="xxl" data-color="primary"></span>
             <span class="loader" data-size="xl" data-color="secondary"></span>
             <span class="loader" data-size="l" data-color="success"></span>

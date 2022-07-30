@@ -24,6 +24,12 @@
     .logo-home {
         width: 40%;
     }
+
+    @include mobile() {
+        h1 {
+            font-size: 3rem;
+        }
+    }
 }
 
 .code-copy {
@@ -122,6 +128,22 @@
         .content {
             width: 100%;
         }
+    }
+
+    @include mobile() {
+        &.card-color {
+            flex-direction: column;
+
+            .square {
+                width: 100%;
+                height: 150px;
+            }
+
+            .content {
+                width: 100%;
+            }
+        }
+
     }
 }
 

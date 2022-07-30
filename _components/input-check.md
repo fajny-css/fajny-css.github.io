@@ -6,7 +6,7 @@ import: input-check
 items:
     - title: Radio
       demo: |-
-        <div class="flexbox" data-gap="m">
+        <div class="flexbox" data-gap="m" data-wrap="wrap">
             <div class="radio">
                 <input type="radio" id="radio-1" name="demo-radio">
                 <label for="radio-1">Radio</label>
@@ -69,7 +69,7 @@ items:
         </div>
     - title: Checkbox
       demo: |-
-        <div class="flexbox" data-gap="m">
+        <div class="flexbox" data-gap="m" data-wrap="wrap">
             <div class="checkbox">
                 <input type="checkbox" id="checkbox-1" name="demo-checkbox">
                 <label for="checkbox-1">Checkbox</label>
@@ -258,7 +258,7 @@ items:
         </div>
     - title: Toggle
       demo: |-
-        <div class="flexbox" data-gap="m">
+        <div class="flexbox" data-gap="m" data-wrap="wrap">
             <div class="toggle">
                 <input type="checkbox" id="toggle-1" name="demo-toggle">
                 <label for="toggle-1">Toggle</label>
@@ -321,7 +321,7 @@ items:
         </div>
     - title: Selector
       demo: |-
-        <div class="flexbox" data-gap="m">
+        <div class="flexbox" data-gap="m" data-wrap="wrap">
             <div class="selector">
                 <input type="checkbox" id="selector-1" name="demo-selector">
                 <label for="selector-1">Selector</label>

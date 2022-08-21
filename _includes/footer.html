@@ -5,9 +5,7 @@
         {% for item in site.data.social %}
         <a href="{{ item.url }}" {% if item.icon !="mail-solid" %}target="_blank" rel="noreferrer noopener"{% endif %}
             {% if item.icon=="download-solid" %}download{% endif %}>
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#{{ item.icon }}"></use>
-            </svg>
+            <fajny-icon icon-name="{{ item.icon }}"></fajny-icon>
         </a>
         {% endfor %}
     </div>

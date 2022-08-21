@@ -12,10 +12,10 @@
             line-height: calc(1rem * 1.5);
         }
 
-        .icon {
-            --icon-size: 16px;
+        fajny-icon {
+            --icon-size: 20px;
             position: relative;
-            top: 2px;
+            top: 3px;
         }
     }
 }
@@ -57,8 +57,8 @@
             background-color: $color-gray-100;
         }
 
-        .icon {
-            --icon-size: 16px;
+        fajny-icon {
+            --icon-size: 24px;
         }
 
         &.copied {
@@ -221,7 +221,7 @@
     transition: $transition-short;
     display: none;
 
-    .icon {
+    fajny-icon {
         --icon-size: 32px;
         color: $color-primary-500;
     }
@@ -251,7 +251,7 @@
     &>.icon-container {
         @include flexbox(center, center);
 
-        .icon {
+        fajny-icon {
             --icon-size: 64px;
             color: $color-primary-500;
         }

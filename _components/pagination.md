@@ -8,9 +8,7 @@ items:
       demo: |-
         <div class="pagination" data-justify="left">
             <button disabled>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-left-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-left-solid"></fajny-icon>
             </button>
             
             <a href="#" class="active">1</a>
@@ -22,18 +20,14 @@ items:
             <a href="#">20</a>
             
             <button>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-right-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-right-solid"></fajny-icon>
             </button>
         </div>
     - title: Center
       demo: |-
         <div class="pagination" data-justify="center">
             <button disabled>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-left-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-left-solid"></fajny-icon>
             </button>
             
             <a href="#" class="active">1</a>
@@ -45,18 +39,14 @@ items:
             <a href="#">20</a>
             
             <button>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-right-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-right-solid"></fajny-icon>
             </button>
         </div>
     - title: Right
       demo: |-
         <div class="pagination" data-justify="right">
             <button disabled>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-left-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-left-solid"></fajny-icon>
             </button>
             
             <a href="#" class="active">1</a>
@@ -68,9 +58,7 @@ items:
             <a href="#">20</a>
             
             <button>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-right-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-right-solid"></fajny-icon>
             </button>
         </div>
 attributes:

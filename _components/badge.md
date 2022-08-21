@@ -46,82 +46,54 @@ items:
       demo: |-
         <div class="flexbox" data-gap="xs" data-wrap="wrap">
             <span class="badge" data-size="xxl" data-color="primary">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-                </svg>
+                <fajny-icon icon-name="star-full-solid"></fajny-icon>
             </span>
             <span class="badge" data-size="xl" data-color="secondary">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-                </svg>
+                <fajny-icon icon-name="star-full-solid"></fajny-icon>
             </span>
             <span class="badge" data-size="l" data-color="success">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-                </svg>
+                <fajny-icon icon-name="star-full-solid"></fajny-icon>
             </span>
             <span class="badge" data-size="m" data-color="danger">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-                </svg>
+                <fajny-icon icon-name="star-full-solid"></fajny-icon>
             </span>
             <span class="badge" data-size="s" data-color="warning">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-                </svg>
+                <fajny-icon icon-name="star-full-solid"></fajny-icon>
             </span>
             <span class="badge" data-size="xs" data-color="gray">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-                </svg>
+                <fajny-icon icon-name="star-full-solid"></fajny-icon>
             </span>
             <span class="badge" data-size="xxs" data-color="black">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-                </svg>
+                <fajny-icon icon-name="star-full-solid"></fajny-icon>
             </span>
         </div>
       code: |-
         <span class="badge" data-size="xxl" data-color="primary">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-            </svg>
+            <fajny-icon icon-name="star-full-solid"></fajny-icon>
         </span>
         
         <span class="badge" data-size="xl" data-color="secondary">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-            </svg>
+            <fajny-icon icon-name="star-full-solid"></fajny-icon>
         </span>
         
         <span class="badge" data-size="l" data-color="success">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-            </svg>
+            <fajny-icon icon-name="star-full-solid"></fajny-icon>
         </span>
         
         <span class="badge" data-size="m" data-color="danger">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-            </svg>
+            <fajny-icon icon-name="star-full-solid"></fajny-icon>
         </span>
         
         <span class="badge" data-size="s" data-color="warning">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-            </svg>
+            <fajny-icon icon-name="star-full-solid"></fajny-icon>
         </span>
         
         <span class="badge" data-size="xs" data-color="gray">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-            </svg>
+            <fajny-icon icon-name="star-full-solid"></fajny-icon>
         </span>
         
         <span class="badge" data-size="xxs" data-color="black">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#star-full-solid"></use>
-            </svg>
+            <fajny-icon icon-name="star-full-solid"></fajny-icon>
         </span>
 attributes:
     - name: data-size

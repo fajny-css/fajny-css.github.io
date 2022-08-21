@@ -1,8 +1,6 @@
 <div class="demo-icon tab" data-title="{{ include.weight | capitalize }}">
     <div class="icon-container">
-        <svg class="icon">
-            <use xlink:href="/assets/icons/icon-sprite.svg#{{ page.name }}-{{ include.weight }}"></use>
-        </svg>
+        <fajny-icon icon-name="{{ page.name }}-{{ include.weight }}"></fajny-icon>
     </div>
 
     <div class="content">
@@ -10,9 +8,7 @@
             <h6>HTML</h6>
 
             <div class="demo-code-container code-copy">
-                <pre><code class="language-html demo-code" id="{{ page.name }}-{{ include.weight }}-html">&lt;svg class="icon"&gt;
-    &lt;use xlink:href="/assets/icons/icon-sprite.svg#{{ page.name }}-{{ include.weight }}"&gt;&lt;/use&gt;
-&lt;/svg&gt;</code></pre>
+                <pre><code class="language-html demo-code" id="{{ page.name }}-{{ include.weight }}-html">&lt;fajny-icon icon-name="{{ page.name }}-{{ include.weight }}"&gt;&lt;/fajny-icon&gt;</code></pre>
                 
                 <button class="copy" data-clipboard-target="#{{ page.name }}-{{ include.weight }}-html" aria-label="Copy code"></button>
             </div>

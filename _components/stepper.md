@@ -9,9 +9,7 @@ items:
         <div class="stepper" data-direction="row">
             <div class="step step-active">
                 <span class="step-number">
-                    <svg class="icon">
-                        <use xlink:href="/assets/icons/icon-sprite.svg#check-solid"></use>
-                    </svg>
+                    <fajny-icon icon-name="check-solid"></fajny-icon>
                 </span>
 
                 <a href="#" class="step-text">
@@ -56,9 +54,7 @@ items:
         <div class="stepper" data-direction="column">
             <div class="step step-active">
                 <span class="step-number">
-                    <svg class="icon">
-                        <use xlink:href="/assets/icons/icon-sprite.svg#check-solid"></use>
-                    </svg>
+                    <fajny-icon icon-name="check-solid"></fajny-icon>
                 </span>
 
                 <a href="#" class="step-text">

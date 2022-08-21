@@ -86,88 +86,60 @@ items:
       demo: |-
         <div class="flexbox" data-gap="xs" data-wrap="wrap">
             <span class="avatar" data-size="xxl" data-color="primary">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-                </svg>
+                <fajny-icon icon-name="user-solid"></fajny-icon>
             </span>
 
             <span class="avatar" data-size="xl" data-color="secondary">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-                </svg>
+                <fajny-icon icon-name="user-solid"></fajny-icon>
             </span>
 
             <span class="avatar" data-size="l" data-color="success">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-                </svg>
+                <fajny-icon icon-name="user-solid"></fajny-icon>
             </span>
 
             <span class="avatar" data-size="m" data-color="danger">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-                </svg>
+                <fajny-icon icon-name="user-solid"></fajny-icon>
             </span>
 
             <span class="avatar" data-size="s" data-color="warning">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-                </svg>
+                <fajny-icon icon-name="user-solid"></fajny-icon>
             </span>
 
             <span class="avatar" data-size="xs" data-color="gray">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-                </svg>
+                <fajny-icon icon-name="user-solid"></fajny-icon>
             </span>
 
             <span class="avatar" data-size="xxs" data-color="black">
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-                </svg>
+                <fajny-icon icon-name="user-solid"></fajny-icon>
             </span>
         </div>
       code: |-
         <span class="avatar" data-size="xxl" data-color="primary">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-            </svg>
+            <fajny-icon icon-name="user-solid"></fajny-icon>
         </span>
 
         <span class="avatar" data-size="xl" data-color="secondary">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-            </svg>
+            <fajny-icon icon-name="user-solid"></fajny-icon>
         </span>
 
         <span class="avatar" data-size="l" data-color="success">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-            </svg>
+            <fajny-icon icon-name="user-solid"></fajny-icon>
         </span>
 
         <span class="avatar" data-size="m" data-color="danger">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-            </svg>
+            <fajny-icon icon-name="user-solid"></fajny-icon>
         </span>
 
         <span class="avatar" data-size="s" data-color="warning">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-            </svg>
+            <fajny-icon icon-name="user-solid"></fajny-icon>
         </span>
 
         <span class="avatar" data-size="xs" data-color="gray">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-            </svg>
+            <fajny-icon icon-name="user-solid"></fajny-icon>
         </span>
 
         <span class="avatar" data-size="xxs" data-color="black">
-            <svg class="icon">
-                <use xlink:href="/assets/icons/icon-sprite.svg#user-solid"></use>
-            </svg>
+            <fajny-icon icon-name="user-solid"></fajny-icon>
         </span>
 attributes:
     - name: data-size

@@ -4,24 +4,25 @@ category: icons
 desc: Icons for Fajny CSS
 layout: page
 icon-categories:
-    - arrow
-    - brand
-    - communication
-    - date-time-&-location
-    - math
-    - misc
-    - object
-    - office
-    - people
-    - shop
-    - technology
-    - user-interface
+- arrow
+- brand
+- communication
+- date-time-&-location
+- math
+- misc
+- object
+- office
+- people
+- shop
+- technology
+- user-interface
 ---
 
 <p>
     Fanjy CSS uses its own icons. Most of icons have two weights: regular and solid. When using them, try to stick to
-    one weight. We're using here an icon sprite, generated with <a href="https://icomoon.io/" target="_blank"
-        rel="noreferrer noopener">Icomoon</a>.
+    one weight. We're using here <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank"
+        rel="noreferrer noopener">Web components</a> coupled with an icon sprite, generated with <a
+        href="https://icomoon.io/" target="_blank" rel="noreferrer noopener">Icomoon</a>.
 </p>
 
 <section class="section">
@@ -29,15 +30,18 @@ icon-categories:
 
     <div class="section" data-gap="small">
         <h4>In HTML</h4>
-        <p>Copy the code and insert it in your HTML page.</p>
+
+        <p>First, import the JS file for Web components:</p>
+
+        {% include demo-code.html language="html" id="import-js-icons" content='&lt;script src="/lib/fajny-icon.js"&gt;&lt;/script&gt;' %}
+
+        <p>Then, copy the code and insert it in your HTML page.</p>
 
         {%
-            include demo-code.html
-            language="html"
-            id="demo-icon-html"
-            content='&lt;svg class="icon"&gt;
-    &lt;use xlink:href="/icons/icon-sprite.svg#icon-name"&gt;&lt;/use&gt;
-&lt;/svg&gt;'
+        include demo-code.html
+        language="html"
+        id="demo-icon-html"
+        content='&lt;fajny-icon icon-name="icon-name"&gt;&lt;/fajny-icon&gt;'
         %}
     </div>
 
@@ -47,10 +51,10 @@ icon-categories:
         <p>You can use mixins to include your icon. Here, the color variable is not required.</p>
 
         {%
-            include demo-code.html
-            language="scss"
-            id="demo-icon-scss"
-            content='div:after {
+        include demo-code.html
+        language="scss"
+        id="demo-icon-scss"
+        content='div:after {
     @include icon(icon-name, size, color)
 }'
         %}
@@ -61,7 +65,7 @@ icon-categories:
     <div class="grid" data-col="3" data-gap="s">
         <div class="input-container">
             <label for="search-icons">Search</label>
-        
+
             <div class="input-content" data-icon="magnifying-glass-solid">
                 <input type="text" id="search-icons" placeholder="Type here...">
             </div>
@@ -89,9 +93,9 @@ icon-categories:
 <section class="grid" data-gap="m" data-col="4" id="icon-list">
     {% for icon in site.icons %}
     <a href="/icons/{{ icon.name }}" class="card-icon" data-category="{{ icon.icon_category }}">
-        <svg class="icon">
-            <use xlink:href="/assets/icons/icon-sprite.svg#{{ icon.name }}{% if icon.regular %}-regular{% elsif icon.solid %}-solid{% else %}-brand{% endif %}"></use>
-        </svg>
+        <fajny-icon
+            icon-name="{{ icon.name }}{% if icon.regular %}-regular{% elsif icon.solid %}-solid{% else %}-brand{% endif %}">
+        </fajny-icon>
 
         {{ icon.name }}
     </a>

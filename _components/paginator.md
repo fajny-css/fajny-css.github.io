@@ -10,15 +10,11 @@ items:
             Page <input type="number" min="1" max="30" value="1"> of 30
 
             <button disabled>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-left-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-left-solid"></fajny-icon>
             </button>
             
             <button>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-right-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-right-solid"></fajny-icon>
             </button>
         </div>
     - title: Right
@@ -27,15 +23,11 @@ items:
             Page <input type="number" min="1" max="30" value="1"> of 30
 
             <button disabled>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-left-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-left-solid"></fajny-icon>
             </button>
             
             <button>
-                <svg class="icon">
-                    <use xlink:href="/assets/icons/icon-sprite.svg#chevron-right-solid"></use>
-                </svg>
+                <fajny-icon icon-name="chevron-right-solid"></fajny-icon>
             </button>
         </div>
 attributes:
